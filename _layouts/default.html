@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <title> {% if page.title %} {{ page.title }} | {% endif %} Miguel Marinhas, Programmer</title>
+    <meta name="description" content="Minuscode Web page">
+    <meta name="keywords" content="Minuscode Web Page, Programming, Machine Learning, Ruby, Rails, Nodejs, Web Development, Mobile, MongoDB, Redis, PHP">
+    <meta name="author" content="Minuscode Team">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20072703-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- Google Analytics end-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <div class="sixteen columns logo">
+        <h1 class="name">Minuscode</h1>
+      </div>
+
+      <span class="image-wrap" style="position:relative; display:inline-block; background:url(/img/photofirst.png) no-repeat center center; width: 175px; height: 175px;">
+        <img src="/img/photofirst.png" style="opacity: 0;">
+      </span>
+
+      <div class="sixteen columns">
+        <nav role="navigation">
+          <ul>
+            <!--
+            <li><a href="/">Home</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+            -->
+          </ul>
+        </nav>
+      </div>
+   
+      {{ content }}
+   
+      <footer class="sixteen columns">
+        <ul class="six columns alpha">
+          <li>
+            © 2013 Minuscode
+          </li> 
+        </ul>
+        <ul class="links ten columns omega">
+          <li><a href="http://github.com/minuscode">GitHub</a></li>
+          <li><a href="http://www.linkedin.com/in/minuscode">LinkedIn</a></li>
+        </ul>
+      </footer>
+      
+    </div>
+ 
+  </div>
+</body>
+</html>
