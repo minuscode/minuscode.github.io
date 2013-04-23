@@ -175,3 +175,11 @@ footer ul.links {
 	    font-weight: normal;
 	    font-style: normal; }
 */
+
+li.menu {
+  float: left;
+}
+
+div.logo {
+  float: left;
+}
