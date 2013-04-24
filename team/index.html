@@ -7,9 +7,11 @@ category: team
 {% for post in site.posts limit:5 %}      
   {% if post.categories contains 'team' %}
   <div class="grid_12"> 
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ post.profile }}">{{ post.title }}</a></h2>
     <p>
-      {{ post.abstract }}
+      <a href="{{ post.profile }}"><img src="{{ post.picture }}">
+      {{ post.punchline }}
+      </a>
       </br>
       <em>Posted on {{ post.date | date_to_string }}.</em>
     </p>

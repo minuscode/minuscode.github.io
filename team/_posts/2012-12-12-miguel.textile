@@ -3,6 +3,9 @@ layout: person
 category: team
 title: 'Miguel Marinhas'
 date: 2012-12-12 21:35
+punchline: Teacher of machines, advisor of men!
+picture: https://codebits.eu/avatars/91293259db0fb7029ac554aea6722000?s=200
+profile: https://codebits.eu/baud
 ---
 
 O meu perfil
