@@ -1,5 +1,18 @@
 ---
 layout: default
+title: Portfolio
+category: portfolio
 ---
 
-<p> dummy what </p>
+{% for post in site.posts limit:5 %}      
+  {% if post.categories contains 'portfolio' %}
+  <div class="grid_12"> 
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>
+      {{ post.abstract }}
+      </br>
+      <em>Posted on {{ post.date | date_to_string }}.</em>
+    </p>
+  </div> 
+  {% endif %}
+{% endfor %}
