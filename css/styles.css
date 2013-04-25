@@ -175,36 +175,3 @@ footer ul.links {
 	    font-weight: normal;
 	    font-style: normal; }
 */
-
-li.menu {
-  float: left;
-}
-
-div.logo {
-  float: left;
-}
-
-div.info-container {
-  position: relative;
-  float: left;
-}
-
-div.info-text {
-  position: absolute;
-  bottom: 0;
-  height: 150;
-  text-align: center;
-  color:  white;
-  width: 200px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-}
-
-div.info-text h3 {
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-}
-
-img.info-img {
-  width: 200px;
-  height: 200px;
-}
