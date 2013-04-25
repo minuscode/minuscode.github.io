@@ -4,7 +4,7 @@ category: portfolio
 title: 'Cirfer, USA/GER'
 date: 2012-12-12 21:35
 url: http://cirfer.org/
-picture: 
+picture: /img/portfolio/cirfer.jpg
 ---
 
 cccccccccccc
