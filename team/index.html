@@ -4,17 +4,27 @@ title: Team
 category: team
 ---
 
+<h1>We are a collective, a group of individuals sharing one purpose:</h1>
+  <p>Produce quality technology software!</p>
+    <br/>
+  <h2>Meet the Team:</h2>
+  <br/>
+    <br/>
+
 {% for post in site.posts %}      
   {% if post.categories contains 'team' %}
-  <div class="grid_12"> 
-    <h2><a href="{{ post.profile }}">{{ post.title }}</a></h2>
-    <p>
-      <a href="{{ post.profile }}"><img src="{{ post.picture }}">
-      {{ post.punchline }}
-      </a>
-      </br>
-      <em>Posted on {{ post.date | date_to_string }}.</em>
-    </p>
+  <div class="grid_12 info-container">
+    <a href="{{ post.profile }}">
+      <img class="info-img" src="{{ post.picture }}">
+      <div class="info-text"> 
+        <h3>{{ post.title }}</h3>
+        <p>
+          {{ post.punchline }}
+          </br>
+          <!-- <em>Posted on {{ post.date | date_to_string }}.</em> -->
+        </p>
+      </div>
+    </a>
   </div> 
   {% endif %}
 {% endfor %}
