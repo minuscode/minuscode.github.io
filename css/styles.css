@@ -186,6 +186,7 @@ div.logo {
 
 div.info-container {
   position: relative;
+  float: left;
 }
 
 div.info-text {
