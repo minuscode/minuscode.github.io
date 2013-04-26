@@ -47,13 +47,31 @@ body {
 .navigation {
   display: block;
   text-align: center;
-  border-top: 1px solid #d3d3d3;
+  /*border-top: 1px solid #d3d3d3;*/
   border-bottom: 1px solid #d3d3d3;
   margin: 10px auto 0;
   min-height: 35px;
   padding: 12px 0 0;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing:6px;
+  font-size: 2em;
 }
 
+nav ul li, .navigation ul li{
+  display: inline;
+  margin: 5px 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #2ecc71;
+}
+  
 .logo, .logo-img {
   margin: 15px;
 }
@@ -159,6 +177,10 @@ footer ul.links {>
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+          nav ul li, .navigation ul li{
+            margin: 5px 6px;
+          }
+
          .jobs li {
            float: none;
            padding-bottom: 10px;
