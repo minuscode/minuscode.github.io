@@ -146,6 +146,11 @@ footer ul.links {>
 /* #Page Styles
 ================================================== */
 
+/* PORTFOLIO PAGE */
+img.portfolio{
+  height: 200px;
+}
+
 /* #Media Queries
 ================================================== */
 
