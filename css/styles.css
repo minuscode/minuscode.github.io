@@ -58,6 +58,10 @@ body {
   margin: 15px;
 }
 
+.logo img {
+  height: 60px;
+}
+
 strong {
   color: #c02702;
 }
