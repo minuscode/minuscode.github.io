@@ -72,6 +72,10 @@ nav ul li, .navigation ul li{
   color: #2ecc71;
 }
 
+.navigation a:active, .navigation a.active {
+  color: #27ad60; 
+}
+
 .logo img {
   height: 60px;
   float:left;
