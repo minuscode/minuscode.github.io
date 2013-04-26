@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/skeleton.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/custom.css">
 
     <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -31,11 +30,13 @@
     <div class="container">
       
       <div class="sixteen columns">
+        {% if page.url != '/index.html' %}
         <div class="logo" role="banner">
           <a href ="/">
             <img src="/img/logo-75x32.png">
           </a>
         </div>
+        {% endif %}
         <nav role="navigation">
           <ul>
               {% comment %}<li class="menu"><a class="button" href="/">Home</a></li>{% endcomment %}
@@ -46,20 +47,18 @@
           </ul>
         </nav>
       </div>
-     
+      
       {{ content }}
-     
+      
       <footer class="sixteen columns">
         <ul class="six columns alpha">
-          <li>
-            © 2013 minuscode
-          </li> 
+          <li>© 2013 minuscode</li> 
         </ul>
         <ul class="links ten columns omega">
+          <li><a href= "mailto:contact@minuscode.com" >contact@minuscode.com</a></li>
           <li><a href="http://github.com/minuscode">GitHub</a></li>
           <li><a href="http://www.linkedin.com/company/minuscode">LinkedIn</a></li>
         </ul>
-        <p>further information mail us at contact at minuscode.com</p>
        </footer>
        
     </div><!--/container-->
