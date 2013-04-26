@@ -71,13 +71,11 @@ nav ul li, .navigation ul li{
 .navigation a:hover {
   color: #2ecc71;
 }
-  
-.logo, .logo-img {
-  margin: 15px;
-}
 
 .logo img {
   height: 60px;
+  float:left;
+  margin-top:10px;
 }
 
 strong {
