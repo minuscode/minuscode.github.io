@@ -4,5 +4,3 @@ permalink: /:title.html
   
 includes:
   google_tracking_id: 'UA-33665278-1'
-
-permalink: none
