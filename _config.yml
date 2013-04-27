@@ -1,6 +1,6 @@
 auto: true
 exclude: Guardfile
-permalink: /:title.html
+permalink: none 
   
 includes:
   google_tracking_id: 'UA-33665278-1'
