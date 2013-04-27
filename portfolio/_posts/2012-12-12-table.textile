@@ -3,7 +3,7 @@ layout: workitem
 category: portfolio
 title: 'Table & Friends'
 date: 2012-12-12 21:35
-url: http://www.tableandfriends.com
+workurl: http://www.tableandfriends.com
 picture: /img/portfolio/tnf_meals.jpg
 logo: /img/portfolio/tnf-logo.png
 ---

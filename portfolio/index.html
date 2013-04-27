@@ -4,21 +4,31 @@ title: Portfolio
 category: portfolio
 ---
 
+{% assign addclass = false %}
+<ul>
 {% for post in site.posts %}      
   {% if post.categories contains 'portfolio' %}
   {% if post.hide == null %}
-  <div class="portfolio-item"> 
-    <!--<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>-->
-    
-    <h2>{{ post.title }}</h2>
-    
-    {% unless post.picture == null %}
-      <img class="portfolio" src="{{ post.picture}}">
-    {% endunless %}
+  
+  {% if addclass %} 
+    {% assign addclass = false %}
+    <li class="portfolio-item even eight columns omega"> 
+  {% else %}
+    {% assign addclass = true %}
+    <li class="portfolio-item odd eight columns alpha"> 
+  {% endif %}
+      <!--<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>-->
+      <h2>{{ post.title }}</h2>
+      <a href="{{ post.workurl }}">
+        {% unless post.picture == null %}
+          <img class="portfolio" src="{{ post.picture}}">
+        {% endunless %}
+      </a>
     <p>
       <!--<em>Posted on {{ post.date | date_to_string }}.</em>-->
     </p>
-  </div> 
+  </li> 
   {% endif %}
   {% endif %}
 {% endfor %}
+</ul>
