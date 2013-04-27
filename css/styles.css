@@ -44,6 +44,10 @@ body {
   margin-top: 10%;
 }
 
+.wrapper {
+  margin-top: 10px;
+}
+
 .navigation {
   display: block;
   text-align: center;
@@ -151,9 +155,19 @@ footer ul.links {>
 ================================================== */
 
 /* PORTFOLIO PAGE */
+
+.portfolio-item {
+  margin: 10px;
+}
+
+
 img.portfolio{
   height: 200px;
 }
+
+img.portfolio-logo{
+  width: 300px;
+}  
 
 /* #Media Queries
 ================================================== */
