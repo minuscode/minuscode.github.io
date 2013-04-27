@@ -159,12 +159,17 @@ footer ul.links {>
 /* #Page Styles
 ================================================== */
 
+/* SERVICES PAGE */
+
+.services {
+  padding: 10px;
+}
+
 /* PORTFOLIO PAGE */
 
 .portfolio-item {
   margin: 10px;
 }
-
 
 img.portfolio{
   width: 100%;
