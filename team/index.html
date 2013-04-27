@@ -13,9 +13,9 @@ category: team
 
 {% for post in site.posts %}      
   {% if post.categories contains 'team' %}
-  <div class="grid_12 info-container">
+  <div class="profile">
     <a href="{{ post.profile }}">
-      <img class="info-img" src="{{ post.picture }}">
+      <img class="profile-img" src="{{ post.picture }}">
       <div class="info-text"> 
         <h3>{{ post.title }}</h3>
         <p>
