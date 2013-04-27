@@ -46,6 +46,11 @@ body {
 
 .wrapper {
   margin-top: 10px;
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .navigation {
@@ -170,6 +175,21 @@ img.portfolio-logo{
 }  
 
 /* TEAM PAGE */
+
+header.team {
+  margin: 25px;
+}
+span.tagline {
+  font-size: 2em;
+}
+
+.profile {
+  margin-bottom: 20px;
+}
+.profile a {
+  text-decoration: none;
+}
+
 
 .profile-img {
   width: 200px;

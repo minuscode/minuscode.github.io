@@ -4,17 +4,15 @@ title: Team
 category: team
 ---
 
-<h1>We're a small team sharing one purpose:</h1>
-  <p>Take your ideas from concept to a great product.</p>
-    <br/>
-  <h2>Meet the Team:</h2>
-  <br/>
-    <br/>
+<header class="team">
+  <h2>We're a small team sharing one purpose:</h2>
+  <span class="tagline">Take your ideas from concept to a great product.</span>
+</header>
 
-    <ul>
+  <ul>
 {% for post in site.posts %}      
   {% if post.categories contains 'team' %}
-  <li class="profile">
+  <li class="profile five columns">
     <a href="{{ post.profile }}">
       <img class="profile-img" src="{{ post.picture }}">
       <div class="info-text"> 
