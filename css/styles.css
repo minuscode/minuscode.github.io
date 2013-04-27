@@ -229,6 +229,10 @@ span.tagline {
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+          nav ul li, .navigation ul li {
+            display:block;
+            margin: 5px 8px;
+          }
           h1.name {
             font-size: 3em;
           }
@@ -237,7 +241,12 @@ span.tagline {
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
           nav ul li, .navigation ul li{
-            margin: 5px 6px;
+            margin: 15px 6px;
+            display: block;
+          }
+          
+          footer {
+            text-align: center
           }
 
          .jobs li {
