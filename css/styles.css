@@ -44,6 +44,10 @@ body {
   margin-top: 10%;
 }
 
+.wrapper {
+  margin-top: 10px;
+}
+
 .navigation {
   display: block;
   text-align: center;
@@ -151,8 +155,31 @@ footer ul.links {>
 ================================================== */
 
 /* PORTFOLIO PAGE */
+
+.portfolio-item {
+  margin: 10px;
+}
+
+
 img.portfolio{
   height: 200px;
+}
+
+img.portfolio-logo{
+  width: 300px;
+}  
+
+/* TEAM PAGE */
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 /* #Media Queries

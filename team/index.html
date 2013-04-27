@@ -4,9 +4,8 @@ title: Team
 category: team
 ---
 
-<div class="sixteen columns">
-<h1>We are a collective, a group of individuals sharing one purpose:</h1>
-  <p>Produce quality technology software!</p>
+<h1>We're a small team sharing one purpose:</h1>
+  <p>Take your ideas from concept to a great product.</p>
     <br/>
   <h2>Meet the Team:</h2>
   <br/>
@@ -14,9 +13,9 @@ category: team
 
 {% for post in site.posts %}      
   {% if post.categories contains 'team' %}
-  <div class="grid_12 info-container">
+  <div class="profile">
     <a href="{{ post.profile }}">
-      <img class="info-img" src="{{ post.picture }}">
+      <img class="profile-img" src="{{ post.picture }}">
       <div class="info-text"> 
         <h3>{{ post.title }}</h3>
         <p>
@@ -29,5 +28,3 @@ category: team
   </div> 
   {% endif %}
 {% endfor %}
-
-</div>
