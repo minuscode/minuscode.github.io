@@ -1,1 +1,10 @@
+# Sass cache ignore
+.sass-cache
+
+# SCSS source files
+css/src
+
+# Local Procfile
+Procfile
+
 _site
