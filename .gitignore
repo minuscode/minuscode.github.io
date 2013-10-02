@@ -7,4 +7,6 @@ css/src
 # Local Procfile
 Procfile
 
+*.DS_Store
+
 _site
