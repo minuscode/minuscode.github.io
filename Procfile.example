@@ -1,0 +1,5 @@
+# Runs Jekyll
+jekyll: jekyll serve --watch
+
+# Runs Guard
+guard: bundle exec guard
