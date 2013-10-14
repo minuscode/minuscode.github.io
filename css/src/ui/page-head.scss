@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    $PAGE-HEAD
+\*------------------------------------*/
+
+.main-header {
+  left: auto;
+  padding-top: 22px;
+  position: absolute;
+  right: auto;
+  width: 100%;
+}
+
+.main-header ul {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-left: 82px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    color: $red;
+    font-family: $brand-serif;
+    font-style: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.main-header nav {
+  @extend .cf;
+
+  > ul {
+    float: left;
+    margin-left: 100px;
+
+    + ul {
+      float: right;
+      margin-right: 100px;
+    }
+  }
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin-top: -55px;
+  }
+}
