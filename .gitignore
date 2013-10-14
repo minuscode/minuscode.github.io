@@ -1,12 +1,12 @@
 # Sass cache ignore
 .sass-cache
 
-# SCSS source files
-css/src
-
 # Local Procfile
 Procfile
 
 *.DS_Store
 
 _site
+
+# folder for psds/docs and other related stuff
+assets
