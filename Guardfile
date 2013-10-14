@@ -7,4 +7,5 @@ end
 
 guard 'livereload' do
   watch(%r{.+\.css})
+  watch(%r{.+\.html})
 end
