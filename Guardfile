@@ -5,7 +5,12 @@ guard :compass do
   watch(%r{(.*)\.s[ac]ss$})
 end
 
+#guard 'jekyll-plus' do
+#  watch /.*/
+#  ignore /^_site/
+#end
+
 guard 'livereload' do
-  watch(%r{.+\.css})
-  watch(%r{.+\.html})
+  watch(%r{_site/.+\.css})
+  watch(%r{_site/.+\.html})
 end
