@@ -1,0 +1,365 @@
+/*------------------------------------*\
+    $PAGE
+\*------------------------------------*/
+
+/**
+ * Page-level wrapper.
+ */
+.wrapper {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 50px;
+  @include media-query(palm) {
+    padding: 0 10px;
+  }
+
+}
+
+.masthead {
+  background-color: $green;
+  height: 675px;
+  text-align: center;
+  @include media-query(portable) {
+    height: auto;
+    padding: 85px 0 30px;
+  }
+
+  h2, p {
+    @include media-query(portable) {
+      span {
+        display: inline;
+      }
+    }
+  }
+
+  p {
+    color: $default-color;
+    font-family: $sec-sans-serif;
+    @include font-size(18px);
+  }
+
+  span {
+    display: block;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.content {
+  padding: 100px 0;
+  @include media-query(palm) {
+    padding: 50px 0;
+  }
+
+  hr {
+    border: 0;
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+    margin: 70px 0;
+    @include media-query(palm) {
+      margin: 35px 0;
+    }
+  }
+}
+
+/*
+ * HOME
+ */
+.masthead-home {
+  background-image: url(../images/bgs/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 190px;
+
+  h1 {
+    color: $default-color;
+    font-family: $brand-sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    @include font-size(60px);
+
+    @include media-query(lap) {
+      @include font-size(40px, $line-height: false);
+    }
+
+    @include media-query(palm) {
+      @include font-size(26px, $line-height: false);
+    }
+  }
+
+  h2 {
+    color: $default-color;
+    font-family: $sec-sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    @include font-size(18px);
+
+    @include media-query(portable) {
+      @include font-size(16px, $line-height: false);
+    }
+  }
+
+  span {
+    display: block;
+  }
+}
+
+.marketing {
+  h3 {
+    color: $red;
+    font-family: $brand-serif;
+    font-weight: 300;
+    text-align: right;
+    @include font-size(85px, $line-height: false);
+    @include media-query(lap) {
+      @include font-size(70px, $line-height: false);
+    }
+    @include media-query(palm) {
+      text-align: center;
+      @include font-size(40px, $line-height: false);
+    }
+
+    span {
+      display: block;
+      @include media-query(palm) {
+        display: inline;
+      }
+    }
+  }
+
+  .description {
+    @include media-query(palm) {
+      text-align: center;
+    }
+  }
+
+  h4 {
+    color: $red;
+    font-family: $brand-sans-serif;
+    font-weight: 300;
+    @include font-size(32px, $line-height: false);
+    @include media-query(palm) {
+      @include font-size(26px, $line-height: false);
+    }
+
+  }
+
+  p {
+    color: $default-color;
+    font-family: $sec-sans-serif;
+    line-height: 1.4;
+    @include font-size(16px, $line-height: false);
+  }
+
+  a {
+    color: $red;
+    @include font-size(18px);
+    font-family: $brand-sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .mkt-img {
+    text-align: center;
+    @include media-query(palm) {
+      height: 80%;
+      text-align: center;
+
+      img {
+        margin-bottom: 25px;
+        max-width: 30%;
+      }
+    }
+  }
+
+  hr {
+    border-color: $default-color;
+  }
+}
+
+.contact {
+  background-color: $default-color;
+  padding: 70px 0;
+  text-align: center;
+  @include media-query(palm) {
+    padding: 35px 0;
+  }
+
+  h5 {
+    color: $green;
+    font-family: $brand-serif;
+    font-weight: 300;
+    margin-bottom: 5px;
+    @include font-size(35px);
+    @include media-query(palm) {
+      @include font-size(25px, $line-height: false);
+    }
+  }
+
+  a {
+    color: #fff;
+    font-family: $brand-sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    @include font-size(45px);
+    @include media-query(palm) {
+      @include font-size(35px);
+    }
+
+    &:hover {
+      color: $green;
+    }
+
+    img {
+      display: inline-block;
+      margin: -5px 0 0 20px;
+      vertical-align: middle;
+      @include media-query(palm) {
+       margin-left: 10px;
+      }
+    }
+  }
+}
+
+/*
+ * CONSULTING
+ */
+.masthead-consulting {
+  padding-top: 157px;
+
+  img {
+    margin-bottom: 46px;
+  }
+}
+
+.consulting {
+  text-align: center;
+
+  hr {
+    border-color: $green;
+  }
+
+  .areas {
+    img {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: $red;
+      font-family: $brand-sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      @include font-size(30px);
+    }
+
+    p {
+      color: $default-color;
+      font-family: $sec-sans-serif;
+      @include font-size(16px);
+    }
+  }
+}
+
+.technologies {
+  background-color: $green;
+  padding-top: 40px;
+  text-align: center;
+
+  h3 {
+    color: $default-color;
+    font-family: $brand-sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    @include font-size(20px);
+  }
+
+  .image-container {
+    line-height: 60px;
+    margin-bottom: 40px;
+
+    img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+/*
+ * ABOUT US
+ */
+.about-us {
+  padding-bottom: 0;
+}
+
+.masthead-about-us {
+  padding-top: 206px;
+
+  img {
+    margin-bottom: 80px;
+  }
+}
+
+.member {
+  padding: 0 45px;
+
+  h2 {
+    color: $red;
+    font-family: $brand-serif;
+    font-weight: 300;
+    @include font-size(40px);
+  }
+
+  p {
+    color: $default-color;
+    font-family: $sec-sans-serif;
+    @include font-size(16px);
+  }
+
+  .social {
+
+    a {
+      color: $green;
+      margin-right: 14px;
+      text-decoration: none;
+      @include font-size(25px, $line-height: false);
+
+      &:hover {
+        color: $default-color;
+      }
+
+      &:first-child {
+        margin-top: 90px;
+      }
+    }
+  }
+
+  hr {
+    border-color: $green;
+    margin: 0 0 50px;
+  }
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+/*
+ * CONTACT
+ */
+.masthead-contact {
+  padding-top: 206px;
+
+  img {
+    margin-bottom: 80px;
+  }
+}
+

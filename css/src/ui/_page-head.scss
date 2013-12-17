@@ -1,0 +1,158 @@
+/*------------------------------------*\
+    $PAGE-HEAD
+\*------------------------------------*/
+
+.main-header {
+  left: auto;
+  padding-top: 22px;
+  position: absolute;
+  right: auto;
+  width: 100%;
+  @include media-query(portable) {
+    background: $default-color;
+    padding: 0;
+  }
+}
+
+.main-header nav {
+  @extend .cf;
+
+  @include media-query(portable) {
+    float: right;
+    margin-top: 10px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    @include media-query(portable) {
+      background-color: $default-color;
+      display: none;
+      opacity: 0;
+      padding: 10px 15px;
+      position: absolute;
+      right: 0;
+      width: 100%;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 100px;
+
+    @include media-query(portable) {
+      border-top: 1px solid $green;
+      display: block;
+      margin-left: 0;
+      padding: 10px;
+      width: 100%;
+
+      &:first-child {
+        border-top: 0;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+
+      + li {
+        margin-right: 100px;
+        @include media-query(lap) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  a {
+    color: $red;
+    font-family: $brand-serif;
+    font-style: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @include media-query(portable) {
+      color: $green;
+    }
+  }
+}
+
+.header-container {
+  @extend .cf;
+  padding: 0 100px;
+  position: relative;
+  text-align: center;
+  @include media-query(portable) {
+    padding: 0 10px;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-top: -35px;
+    @include media-query(portable) {
+      float: left;
+      margin: 0;
+      width: 60px;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+  }
+}
+
+.toggle {
+  display: none;
+  @include media-query(portable) {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &:after {
+      content: attr(data-open);
+      display: block;
+      padding: 10px 20px;
+      background: $green;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: $default-color;
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      &:hover {
+        background: #45ABD6;
+      }
+    }
+  }
+}
+
+#toggle {
+  display: none;
+  @include media-query(portable) {
+    &:checked {
+      + nav ul {
+        display: block;
+        opacity: 1;
+      }
+
+      .toggle {
+        content: attr(data-close);
+      }
+    }
+  }
+}

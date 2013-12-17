@@ -1,4 +1,10 @@
 
+/**
+ * Tell inuit.css when breakpoints start.
+ */
+$lap-start:         481px!default;
+$desk-start:        940px!default;
+$desk-wide-start:   1200px!default;
 
 /*------------------------------------*\
     $FONTS
@@ -13,3 +19,14 @@ $sec-sans-serif:    'Alef', sans-serif;
 $default-color:     #194f58!default;
 $red:               #c94055;
 $green:             #cedecb;
+
+
+$gutter:            20px;
+
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+$use-grids:         true!default;
