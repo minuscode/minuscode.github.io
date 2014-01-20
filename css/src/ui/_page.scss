@@ -2,6 +2,10 @@
     $PAGE
 \*------------------------------------*/
 
+html {
+  @include vendor(text-size-adjust, none);
+}
+
 /**
  * Page-level wrapper.
  */
@@ -18,17 +22,22 @@
 
 .masthead {
   background-color: $green;
-  height: 675px;
+  height: 600px;
+  padding-top: 200px;
   text-align: center;
   @include media-query(portable) {
     height: auto;
-    padding: 85px 0 30px;
+    padding: 120px 0 30px;
   }
 
   h2, p {
     @include media-query(portable) {
       span {
         display: inline;
+      }
+
+      .block-element {
+        display: block;
       }
     }
   }
@@ -49,7 +58,7 @@
 }
 
 .content {
-  padding: 100px 0;
+  padding: 80px 0;
   @include media-query(palm) {
     padding: 50px 0;
   }
@@ -72,7 +81,7 @@
   background-image: url(../images/bgs/home-bg.jpg);
   background-repeat: no-repeat;
   background-position: center top;
-  padding-top: 190px;
+  padding-bottom: 60px;
 
   h1 {
     color: $default-color;
@@ -184,7 +193,7 @@
   }
 }
 
-.contact {
+.contact-us {
   background-color: $default-color;
   padding: 70px 0;
   text-align: center;
@@ -233,7 +242,6 @@
  * CONSULTING
  */
 .masthead-consulting {
-  padding-top: 157px;
 
   img {
     margin-bottom: 46px;
@@ -300,10 +308,12 @@
 }
 
 .masthead-about-us {
-  padding-top: 206px;
 
   img {
     margin-bottom: 80px;
+    @include media-query(portable) {
+      margin-bottom: 50px;
+    }
   }
 }
 
@@ -356,10 +366,123 @@
  * CONTACT
  */
 .masthead-contact {
-  padding-top: 206px;
 
   img {
     margin-bottom: 80px;
+    @include media-query(portable) {
+      margin-bottom: 50px;
+    }
   }
 }
 
+.contact {
+
+  .contacts {
+    max-width: 505px;
+    position: relative;
+
+    > img {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .shade {
+      display: none;
+    }
+
+    @include media-query(desk) {
+      overflow: hidden;
+      max-width: 505px;
+      padding-bottom: 25px;
+      .shade {
+        bottom: 0;
+        display: block;
+        left: 0;
+        position: absolute;
+      }
+    }
+  }
+
+  .contacts-container {
+    background-color: $default-color;
+    color: #fff;
+    padding: 14px 24px;
+
+    p {
+      font-family: $brand-serif;
+      margin-bottom: 0;
+      @include font-size(14px);
+    }
+
+    h2 {
+      font-family: $sec-sans-serif;
+      margin-bottom: 0;
+      @include font-size(16px);
+    }
+
+    span {
+      font-family: $sec-sans-serif;
+    }
+
+    .address {
+      margin-bottom: 16px;
+    }
+  }
+
+  form {
+    margin: 20px 0 0 30px;
+    text-align: center;
+    @include media-query(portable) {
+      margin: 40px 0 0;
+    }
+  }
+
+  fieldset {
+    border: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  legend {
+    color: $default-color;
+    font-family: $brand-sans-serif;
+    font-weight: 700;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    @include font-size(30px);
+  }
+
+  input, textarea {
+    border: 1px solid $green;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(229, 235, 229, 1);
+    box-shadow: inset 0 1px 1px rgba(229, 235, 229, 1);
+    color: $default-color;
+    font-family: $sec-sans-serif;
+    height: 46px;
+    margin-bottom: 18px;
+    padding: 12px 16px;
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width: 100%;
+    @include font-size(16px);
+
+    &:focus {
+      border-color: $default-color;
+      outline: 0;
+      -webkit-box-shadow: inset 0 1px 1px rgba(25,79,88,0.075), 0 0 4px rgba(25,79,88,0.6);
+      box-shadow: inset 0 1px 1px rgba(25,79,88,0.075), 0 0 4px rgba(25,79,88,0.6);
+    }
+  }
+
+  textarea {
+    height: auto;
+    overflow: auto;
+  }
+
+  button {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+}
