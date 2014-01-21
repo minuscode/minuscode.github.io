@@ -1,6 +1,7 @@
 ---
 layout: default
 title: minuscode - About Us
+category: about-us
 ---
 
 <div class="masthead masthead-about-us">
@@ -24,11 +25,13 @@ title: minuscode - About Us
 
   <div class="wrapper">
 
-    <div class="member right">
+    {% for post in site.posts %}
+
+    <div class="member">
       <div class="grid">
 
         <div class="grid__item one-half portable-one-whole">
-          <h2>Miguel Marinhas</h2>
+          <h2>{{ post.title }} lol</h2>
           <p>
             <span>Sed ut perspiciatis unde omnis iste natus</span>
             <span>error sit voluptatem accusantium doloremque</span>
@@ -47,7 +50,7 @@ title: minuscode - About Us
 
      --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
           <div class="member-pic">
-            <img src="/images/team/miguel-marinhas.jpg" alt="Miguel Marinhas">
+            <img src="/images/team/{{ post.picture }}" alt="{{ post.title }}">
           </div>
         </div>
 
@@ -55,7 +58,9 @@ title: minuscode - About Us
       <hr>
     </div><!-- /member -->
 
-    <div class="member left">
+    {% endfor %}
+
+    <div class="member">
       <div class="grid grid--rev">
 
         <div class="grid__item one-half portable-one-whole">
@@ -85,7 +90,7 @@ title: minuscode - About Us
       <hr>
     </div><!-- /member -->
 
-    <div class="member right">
+    <div class="member">
       <div class="grid">
 
         <div class="grid__item one-half portable-one-whole">
@@ -115,7 +120,7 @@ title: minuscode - About Us
       <hr>
     </div><!-- /member -->
 
-    <div class="member left">
+    <div class="member">
       <div class="grid grid--rev">
         <div class="grid__item one-half portable-one-whole">
           <h2>João Araújo</h2>
@@ -144,7 +149,7 @@ title: minuscode - About Us
       <hr>
     </div><!-- /member -->
 
-    <div class="member right">
+    <div class="member">
       <div class="grid">
 
         <div class="grid__item one-half portable-one-whole">
