@@ -71,7 +71,8 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    &:hover {
+    &:hover,
+    &.active {
       text-decoration: underline;
     }
 
