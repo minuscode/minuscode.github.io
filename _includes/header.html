@@ -7,10 +7,10 @@
     <nav>
       <label for="toggle" class="toggle" data-open="Menu" data-close="Close" onclick></label>
       <ul>
-        <li><a href="/consulting">Consulting</a></li>
-        <li><a href="/work">Work</a></li>
-        <li><a href="/about-us">About Us</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a class="{% if page.url == '/consulting/index.html' %}active{% endif %}" href="/consulting">Consulting</a></li>
+        <li><a class="{% if page.url == '/work/index.html' %}active{% endif %}" href="/work">Work</a></li>
+        <li><a class="{% if page.url == '/about-us/index.html' %}active{% endif %}" href="/about-us">About Us</a></li>
+        <li><a class="{% if page.url == '/contact/index.html' %}active{% endif %}" href="/contact">Contact</a></li>
       </ul>
     </nav>
 
