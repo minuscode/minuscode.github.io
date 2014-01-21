@@ -1,0 +1,14 @@
+---
+layout: member
+category: about-us
+title: 'Miguel Marinhas'
+position: 'right'
+description: [
+  'Sed ut perspiciatis unde omnis iste natus',
+  'error sit voluptatem accusantium doloremque'
+]
+picture: miguel-marinhas.jpg
+social: {
+  :github => 'https://github.com/miguelm'
+}
+---
