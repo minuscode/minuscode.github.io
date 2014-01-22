@@ -1,0 +1,14 @@
+---
+category: about_us
+title: 'João Mamede'
+date: 2014-01-21 20:30
+position: 'right'
+description: [
+  'Sed ut perspiciatis unde omnis iste natus',
+  'error sit voluptatem accusantium doloremque'
+]
+picture: 'joao-mamede.jpg'
+social:
+  'github':   'https://github.com/joaovpmamede'
+  'twitter':  'https://twitter.com/jvpmamede'
+---

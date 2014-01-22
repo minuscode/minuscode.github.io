@@ -1,0 +1,14 @@
+---
+category: about_us
+title: 'Filipe Araújo'
+date: 2014-01-21 22:00
+position: 'left'
+description: [
+  'Sed ut perspiciatis unde omnis iste natus',
+  'error sit voluptatem accusantium doloremque'
+]
+picture: 'filipe-araujo.jpg'
+social:
+  'github':   'https://github.com/FilipeAraujo'
+  'linkedin': 'http://pt.linkedin.com/in/filipesaraujo/en'
+---
