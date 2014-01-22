@@ -42,15 +42,21 @@ title: minuscode - Contact
         </div>
       </div><!--
    --><div class="grid__item two-fifths portable-one-whole">
-        <form action="">
+
+        <form action="http://getsimpleform.com/messages?form_api_token=96f9586e999fff7b823b805ea2dafd5a" method="post">
           <fieldset>
             <legend>Drop us a line</legend>
-            <input type="text" placeholder="Name">
-            <input type="email" placeholder="E-mail" autocomplete="off">
-            <textarea rows="9" placeholder="Message"></textarea>
+            <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+            <input type='hidden' name='redirect_to' value='http://localhost:4000/contact' />
+
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="E-mail" autocomplete="off">
+            <textarea rows="9" name="message" placeholder="Message"></textarea>
           </fieldset>
-          <button class="btn btn-red">Send &rarr;</button>
+          <button type="submit" class="btn btn-red">Send &rarr;</button>
+          <!-- <input type='submit' value='Test form' /> -->
         </form>
+
       </div>
     </div>
   </div>
