@@ -1,7 +1,7 @@
 ---
 layout: default
 title: minuscode - About Us
-category: about-us
+category: about_us
 ---
 
 <div class="masthead masthead-about-us">
@@ -27,156 +27,39 @@ category: about-us
 
     {% for post in site.posts %}
 
-    <div class="member">
-      <div class="grid">
+      {% if post.categories contains 'about-us' %}
 
-        <div class="grid__item one-half portable-one-whole">
-          <h2>{{ post.title }} lol</h2>
-          <p>
-            <span>Sed ut perspiciatis unde omnis iste natus</span>
-            <span>error sit voluptatem accusantium doloremque</span>
-            <span>laudantium, totam rem aperiam, eaque ipsa</span>
-            <span>quae ab illo inventore veritatis et quasi</span>
-            <span>architecto beatae vitae dicta sunt explicabo.</span>
-            <span>Nemo enim ipsam voluptatem quia voluptas</span>
-          </p>
-          <div class="social">
-            <a class="icon-github" href="www.github.com/" title="github"></a>
-            <a class="icon-twitter" href="www.twitter.com/" title="twitter"></a>
-            <a class="icon-linkedin" href="www.linkedin.com/" title="linkedin"></a>
-            <a class="icon-home" href="www.xxx.com" title="site"></a>
+        <div class="member">
+          <div class="grid {% if post.position == 'left' %}grid--rev{% endif %}">
+
+            <div class="grid__item one-half portable-one-whole">
+              <h2>{{ post.title }}</h2>
+              <p>
+                {% for description in post.description %}
+                  <span>{{ description }}</span>
+                {% endfor %}
+              </p>
+              <div class="social">
+                {% for social in post.social %}
+                  <a class="icon-{{ social[0] }}" href="{{ social[1] }}" title="{{ social[0] }}"></a>
+                {% endfor %}
+              </div>
+            </div><!--
+
+         --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
+              <div class="member-pic">
+                <img src="/images/team/{{ post.picture }}" alt="{{ post.title }}">
+              </div>
+            </div>
+
           </div>
-        </div><!--
+          {% if post != site.posts.last %}
+            <hr>
+          {% endif %}
+        </div><!-- /member -->
 
-     --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
-          <div class="member-pic">
-            <img src="/images/team/{{ post.picture }}" alt="{{ post.title }}">
-          </div>
-        </div>
-
-      </div>
-      <hr>
-    </div><!-- /member -->
-
+      {% endif %}
     {% endfor %}
-
-    <div class="member">
-      <div class="grid grid--rev">
-
-        <div class="grid__item one-half portable-one-whole">
-          <h2>Filipe Araújo</h2>
-          <p>
-            <span>Sed ut perspiciatis unde omnis iste natus</span>
-            <span>error sit voluptatem accusantium doloremque</span>
-            <span>laudantium, totam rem aperiam, eaque ipsa</span>
-            <span>quae ab illo inventore veritatis et quasi</span>
-            <span>architecto beatae vitae dicta sunt explicabo.</span>
-            <span>Nemo enim ipsam voluptatem quia voluptas</span>
-          </p>
-          <div class="social">
-            <a class="icon-github" href="www.github.com/" title="github"></a>
-            <a class="icon-twitter" href="www.twitter.com/" title="twitter"></a>
-            <a class="icon-linkedin" href="www.linkedin.com/" title="linkedin"></a>
-            <a class="icon-home" href="www.xxx.com" title="site"></a>
-          </div>
-        </div><!--
-     --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
-          <div class="member-pic">
-            <img src="/images/team/filipe-araujo.jpg" alt="Filipe Araújo">
-          </div>
-        </div>
-
-      </div>
-      <hr>
-    </div><!-- /member -->
-
-    <div class="member">
-      <div class="grid">
-
-        <div class="grid__item one-half portable-one-whole">
-          <h2>David Cruz</h2>
-          <p>
-            <span>Sed ut perspiciatis unde omnis iste natus</span>
-            <span>error sit voluptatem accusantium doloremque</span>
-            <span>laudantium, totam rem aperiam, eaque ipsa</span>
-            <span>quae ab illo inventore veritatis et quasi</span>
-            <span>architecto beatae vitae dicta sunt explicabo.</span>
-            <span>Nemo enim ipsam voluptatem quia voluptas</span>
-          </p>
-          <div class="social">
-            <a class="icon-github" href="www.github.com/" title="github"></a>
-            <a class="icon-twitter" href="www.twitter.com/" title="twitter"></a>
-            <a class="icon-linkedin" href="www.linkedin.com/" title="linkedin"></a>
-            <a class="icon-home" href="www.xxx.com" title="site"></a>
-          </div>
-        </div><!--
-     --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
-          <div class="member-pic">
-            <img src="/images/team/david-cruz.jpg" alt="David Cruz">
-          </div>
-        </div>
-
-      </div>
-      <hr>
-    </div><!-- /member -->
-
-    <div class="member">
-      <div class="grid grid--rev">
-        <div class="grid__item one-half portable-one-whole">
-          <h2>João Araújo</h2>
-          <p>
-            <span>Sed ut perspiciatis unde omnis iste natus</span>
-            <span>error sit voluptatem accusantium doloremque</span>
-            <span>laudantium, totam rem aperiam, eaque ipsa</span>
-            <span>quae ab illo inventore veritatis et quasi</span>
-            <span>architecto beatae vitae dicta sunt explicabo.</span>
-            <span>Nemo enim ipsam voluptatem quia voluptas</span>
-          </p>
-          <div class="social">
-            <a class="icon-github" href="www.github.com/" title="github"></a>
-            <a class="icon-twitter" href="www.twitter.com/" title="twitter"></a>
-            <a class="icon-linkedin" href="www.linkedin.com/" title="linkedin"></a>
-            <a class="icon-home" href="www.xxx.com" title="site"></a>
-          </div>
-        </div><!--
-     --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
-          <div class="member-pic">
-            <img src="/images/team/joao-araujo.jpg" alt="João Araújo">
-          </div>
-        </div>
-
-      </div>
-      <hr>
-    </div><!-- /member -->
-
-    <div class="member">
-      <div class="grid">
-
-        <div class="grid__item one-half portable-one-whole">
-          <h2>João Mamede</h2>
-          <p>
-            <span>Sed ut perspiciatis unde omnis iste natus</span>
-            <span>error sit voluptatem accusantium doloremque</span>
-            <span>laudantium, totam rem aperiam, eaque ipsa</span>
-            <span>quae ab illo inventore veritatis et quasi</span>
-            <span>architecto beatae vitae dicta sunt explicabo.</span>
-            <span>Nemo enim ipsam voluptatem quia voluptas</span>
-          </p>
-          <div class="social">
-            <a class="icon-github" href="www.github.com/" title="github"></a>
-            <a class="icon-twitter" href="www.twitter.com/" title="twitter"></a>
-            <a class="icon-linkedin" href="www.linkedin.com/" title="linkedin"></a>
-            <a class="icon-home" href="www.xxx.com" title="site"></a>
-          </div>
-        </div><!--
-     --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
-          <div class="member-pic">
-            <img src="/images/team/joao-mamede.jpg" alt="João Mamede">
-          </div>
-        </div>
-
-      </div>
-    </div><!-- /member -->
 
   </div>
 
