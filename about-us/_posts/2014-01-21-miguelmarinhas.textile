@@ -1,0 +1,16 @@
+---
+category: about_us
+title: 'Miguel Marinhas'
+date: 2014-01-21 22:30
+position: 'right'
+description: [
+  'Sed ut perspiciatis unde omnis iste natus',
+  'error sit voluptatem accusantium doloremque'
+]
+picture: 'miguel-marinhas.jpg'
+social:
+  'github':   'https://github.com/miguelm'
+  'twitter':  'https://twitter.com/miguelmarinhas'
+  'linkedin': 'http://www.linkedin.com/in/miguelmarinhas'
+  'home':     'http://miguelmarinhas.com'
+---

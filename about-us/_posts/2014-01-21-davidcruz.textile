@@ -1,0 +1,16 @@
+---
+category: about_us
+title: 'David Cruz'
+date: 2014-01-21 21:30
+position: 'right'
+description: [
+  'Sed ut perspiciatis unde omnis iste natus',
+  'error sit voluptatem accusantium doloremque'
+]
+picture: 'david-cruz.jpg'
+social:
+  'github':   'https://github.com/dcruz'
+  'twitter':  'https://twitter.com/davidjvcruz'
+  'linkedin': 'http://www.linkedin.com/pub/david-cruz/a/663/75a'
+  'home':     'http://dcruz.soup.io/'
+---
