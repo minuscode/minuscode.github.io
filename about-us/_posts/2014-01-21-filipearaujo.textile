@@ -10,5 +10,6 @@ description: [
 picture: 'filipe-araujo.jpg'
 social:
   'github':   'https://github.com/FilipeAraujo'
+  'twitter':  'https://twitter.com/filipejsaraujo'
   'linkedin': 'http://pt.linkedin.com/in/filipesaraujo/en'
 ---

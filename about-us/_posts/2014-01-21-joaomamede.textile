@@ -4,8 +4,12 @@ title: 'João Mamede'
 date: 2014-01-21 20:30
 position: 'right'
 description: [
-  'Sed ut perspiciatis unde omnis iste natus',
-  'error sit voluptatem accusantium doloremque'
+  "More targeted for the front end side, I'm interested",
+  "in closing the gap and building a closer relation",
+  "between the Design and our technology.<br>",
+  "Currently focused in getting more serious about clean",
+  "and well architected code I am moving a bit to the",
+  "backend side."
 ]
 picture: 'joao-mamede.jpg'
 social:
