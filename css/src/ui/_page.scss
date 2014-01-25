@@ -101,7 +101,7 @@ html {
 .masthead-home {
   background-image: url(../images/bgs/home-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center -102px;
   padding-bottom: 100px;
 
   h1 {
@@ -171,7 +171,7 @@ html {
   h4 {
     color: $red;
     font-family: $brand-sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     @include font-size(32px, $line-height: false);
     @include media-query(palm) {
       @include font-size(26px, $line-height: false);
@@ -182,6 +182,7 @@ html {
   p {
     color: $default-color;
     font-family: $sec-sans-serif;
+    font-weight: 400;
     line-height: 1.4;
     @include font-size(16px, $line-height: false);
   }
@@ -190,6 +191,7 @@ html {
     color: $red;
     @include font-size(18px);
     font-family: $brand-sans-serif;
+    font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
 
@@ -229,6 +231,12 @@ html {
     padding: 35px 0;
   }
 
+  span {
+    @include media-query(portable) {
+      display: block;
+    }
+  }
+
   h5 {
     color: $green;
     font-family: $brand-serif;
@@ -247,8 +255,11 @@ html {
     text-decoration: none;
     text-transform: uppercase;
     @include font-size(45px);
+    @include media-query(lap) {
+      @include font-size(38px);
+    }
     @include media-query(palm) {
-      @include font-size(35px);
+      @include font-size(25px);
     }
 
     &:hover {
@@ -284,6 +295,11 @@ html {
   }
 
   .areas {
+    @include media-query(desk) {
+      margin: 0 auto;
+      width: 85%;
+    }
+
     img {
       margin-bottom: 30px;
     }
