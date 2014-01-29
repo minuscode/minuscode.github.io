@@ -101,6 +101,13 @@
       width: 60px;
     }
 
+    @include media-query(desk) {
+      &:hover {
+        border-radius: 100%;
+        @include box-shadow($default-color 0 0 1em);
+      }
+    }
+
     img {
       vertical-align: middle;
     }
