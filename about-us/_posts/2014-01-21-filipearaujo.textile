@@ -6,7 +6,7 @@ position: 'left'
 description: [
   "I'm a guy who loves to convert ideas into products.",
   "Aware of the newest and exciting trends I try to achieve",
-  "my motto => "first do the small things right".",
+  "my motto => 'first do the small things right'.",
   "iOS and web dev are my cup of tea, and I would like to",
   "share that knowledge in new and exciting projects."
 ]
