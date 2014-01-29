@@ -4,8 +4,11 @@ title: 'Miguel Marinhas'
 date: 2014-01-21 22:30
 position: 'right'
 description: [
-  'Sed ut perspiciatis unde omnis iste natus',
-  'error sit voluptatem accusantium doloremque'
+  "Most of my days I do web development particularly",
+  "backends for web and mobile apps, but when possible",
+  "I get into more data-driven problems.<br>",
+  "I like the thrill of building a new product, having",
+  "worked from corporate to startups."
 ]
 picture: 'miguel-marinhas.jpg'
 social:
