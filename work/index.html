@@ -6,12 +6,32 @@ category: work
 
 <div class="masthead masthead-work">
 
-  <div class="wrapper">
+    <div class="wrapper">
+        <h1>Our previous work list</h1>
+        <p>never seems big enough</p>
   </div>
 
 </div><!-- /masthead -->
 
 <div class="content work">
+
+  <div class="wrapper">
+
+    <div class="grid">
+      <!--
+      {% for post in site.posts %}
+        
+        {% if post.categories contains 'work' %}
+    --><article class="work-item grid__item one-half">
+          <span>{{ post.title }}</span>
+        </article><!--
+        {%  endif %}
+        
+      {% endfor %}
+      -->
+    </div>
+
+  </div>
 
 </div><!-- /work -->
 

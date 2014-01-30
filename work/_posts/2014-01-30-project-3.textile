@@ -1,0 +1,6 @@
+---
+category: work
+title: 'Project XPTO'
+date: 2014-01-21 21:33
+url: 'http://www.dummy.com/'
+---
