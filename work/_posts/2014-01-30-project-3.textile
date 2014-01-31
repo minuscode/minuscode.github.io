@@ -1,6 +1,8 @@
 ---
 category: work
-title: 'Project XPTO'
+title: 'Coming soon'
+subtitle: 'really really soon'
 date: 2014-01-21 21:33
-url: 'http://www.dummy.com/'
+uri: '#'
+image: 'minuscode-work-placeholder.jpg'
 ---

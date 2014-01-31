@@ -591,9 +591,61 @@ html {
 
 .work {
     color: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+
+    @include media-query(lap) {
+        padding: 0 25px;
+    }
+
+    @include media-query(palm) {
+        padding: 0 10px;
+    }
+
+    .block {
+      display: inline-block;
+      margin: 1rem;
+      min-width: 18rem;
+      position: relative;
+      width: 30%;
+
+      img {
+        left: 0;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        @include vendor(background-cover, cover);
+      }
+    }
 
     .work-item {
-      background-color: pink;
-      height: 10rem;
+      height: 18rem;
+      text-align: center;
+
+      a {
+          background-color: rgba($green, 0.8);
+          color: #fff;
+          display: block;
+          height: 100%;
+          text-decoration: none;
+
+          &:hover {
+            background-color: $green;
+            cursor: default; // TODO - remove after setting working links.
+          }
+      }
+
+      h2 {
+        font-family: $brand-sans-serif;
+        font-weight: 400;
+        margin: 0;
+        padding-top: 7rem;
+        text-transform: uppercase;
+
+        & + p {
+          font-family: $brand-sans-serif;
+        }
+      }
     }
 }

@@ -15,23 +15,18 @@ category: work
 
 <div class="content work">
 
-  <div class="wrapper">
+  {% for post in site.posts %}
 
-    <div class="grid">
-      <!--
-      {% for post in site.posts %}
-        
-        {% if post.categories contains 'work' %}
-    --><article class="work-item grid__item one-half">
-          <span>{{ post.title }}</span>
-        </article><!--
-        {%  endif %}
-        
-      {% endfor %}
-      -->
-    </div>
+    {% if post.categories contains 'work' %}
+    <article class="work-item block" style="background-image: url(/images/work/{{ post.image }})">
+      <a href="{{ post.uri}}">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.subtitle }}</p>
+      </a>
+      </article>
+    {%  endif %}
 
-  </div>
+  {% endfor %}
 
 </div><!-- /work -->
 
