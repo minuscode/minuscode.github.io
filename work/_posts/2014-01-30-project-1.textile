@@ -1,6 +1,8 @@
 ---
 category: work
-title: 'Project 1'
+title: 'Coming soon'
+subtitle: 'its around the corner'
 date: 2014-01-21 21:31
-url: 'http://www.dummy.com/'
+uri: '#'
+image: 'minuscode-work-placeholder.jpg'
 ---
