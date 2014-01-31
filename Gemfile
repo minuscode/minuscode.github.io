@@ -12,4 +12,5 @@ group :development do
   gem 'guard-jekyll-plus'                   # A Guard plugin for smarter Jekyll watching.
   gem 'guard-shell'                         # Run shell commands.
   gem 'guard-livereload'                    # Browser reload.
+  gem 'RedCloth'                            # Textile markup language
 end
