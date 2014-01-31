@@ -1,68 +1,43 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
-    <title>Minuscode - tecnology freelancing collective {% if page.title %} - {{ page.title }} {% endif %} </title>
-    <meta name="description" content="Minuscode Web page">
-    <meta name="keywords" content="Minuscode Web Page, Programming, Machine Learning, Ruby, Rails, Nodejs, Web Development, Mobile, MongoDB, Redis, PHP">
-    <meta name="author" content="Minuscode Team">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- syntax highlighting CSS
+    <link rel="stylesheet" href="/css/syntax.css">
+    -->
 
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
-    <!-- SCSS, baby -->
-    <link rel="stylesheet" href="/css/screen.css">
-    <!--<link rel="stylesheet" href="/css/base.css">
-    <link rel="stylesheet" href="/css/skeleton.css">
-    <link rel="stylesheet" href="/css/styles.css">-->
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Glegoo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
 
-    <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-</head>
 
+  </head>
   <body>
-    <div class="container">
 
-      <div class="sixteen columns">
-        <nav class="navigation" role="navigation">
-          <ul>
-          {% if page.url != '/index.html' %}
-            <li class="logo"><a href ="/"><img src="/img/minuscode.png"></a></li>
-          {% endif %}
-              {% comment %}<li class="menu"><a class="button" href="/">Home</a></li>{% endcomment %}
-              <li class="menu"><a class="menu {% if page.url == '/portfolio/index.html' %}active{% endif %}" href="/portfolio">Work</a></li>
-              <li class="menu"><a class="menu {% if page.url == '/services/index.html' %}active{% endif %}" href="/services">Services</a></li>
-              <li class="menu"><a class="menu {% if page.url == '/team/index.html' %}active{% endif %}" href="/team">Team</a></li>
-              {% comment %}<li class="menu"><a class="button menu" href="/blog">Blog</a></li> {% endcomment %}
-          </ul>
-        </nav>
-      </div>
+    {% include header.html %}
 
-      <div class="wrapper sixteen columns">
+    <div class="main-container">
+
       {{ content }}
-      </div>
 
-      <footer class="sixteen columns">
-        <ul class="six columns alpha">
-          <li>© 2013 minuscode</li>
-        </ul>
-        <ul class="links ten columns omega">
-          <li><a href= "mailto:contact@minuscode.com" >contact@minuscode.com</a></li>
-          <li><a href="http://github.com/minuscode">GitHub</a></li>
-          <li><a href="http://www.linkedin.com/company/minuscode">LinkedIn</a></li>
-        </ul>
-       </footer>
+    </div><!-- /main-container -->
 
-    </div><!--/container-->
+    {% include footer.html %}
 
-    {% include google %}
+  <script type="text/javascript" src="/js/libs/retina.min.js"></script>
+
   </body>
 </html>

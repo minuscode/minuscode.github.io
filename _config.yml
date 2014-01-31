@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+name:      Minuscode
 auto: true
 exclude: Guardfile
 permalink: none
@@ -5,3 +7,5 @@ baseurl: /minuscode.github.io
 
 includes:
   google_tracking_id: 'UA-33665278-1'
+exclude:
+  ['assets', 'config.rb', 'Guardfile', 'Procfile', 'Procfile.example', 'Gemfile', 'Gemfile.lock']

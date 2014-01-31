@@ -1,0 +1,30 @@
+/*------------------------------------*\
+    $PAGE
+\*------------------------------------*/
+.btn {
+  display: inline-block;
+  font-family: $brand-sans-serif;
+  padding: 12px 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  @include font-size(18px);
+  @include border-radius(2px);
+  @include transition(all 0.3s);
+
+  @include media-query(palm) {
+    @include font-size(14px);
+  }
+}
+
+.btn-red {
+  background: $red;
+  border: 2px solid $red;
+  color: #fff;
+  letter-spacing: 1px;
+
+  &:hover {
+    background: none;
+    color: $red;
+  }
+}

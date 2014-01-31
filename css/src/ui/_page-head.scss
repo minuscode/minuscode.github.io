@@ -1,0 +1,175 @@
+/*------------------------------------*\
+    $PAGE-HEAD
+\*------------------------------------*/
+
+.main-header {
+  left: auto;
+  padding-top: 22px;
+  position: absolute;
+  right: auto;
+  width: 100%;
+  @include media-query(portable) {
+    background: $default-color;
+    padding: 0;
+  }
+}
+
+.main-header nav {
+  @extend .cf;
+
+  @include media-query(portable) {
+    float: right;
+    margin-top: 10px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    @include media-query(portable) {
+      background-color: $default-color;
+      display: none;
+      opacity: 0;
+      padding: 10px 15px;
+      position: absolute;
+      right: 0;
+      top:56px;
+      width: 100%;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 100px;
+
+    @include media-query(portable) {
+      border-top: 1px solid $green;
+      display: block;
+      margin-left: 0;
+      padding: 10px;
+      width: 100%;
+
+      &:first-child {
+        border-top: 0;
+      }
+    }
+
+    &:first-child {
+      margin-left: 0;
+
+      + li {
+        margin-right: 100px;
+        @include media-query(lap) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  a {
+    color: $red;
+    font-family: $brand-serif;
+    font-style: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover,
+    &.active {
+      text-decoration: underline;
+    }
+
+    @include media-query(portable) {
+      color: $green;
+    }
+  }
+}
+
+.header-container {
+  @extend .cf;
+  padding: 0 100px;
+  position: relative;
+  text-align: center;
+  @include media-query(portable) {
+    padding: 0 10px;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-top: -35px;
+    @include media-query(portable) {
+      float: left;
+      margin: 0;
+      width: 60px;
+    }
+
+    @include media-query(desk) {
+      &:hover {
+        border-radius: 100%;
+        @include box-shadow($default-color 0 0 1em);
+      }
+    }
+
+    img {
+      vertical-align: middle;
+    }
+  }
+}
+
+.toggle {
+  display: none;
+  @include media-query(portable) {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+    &:after {
+      background: $green;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border: 1px solid $green;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      color: $default-color;
+      content: attr(data-open);
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 10px 20px;
+      text-align: center;
+      -webkit-transition: all .2s linear;
+      -moz-transition: all .2s linear;
+      -o-transition: all .2s linear;
+      transition: all .2s linear;
+    }
+
+    &:hover {
+      &:after {
+        background: none;
+        color: $green;
+      }
+    }
+  }
+}
+
+#toggle {
+  display: none;
+  @include media-query(portable) {
+    &:checked {
+      + nav {
+        ul {
+          display: block;
+          opacity: 1;
+        }
+
+        .toggle:after {
+          background: none;
+          color: $green;
+          content: attr(data-close);
+        }
+      }
+    }
+  }
+}
