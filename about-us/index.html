@@ -1,0 +1,68 @@
+---
+layout: default
+title: minuscode - About Us
+category: about_us
+---
+
+<div class="masthead masthead-about-us">
+
+  <div class="wrapper">
+
+    <h1 class="hidden">We're a small multidisciplinary team based in Lisbon.</h1>
+
+    <img src="/images/misc/about-us.png" alt="We're a small multidisciplinary team based in Lisbon">
+
+    <p>
+      <span>We provide development, design and management services and we also have been working</span> <span>closely in the startup environment. Our goal is to deliver the most flexible and simple project</span> <span>to fit your needs so that you can manage and work it out after we’ve concluded our work.</span>
+      <span>We can also arrange you a marketing strategy based on your objectives and target audience.</span>
+    </p>
+
+  </div>
+
+</div><!-- /masthead -->
+
+<div class="content about-us">
+
+  <div class="wrapper">
+
+    {% for post in site.posts %}
+
+      {% if post.categories contains 'about-us' %}
+
+        <div class="member">
+          <div class="grid {% if post.position == 'left' %}grid--rev{% endif %}">
+
+            <div class="grid__item one-half portable-one-whole">
+              <h2>{{ post.title }}</h2>
+              <p>
+                {% for description in post.description %}
+                  <span>{{ description }}</span>
+                {% endfor %}
+              </p>
+              <div class="social">
+                {% for social in post.social %}
+                  <a class="icon-{{ social[0] }}" href="{{ social[1] }}" title="{{ social[0] }}"></a>
+                {% endfor %}
+              </div>
+            </div><!--
+
+         --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
+              <div class="member-pic">
+                <img src="/images/team/{{ post.picture }}" alt="{{ post.title }}">
+              </div>
+            </div>
+
+          </div>
+          {% if post != site.posts.last %}
+            <hr>
+          {% endif %}
+        </div><!-- /member -->
+
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+</div><!-- /about-us -->
+
+{% include contact_us.html %}

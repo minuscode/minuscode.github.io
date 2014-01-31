@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'minus';
+  src:url('../fonts/minus.eot');
+  src:url('../fonts/minus.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/minus.woff') format('woff'),
+    url('../fonts/minus.ttf') format('truetype'),
+    url('../fonts/minus.svg#minus') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'minus';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+  content: "\e608";
+}
+.icon-github:before {
+  content: "\e609";
+}
+.icon-facebook-sign:before {
+  content: "\e60a";
+}
+.icon-linkedin:before {
+  content: "\e607";
+}
+.icon-home:before {
+  content: "\e600";
+}
+.icon-briefcase:before {
+  content: "\e601";
+}
+.icon-mobile:before {
+  content: "\e602";
+}
+.icon-mail:before {
+  content: "\e603";
+}

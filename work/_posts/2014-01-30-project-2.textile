@@ -1,0 +1,6 @@
+---
+category: work
+title: 'Project for ACME'
+date: 2014-01-21 21:32
+url: 'http://www.dummy.com/'
+---
