@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     addressable (2.3.5)
     celluloid (0.15.2)
       timers (~> 1.1.0)
@@ -94,6 +95,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   compass
   compass-validator
   css_parser
