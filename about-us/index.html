@@ -25,40 +25,37 @@ category: about_us
 
   <div class="wrapper">
 
-    {% for post in site.posts %}
+    {% for post in site.categories['about-us'] %}
 
-      {% if post.categories contains 'about-us' %}
+      <div class="member">
+        <div class="grid {% if post.position == 'left' %}grid--rev{% endif %}">
 
-        <div class="member">
-          <div class="grid {% if post.position == 'left' %}grid--rev{% endif %}">
-
-            <div class="grid__item one-half portable-one-whole">
-              <h2>{{ post.title }}</h2>
-              <p>
-                {% for description in post.description %}
-                  <span>{{ description }}</span>
-                {% endfor %}
-              </p>
-              <div class="social">
-                {% for social in post.social %}
-                  <a class="icon-{{ social[0] }}" href="{{ social[1] }}" title="{{ social[0] }}"></a>
-                {% endfor %}
-              </div>
-            </div><!--
-
-         --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
-              <div class="member-pic">
-                <img src="/images/team/{{ post.picture }}" alt="{{ post.title }}">
-              </div>
+          <div class="grid__item one-half portable-one-whole">
+            <h2>{{ post.title }}</h2>
+            <p>
+              {% for description in post.description %}
+                <span>{{ description }}</span>
+              {% endfor %}
+            </p>
+            <div class="social">
+              {% for social in post.social %}
+                <a class="icon-{{ social[0] }}" href="{{ social[1] }}" title="{{ social[0] }}"></a>
+              {% endfor %}
             </div>
+          </div><!--
 
+       --><div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
+            <div class="member-pic">
+              <img src="/images/team/{{ post.picture }}" alt="{{ post.title }}">
+            </div>
           </div>
-          {% if post != site.posts.last %}
-            <hr>
-          {% endif %}
-        </div><!-- /member -->
 
-      {% endif %}
+        </div>
+        {% unless forloop.last %}
+          <hr>
+        {% endunless %}
+      </div><!-- /member -->
+
     {% endfor %}
 
   </div>
