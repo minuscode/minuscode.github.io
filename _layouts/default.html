@@ -13,9 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/css/base.css">
+    <!-- SCSS, baby -->
+    <link rel="stylesheet" href="/css/screen.css">
+    <!--<link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/skeleton.css">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">-->
 
     <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +30,7 @@
 
   <body>
     <div class="container">
-      
+
       <div class="sixteen columns">
         <nav class="navigation" role="navigation">
           <ul>
@@ -43,14 +45,14 @@
           </ul>
         </nav>
       </div>
-      
+
       <div class="wrapper sixteen columns">
       {{ content }}
       </div>
-      
+
       <footer class="sixteen columns">
         <ul class="six columns alpha">
-          <li>© 2013 minuscode</li> 
+          <li>© 2013 minuscode</li>
         </ul>
         <ul class="links ten columns omega">
           <li><a href= "mailto:contact@minuscode.com" >contact@minuscode.com</a></li>
@@ -58,9 +60,9 @@
           <li><a href="http://www.linkedin.com/company/minuscode">LinkedIn</a></li>
         </ul>
        </footer>
-       
+
     </div><!--/container-->
-  
+
     {% include google %}
   </body>
 </html>
