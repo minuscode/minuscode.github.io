@@ -576,17 +576,13 @@ html {
  * Work
  */
 .masthead-work {
-    h1 {
-      color: $red;
-      font-family: $brand-sans-serif;
-      font-size: 3rem;
-      font-weight: 400;
-      text-transform: uppercase;
-
-      &+p {
-        font-family: $brand-serif;
-      }
-    }
+  h1 {
+    color: $red;
+    font-family: $brand-sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
 }
 
 .work {
