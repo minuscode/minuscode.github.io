@@ -4413,12 +4413,8 @@ html {
   font-weight: 400;
   text-transform: uppercase;
 }
-/* line 586, src/ui/_page.scss */
-.masthead-work h1 + p {
-  font-family: "Glegoo", serif;
-}
 
-/* line 592, src/ui/_page.scss */
+/* line 588, src/ui/_page.scss */
 .work {
   color: #fff;
   margin: 0 auto;
@@ -4426,18 +4422,18 @@ html {
   text-align: center;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
-  /* line 592, src/ui/_page.scss */
+  /* line 588, src/ui/_page.scss */
   .work {
     padding: 0 25px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 592, src/ui/_page.scss */
+  /* line 588, src/ui/_page.scss */
   .work {
     padding: 0;
   }
 }
-/* line 606, src/ui/_page.scss */
+/* line 602, src/ui/_page.scss */
 .work .block {
   display: inline-block;
   margin: 1rem;
@@ -4445,7 +4441,7 @@ html {
   position: relative;
   width: 30%;
 }
-/* line 613, src/ui/_page.scss */
+/* line 609, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4457,12 +4453,12 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 622, src/ui/_page.scss */
+/* line 618, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
   text-align: center;
 }
-/* line 626, src/ui/_page.scss */
+/* line 622, src/ui/_page.scss */
 .work .work-item a {
   background-color: rgba(206, 222, 203, 0.8);
   color: #fff;
@@ -4470,12 +4466,12 @@ html {
   height: 100%;
   text-decoration: none;
 }
-/* line 633, src/ui/_page.scss */
+/* line 629, src/ui/_page.scss */
 .work .work-item a:hover {
   background-color: #cedecb;
   cursor: default;
 }
-/* line 639, src/ui/_page.scss */
+/* line 635, src/ui/_page.scss */
 .work .work-item h2 {
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
@@ -4483,7 +4479,7 @@ html {
   padding-top: 7rem;
   text-transform: uppercase;
 }
-/* line 646, src/ui/_page.scss */
+/* line 642, src/ui/_page.scss */
 .work .work-item h2 + p {
   font-family: "PT Sans Caption", sans-serif;
 }
