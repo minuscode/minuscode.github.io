@@ -4713,7 +4713,7 @@ html {
 }
 /* line 28, src/ui/_page-foot.scss */
 .main-footer nav li {
-  min-width: 100px;
+  min-width: 104px;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
   /* line 28, src/ui/_page-foot.scss */
@@ -4764,8 +4764,8 @@ html {
   color: #fff;
   font-family: "Glegoo", serif;
   text-transform: uppercase;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
 }
 @media only screen and (max-width: 480px) {
   /* line 61, src/ui/_page-foot.scss */
@@ -4923,8 +4923,9 @@ html {
   border: 2px solid #c94055;
   color: #fff;
   letter-spacing: 1px;
+  font-weight: 400;
 }
-/* line 26, src/ui/_buttons.scss */
+/* line 27, src/ui/_buttons.scss */
 .btn-red:hover {
   background: none;
   color: #c94055;
