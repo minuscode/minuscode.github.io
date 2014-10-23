@@ -47,11 +47,11 @@ title: minuscode - Contact
           <fieldset>
             <legend>Drop us a line</legend>
             <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-            <input type='hidden' name='redirect_to' value='http://localhost:4000/contact' />
+            <input type='hidden' name='redirect_to' value='http://www.minuscode.com/contact' />
 
-            <input type="text" name="name" placeholder="Name">
-            <input type="email" name="email" placeholder="E-mail" autocomplete="off">
-            <textarea rows="9" name="message" placeholder="Message"></textarea>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="E-mail" autocomplete="off" required>
+            <textarea rows="9" name="message" placeholder="Message" required></textarea>
           </fieldset>
           <button type="submit" class="btn btn-red">Send &rarr;</button>
           <!-- <input type='submit' value='Test form' /> -->
