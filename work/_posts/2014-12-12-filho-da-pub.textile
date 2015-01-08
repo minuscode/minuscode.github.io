@@ -1,0 +1,8 @@
+---
+category: wor_
+title: 'Coming never'
+subtitle: 'its around the corner cae'
+date: 2014-01-21 21:31
+uri: '#'
+image: 'minuscode-work-placeholder.jpg'
+---

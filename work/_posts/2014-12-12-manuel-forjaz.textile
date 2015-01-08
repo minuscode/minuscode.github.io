@@ -1,0 +1,8 @@
+---
+category: work
+title: 'Manuel Forjaz'
+subtitle: 'Facebook App'
+date: 2014-01-21 21:31
+uri: 'http://manuelforjaz.com/'
+image: 'https://dl.dropboxusercontent.com/u/175565/manuel-forjaz.png'
+---

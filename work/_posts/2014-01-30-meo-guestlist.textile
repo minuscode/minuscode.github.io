@@ -1,0 +1,8 @@
+---
+category: work
+title: 'MEO Guestlist'
+subtitle: 'Facebook App'
+date: 2014-01-21 21:31
+uri: 'https://meo-fb-concerts.herokuapp.com/concerts'
+image: 'https://dl.dropboxusercontent.com/u/175565/meo-guestlist.png'
+---
