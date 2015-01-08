@@ -1,0 +1,8 @@
+---
+category: work
+title: 'Mezzolab StoreAgent'
+subtitle: 'Android & IOS App'
+date: 2014-01-21 21:31
+uri: '#'
+image: 'https://dl.dropboxusercontent.com/u/175565/mezzolab-storeagent.png'
+---

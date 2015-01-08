@@ -1,0 +1,8 @@
+---
+category: work
+title: 'MEO Mastiksoul'
+subtitle: 'Facebook App'
+date: 2014-01-21 21:31
+uri: 'https://meo-fb-music.herokuapp.com/'
+image: 'https://dl.dropboxusercontent.com/u/175565/meo-music.png'
+---

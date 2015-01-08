@@ -1,0 +1,8 @@
+---
+category: work
+title: 'MEO Postcards'
+subtitle: 'Facebook App'
+date: 2014-01-21 21:31
+uri: 'https://apps.facebook.com/meovideopostal/'
+image: 'https://dl.dropboxusercontent.com/u/175565/meo-poscards.png'
+---

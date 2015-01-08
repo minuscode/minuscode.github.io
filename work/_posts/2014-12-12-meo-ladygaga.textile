@@ -1,0 +1,8 @@
+---
+category: work
+title: 'MEO Ladygaga'
+subtitle: 'Facebook App'
+date: 2014-01-21 21:31
+uri: 'http://meo-fb-ladygaga.herokuapp.com/'
+image: 'https://dl.dropboxusercontent.com/u/175565/meo-ladygaga.png'
+---

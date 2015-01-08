@@ -1,8 +1,0 @@
----
-category: work
-title: 'Coming soon'
-subtitle: 'Maybe tomorrow'
-date: 2014-01-21 21:30
-uri: '#'
-image: 'minuscode-work-placeholder.jpg'
----

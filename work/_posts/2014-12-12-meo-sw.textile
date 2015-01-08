@@ -1,0 +1,8 @@
+---
+category: work
+title: 'MEO Sudoeste'
+subtitle: 'Website'
+date: 2014-01-21 21:31
+uri: 'www.meosudeste.pt'
+image: 'https://dl.dropboxusercontent.com/u/175565/meo-sw.png'
+---
