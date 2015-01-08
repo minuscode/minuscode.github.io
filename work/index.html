@@ -17,7 +17,7 @@ category: work
 
   {% for post in site.posts %}
 
-    {% if post.categories contains 'work' %}
+    {% if post.category contains 'work' %}
     <article class="work-item block" style="background-image: url({{ post.image }})">
       <a href="{{ post.uri}}">
         <h2>{{ post.title }}</h2>
