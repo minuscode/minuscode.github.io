@@ -23,10 +23,8 @@ category: work
         <h2>{{ post.title }}</h2>
         <p>{{ post.subtitle }}</p>
         <ul>
-          <li><a href="{{ post.uri}}" target="blank">website</a></li>
-          <li><a href="{{ post.uri}}" target="blank">app</a></li>
         {% for tags in post.tags %}
-          <li><a href="{{ post.uri}}" target="blank">{{ tags }}</a></li>
+          <li><a href="{{ post.uri}}" target="blank" class="icon-{{ tags }}"></a></li>
         {% endfor %}
         </ul>
       </span>
