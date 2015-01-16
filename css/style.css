@@ -4887,6 +4887,21 @@ html {
   content: "\e603";
 }
 
+/* line 50, src/ui/_fonts.scss */
+.icon-iOS:before {
+  content: "\f179";
+}
+
+/* line 53, src/ui/_fonts.scss */
+.icon-android:before {
+  content: "\f17b";
+}
+
+/* line 56, src/ui/_fonts.scss */
+.icon-website:before {
+  content: "\e9c9";
+}
+
 /*------------------------------------*\
     $PAGE
 \*------------------------------------*/
