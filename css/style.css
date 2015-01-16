@@ -4490,6 +4490,26 @@ html {
 .work .work-item h2 + p {
   font-family: "PT Sans Caption", sans-serif;
 }
+/* line 654, src/ui/_page.scss */
+.work .work-item ul {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  list-style-type: none;
+}
+/* line 663, src/ui/_page.scss */
+.work .work-item li {
+  display: inline-block;
+  margin: 0 6px;
+}
+/* line 667, src/ui/_page.scss */
+.work .work-item li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
 
 /*------------------------------------*\
     $PAGE-HEAD
@@ -4858,7 +4878,7 @@ html {
 }
 
 /* line 32, src/ui/_fonts.scss */
-.icon-facebook-sign:before {
+.icon-facebook:before {
   content: "\e60a";
 }
 

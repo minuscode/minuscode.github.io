@@ -650,5 +650,25 @@ html {
         font-family: $brand-sans-serif;
       }
     }
+
+    ul {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-right: 20px;
+      margin-bottom: 15px;
+      list-style-type: none;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 6px;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+      }
+    }
   }
 }

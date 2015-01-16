@@ -1,6 +1,6 @@
 ---
 category: work
-tags: web, mobile
+tags: website mobile iOS android facebook
 title: 'Raize'
 subtitle: 'Frontend Website'
 date: 2014-01-21 21:31

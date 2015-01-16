@@ -1,6 +1,6 @@
 ---
 category: work
-tags: web
+tags: website
 title: 'Well Club'
 subtitle: 'Website'
 date: 2014-01-21 21:31
