@@ -4,5 +4,5 @@ title: 'CDUL'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: '#'
-image: 'https://dl.dropboxusercontent.com/u/175565/cdul.png'
+image: '../../images/work/cdul.jpg'
 ---

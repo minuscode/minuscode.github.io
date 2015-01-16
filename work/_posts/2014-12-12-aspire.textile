@@ -4,5 +4,5 @@ title: 'Aspire'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://www.aspireprmarketing.com/'
-image: 'https://dl.dropboxusercontent.com/u/175565/aspire.png'
+image: '../../images/work/aspire.png'
 ---

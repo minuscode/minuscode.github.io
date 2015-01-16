@@ -4,5 +4,5 @@ title: 'Well Club'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://www.wellclub.com'
-image: 'https://dl.dropboxusercontent.com/u/175565/well-club.png'
+image: '../../images/work/wellclub.jpg'
 ---

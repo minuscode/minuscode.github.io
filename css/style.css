@@ -373,7 +373,7 @@
 /*
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 22, src/inuit.css/generic/_normalize.scss */
+/* line 11, src/inuit.css/generic/_normalize.scss */
 article,
 aside,
 details,
@@ -392,7 +392,7 @@ summary {
 /*
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 32, src/inuit.css/generic/_normalize.scss */
+/* line 30, src/inuit.css/generic/_normalize.scss */
 audio,
 canvas,
 video {
@@ -457,7 +457,7 @@ a:focus {
 /*
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 95, src/inuit.css/generic/_normalize.scss */
+/* line 94, src/inuit.css/generic/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -487,7 +487,7 @@ abbr[title] {
 /*
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 126, src/inuit.css/generic/_normalize.scss */
+/* line 125, src/inuit.css/generic/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -523,7 +523,7 @@ mark {
 /*
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 164, src/inuit.css/generic/_normalize.scss */
+/* line 161, src/inuit.css/generic/_normalize.scss */
 code,
 kbd,
 pre,
@@ -559,7 +559,7 @@ small {
 /*
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 198, src/inuit.css/generic/_normalize.scss */
+/* line 197, src/inuit.css/generic/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -638,7 +638,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 278, src/inuit.css/generic/_normalize.scss */
+/* line 275, src/inuit.css/generic/_normalize.scss */
 button,
 input,
 select,
@@ -655,7 +655,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 290, src/inuit.css/generic/_normalize.scss */
+/* line 289, src/inuit.css/generic/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -667,7 +667,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 302, src/inuit.css/generic/_normalize.scss */
+/* line 301, src/inuit.css/generic/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -680,7 +680,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 317, src/inuit.css/generic/_normalize.scss */
+/* line 314, src/inuit.css/generic/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -694,7 +694,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 327, src/inuit.css/generic/_normalize.scss */
+/* line 326, src/inuit.css/generic/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -704,7 +704,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 337, src/inuit.css/generic/_normalize.scss */
+/* line 336, src/inuit.css/generic/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -732,7 +732,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 361, src/inuit.css/generic/_normalize.scss */
+/* line 360, src/inuit.css/generic/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -741,7 +741,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 370, src/inuit.css/generic/_normalize.scss */
+/* line 369, src/inuit.css/generic/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -782,7 +782,7 @@ table {
 /**
 * Let’s make the box model all nice, shall we...?
 */
-/* line 16, src/inuit.css/generic/_reset.scss */
+/* line 14, src/inuit.css/generic/_reset.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -794,7 +794,7 @@ table {
 /**
  * The usual...
  */
-/* line 30, src/inuit.css/generic/_reset.scss */
+/* line 25, src/inuit.css/generic/_reset.scss */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul,
@@ -840,7 +840,7 @@ img {
 /**
  * Give form elements some cursor interactions...
  */
-/* line 71, src/inuit.css/generic/_reset.scss */
+/* line 66, src/inuit.css/generic/_reset.scss */
 label,
 input,
 textarea,
@@ -850,7 +850,7 @@ option {
   cursor: pointer;
 }
 
-/* line 77, src/inuit.css/generic/_reset.scss */
+/* line 74, src/inuit.css/generic/_reset.scss */
 .text-input:active,
 .text-input:focus,
 textarea:active,
@@ -885,7 +885,7 @@ textarea:focus {
 /**
  * Base elements
  */
-/* line 24, src/inuit.css/generic/_shared.scss */
+/* line 12, src/inuit.css/generic/_shared.scss */
 h1, h2, h3, h4, h5, h6, hgroup,
 ul, ol, dl,
 blockquote, p, address,
@@ -1054,7 +1054,7 @@ hgroup .hN {
  * The `.lede` class is used to make the introductory text (usually a paragraph)
  * of a document slightly larger.
  */
-/* line 9, src/inuit.css/base/_paragraphs.scss */
+/* line 8, src/inuit.css/base/_paragraphs.scss */
 .lede,
 .lead {
   font-size: 18px;
@@ -1068,7 +1068,7 @@ hgroup .hN {
 /**
  * A series of classes for setting tiny type; for use in smallprint etc.
  */
-/* line 8, src/inuit.css/base/_smallprint.scss */
+/* line 7, src/inuit.css/base/_smallprint.scss */
 .smallprint,
 .milli {
   font-size: 12px;
@@ -1097,7 +1097,7 @@ hgroup .hN {
  */
 /* line 20, src/inuit.css/base/_quotes.scss */
 q {
-  quotes: "\2018" "\2019" "\201C" "\201D";
+  quotes: "‘" "’" "\\201C" "\\201D";
 }
 /* line 23, src/inuit.css/base/_quotes.scss */
 q:before {
@@ -1122,11 +1122,11 @@ q q:after {
 
 /* line 42, src/inuit.css/base/_quotes.scss */
 blockquote {
-  quotes: "\201C" "\201D";
+  quotes: "\\201C" "\\201D";
 }
 /* line 45, src/inuit.css/base/_quotes.scss */
 blockquote p:before {
-  content: "\201C";
+  content: "\\201C";
   content: open-quote;
 }
 /* line 49, src/inuit.css/base/_quotes.scss */
@@ -1136,7 +1136,7 @@ blockquote p:after {
 }
 /* line 53, src/inuit.css/base/_quotes.scss */
 blockquote p:last-of-type:after {
-  content: "\201D";
+  content: "\\201D";
   content: close-quote;
 }
 /* line 58, src/inuit.css/base/_quotes.scss */
@@ -1272,7 +1272,7 @@ img {
 /**
  * Non-fluid images if you specify `width` and/or `height` attributes.
  */
-/* line 19, src/inuit.css/base/_images.scss */
+/* line 18, src/inuit.css/base/_images.scss */
 img[width],
 img[height] {
   max-width: none;
@@ -1346,7 +1346,7 @@ figure > img {
 /**
  * Remove vertical spacing from nested lists.
  */
-/* line 9, src/inuit.css/base/_lists.scss */
+/* line 8, src/inuit.css/base/_lists.scss */
 li > ul,
 li > ol {
   margin-bottom: 0;
@@ -1423,14 +1423,14 @@ table {
   width: 100%;
 }
 
-/* line 62, src/inuit.css/base/_tables.scss */
+/* line 61, src/inuit.css/base/_tables.scss */
 th,
 td {
   padding: 6px;
   text-align: left;
 }
 @media screen and (min-width: 480px) {
-  /* line 62, src/inuit.css/base/_tables.scss */
+  /* line 61, src/inuit.css/base/_tables.scss */
   th,
   td {
     padding: 12px;
@@ -1608,10 +1608,10 @@ td {
 /**
  * Bordered tables
  */
-/* line 129, src/inuit.css/base/_tables.scss */
+/* line 128, src/inuit.css/base/_tables.scss */
 .table--bordered th,
 .table--bordered td {
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
 }
 /* line 132, src/inuit.css/base/_tables.scss */
 .table--bordered th:empty,
@@ -1667,7 +1667,7 @@ fieldset {
    <input type=password class=text-input>
  *
  */
-/* line 25, src/inuit.css/base/_forms.scss */
+/* line 24, src/inuit.css/base/_forms.scss */
 .text-input,
 textarea {
   /**
@@ -1731,7 +1731,7 @@ textarea {
    </li>
  *
  */
-/* line 90, src/inuit.css/base/_forms.scss */
+/* line 89, src/inuit.css/base/_forms.scss */
 label,
 .label {
   display: block;
@@ -1773,7 +1773,7 @@ label,
 /*
  * Labels in check-lists
  */
-/* line 129, src/inuit.css/base/_forms.scss */
+/* line 127, src/inuit.css/base/_forms.scss */
 .check-label,
 .check-list label,
 .check-list .label {
@@ -1820,7 +1820,7 @@ label,
   visibility: hidden;
 }
 
-/* line 172, src/inuit.css/base/_forms.scss */
+/* line 171, src/inuit.css/base/_forms.scss */
 .text-input:active + .extra-help,
 .text-input:focus + .extra-help {
   visibility: visible;
@@ -3228,16 +3228,16 @@ label,
  */
 /* line 8, src/inuit.css/generic/_brand.scss */
 .brand {
-  font-family: "Helvetica Neue", sans-serif!important;
+  font-family: Helvetica Neue, sans-serif!important;
   color: #4a8ec2!important;
 }
 
 /* line 12, src/inuit.css/generic/_brand.scss */
 .brand-face {
-  font-family: "Helvetica Neue", sans-serif!important;
+  font-family: Helvetica Neue, sans-serif!important;
 }
 
-/* line 16, src/inuit.css/generic/_brand.scss */
+/* line 15, src/inuit.css/generic/_brand.scss */
 .brand-color,
 .brand-colour {
   color: #4a8ec2!important;
@@ -3588,7 +3588,7 @@ label,
  */
 /* line 144, src/inuit.css/generic/_helper.scss */
 .go:after {
-  content: "\00A0" "\00BB" !important;
+  content: " " "»" !important;
 }
 
 /**
@@ -3599,7 +3599,7 @@ label,
  */
 /* line 155, src/inuit.css/generic/_helper.scss */
 .back:before {
-  content: "\00AB" "\00A0" !important;
+  content: "«" " " !important;
 }
 
 /**
@@ -3614,7 +3614,7 @@ label,
  * Hide content off-screen without resorting to `display:none;`, also provide
  * breakpoint specific hidden elements.
  */
-/* line 183, src/inuit.css/generic/_helper.scss */
+/* line 182, src/inuit.css/generic/_helper.scss */
 .accessibility,
 .visuallyhidden {
   border: 0 !important;
@@ -3628,7 +3628,7 @@ label,
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 190, src/inuit.css/generic/_helper.scss */
+  /* line 189, src/inuit.css/generic/_helper.scss */
   .accessibility--palm,
   .visuallyhidden--palm {
     border: 0 !important;
@@ -3642,7 +3642,7 @@ label,
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
-  /* line 190, src/inuit.css/generic/_helper.scss */
+  /* line 189, src/inuit.css/generic/_helper.scss */
   .accessibility--lap,
   .visuallyhidden--lap {
     border: 0 !important;
@@ -3656,7 +3656,7 @@ label,
   }
 }
 @media only screen and (min-width: 481px) {
-  /* line 190, src/inuit.css/generic/_helper.scss */
+  /* line 189, src/inuit.css/generic/_helper.scss */
   .accessibility--lap-and-up,
   .visuallyhidden--lap-and-up {
     border: 0 !important;
@@ -3670,7 +3670,7 @@ label,
   }
 }
 @media only screen and (max-width: 939px) {
-  /* line 190, src/inuit.css/generic/_helper.scss */
+  /* line 189, src/inuit.css/generic/_helper.scss */
   .accessibility--portable,
   .visuallyhidden--portable {
     border: 0 !important;
@@ -3684,7 +3684,7 @@ label,
   }
 }
 @media only screen and (min-width: 940px) {
-  /* line 190, src/inuit.css/generic/_helper.scss */
+  /* line 189, src/inuit.css/generic/_helper.scss */
   .accessibility--desk,
   .visuallyhidden--desk {
     border: 0 !important;
@@ -3698,7 +3698,7 @@ label,
   }
 }
 @media only screen and (min-width: 1200px) {
-  /* line 190, src/inuit.css/generic/_helper.scss */
+  /* line 189, src/inuit.css/generic/_helper.scss */
   .accessibility--desk-wide,
   .visuallyhidden--desk-wide {
     border: 0 !important;
@@ -4289,7 +4289,7 @@ html {
   font-size: 0.75rem;
   line-height: 2;
 }
-/* line 474, src/ui/_page.scss */
+/* line 473, src/ui/_page.scss */
 .contact .contacts .icon-mail,
 .contact .contacts .icon-mobile {
   font-size: 16px;
@@ -4435,13 +4435,14 @@ html {
 }
 /* line 602, src/ui/_page.scss */
 .work .block {
-  display: inline-block;
-  margin: 1rem;
-  min-width: 18rem;
   position: relative;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 18rem;
   width: 30%;
+  margin: 1rem;
 }
-/* line 609, src/ui/_page.scss */
+/* line 610, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4453,25 +4454,31 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 618, src/ui/_page.scss */
+/* line 619, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
   text-align: center;
+  background-size: cover;
+  background-position: center;
 }
-/* line 622, src/ui/_page.scss */
-.work .work-item a {
+/* line 625, src/ui/_page.scss */
+.work .work-item span {
   background-color: rgba(206, 222, 203, 0.8);
   color: #fff;
   display: block;
   height: 100%;
   text-decoration: none;
+  text-shadow: 1px 1px 10px #333;
+  -webkit-transition: background-color 0.8s ease;
+  transition: background-color 0.8s ease;
+  padding: 0 10px;
 }
-/* line 629, src/ui/_page.scss */
-.work .work-item a:hover {
-  background-color: #cedecb;
+/* line 636, src/ui/_page.scss */
+.work .work-item span:hover {
+  background-color: transparent;
   cursor: default;
 }
-/* line 635, src/ui/_page.scss */
+/* line 642, src/ui/_page.scss */
 .work .work-item h2 {
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
@@ -4479,7 +4486,7 @@ html {
   padding-top: 7rem;
   text-transform: uppercase;
 }
-/* line 642, src/ui/_page.scss */
+/* line 649, src/ui/_page.scss */
 .work .work-item h2 + p {
   font-family: "PT Sans Caption", sans-serif;
 }
@@ -4569,7 +4576,7 @@ html {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 76, src/ui/_page-head.scss */
+/* line 75, src/ui/_page-head.scss */
 .main-header nav a:hover, .main-header nav a.active {
   text-decoration: underline;
 }
@@ -4609,8 +4616,8 @@ html {
   /* line 105, src/ui/_page-head.scss */
   .header-container .logo:hover {
     border-radius: 100%;
-    -webkit-box-shadow: #194f58 0 0 1em;
     -moz-box-shadow: #194f58 0 0 1em;
+    -webkit-box-shadow: #194f58 0 0 1em;
     box-shadow: #194f58 0 0 1em;
   }
 }
@@ -4770,7 +4777,7 @@ html {
     font-size: 0.75rem;
   }
 }
-/* line 71, src/ui/_page-foot.scss */
+/* line 70, src/ui/_page-foot.scss */
 .main-footer nav a:hover, .main-footer nav a.active {
   text-decoration: underline;
 }
@@ -4826,7 +4833,6 @@ html {
   font-weight: normal;
   font-style: normal;
 }
-
 /* line 12, src/ui/_fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'minus';
@@ -4894,14 +4900,12 @@ html {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.33333;
-  -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
   border-radius: 2px;
-  -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 @media only screen and (max-width: 480px) {
