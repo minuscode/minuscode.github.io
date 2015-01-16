@@ -4462,56 +4462,44 @@ html {
 }
 /* line 624, src/ui/_page.scss */
 .work .work-item span {
+  display: table;
+  width: 100%;
   background-color: rgba(206, 222, 203, 0.8);
   color: #fff;
-  display: block;
   height: 100%;
   text-decoration: none;
   padding: 0 10px;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-/* line 634, src/ui/_page.scss */
+/* line 635, src/ui/_page.scss */
 .work .work-item span:hover {
   background-color: transparent;
 }
-/* line 637, src/ui/_page.scss */
+/* line 638, src/ui/_page.scss */
 .work .work-item span:hover > h2 {
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: auto;
-  background-color: #fff;
-  color: #194f58;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  display: none;
 }
-/* line 648, src/ui/_page.scss */
+/* line 642, src/ui/_page.scss */
 .work .work-item span:hover > .work-info {
   bottom: 0;
 }
-/* line 654, src/ui/_page.scss */
+/* line 648, src/ui/_page.scss */
 .work .work-item h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 3rem;
-  width: 300px;
-  margin-left: -150px;
-  margin-top: -1.5rem;
-  padding: 0 16px;
+  display: table-cell;
   text-align: center;
+  vertical-align: middle;
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-/* line 671, src/ui/_page.scss */
+/* line 659, src/ui/_page.scss */
 .work .work-item p {
   font-family: "PT Sans Caption", sans-serif;
 }
-/* line 675, src/ui/_page.scss */
+/* line 663, src/ui/_page.scss */
 .work .work-item .work-info {
   position: absolute;
   bottom: -5rem;
@@ -4520,10 +4508,10 @@ html {
   margin-left: -10px;
   color: #194f58;
   background-color: #fff;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
-/* line 687, src/ui/_page.scss */
+/* line 675, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4532,12 +4520,12 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 696, src/ui/_page.scss */
+/* line 684, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 700, src/ui/_page.scss */
+/* line 688, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;

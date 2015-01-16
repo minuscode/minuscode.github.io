@@ -622,27 +622,21 @@ html {
     overflow: hidden;
 
     span {
+      display: table;
+      width: 100%;
       background-color: rgba($green, 0.8);
       color: #fff;
-      display: block;
       height: 100%; 
       text-decoration: none;
       padding: 0 10px;
-      -webkit-transition: all 1s ease;
-              transition: all 1s ease;
+      -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease;
 
       &:hover {
         background-color: transparent;
 
         & > h2 {
-          top: 0;
-          left: 0;
-          margin: 0;
-          width: auto;
-          background-color: #fff;
-          color: $default-color;
-          -webkit-transition: all 1s ease;
-                  transition: all 1s ease;
+          display: none;
         }
 
         & > .work-info {
@@ -652,20 +646,14 @@ html {
     }
 
     h2 {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      height: 3rem;
-      width: 300px;
-      margin-left: -150px;
-      margin-top: -1.5rem;
-      padding: 0 16px;
+      display: table-cell;
       text-align: center;
+      vertical-align: middle;
       font-family: $brand-sans-serif;
       font-weight: 400;
       text-transform: uppercase;
-      -webkit-transition: all 1s ease;
-              transition: all 1s ease;
+      -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease;
     }
 
     p {
@@ -680,8 +668,8 @@ html {
       margin-left: -10px;
       color: $default-color;
       background-color: #fff;
-      -webkit-transition: all 1s ease;
-              transition: all 1s ease;
+      -webkit-transition: all 0.5s ease;
+              transition: all 0.5s ease;
     }
 
     ul {
