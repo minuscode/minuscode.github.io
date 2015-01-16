@@ -1,8 +1,8 @@
 ---
 category: work
-title: 'MEO Guestlist'
+title: 'MEO Natal'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://natal.meo.pt/'
-image: 'https://dl.dropboxusercontent.com/u/175565/meo-natal.png'
+image: '../../images/work/meo-natal.png'
 ---

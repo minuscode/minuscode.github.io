@@ -600,11 +600,12 @@ html {
   }
 
   .block {
-    display: inline-block;
-    margin: 1rem;
-    min-width: 18rem;
     position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 18rem;
     width: 30%;
+    margin: 1rem;
 
     img {
       left: 0;
@@ -618,16 +619,22 @@ html {
   .work-item {
     height: 18rem;
     text-align: center;
+    background-size: cover;
+    background-position: center;
 
-    a {
+    span {
       background-color: rgba($green, 0.8);
       color: #fff;
       display: block;
       height: 100%;
       text-decoration: none;
+      text-shadow: 1px 1px 10px #333;
+      -webkit-transition: background-color 0.8s ease;
+      transition: background-color 0.8s ease;
+      padding: 0 10px;
 
       &:hover {
-        background-color: $green;
+        background-color: transparent;
         cursor: default; // TODO - remove after setting working links.
       }
     }
