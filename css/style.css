@@ -4419,7 +4419,6 @@ html {
   color: #fff;
   margin: 0 auto;
   max-width: 1200px;
-  text-align: center;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
   /* line 588, src/ui/_page.scss */
@@ -4433,7 +4432,7 @@ html {
     padding: 0;
   }
 }
-/* line 602, src/ui/_page.scss */
+/* line 601, src/ui/_page.scss */
 .work .block {
   position: relative;
   display: inline-block;
@@ -4442,7 +4441,7 @@ html {
   width: 30%;
   margin: 1rem;
 }
-/* line 610, src/ui/_page.scss */
+/* line 609, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4454,43 +4453,77 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 619, src/ui/_page.scss */
+/* line 618, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
-  text-align: center;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
-/* line 625, src/ui/_page.scss */
+/* line 624, src/ui/_page.scss */
 .work .work-item span {
   background-color: rgba(206, 222, 203, 0.8);
   color: #fff;
   display: block;
   height: 100%;
   text-decoration: none;
-  text-shadow: 1px 1px 10px #333;
-  -webkit-transition: background-color 0.8s ease;
-  transition: background-color 0.8s ease;
   padding: 0 10px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
-/* line 636, src/ui/_page.scss */
+/* line 634, src/ui/_page.scss */
 .work .work-item span:hover {
   background-color: transparent;
-  cursor: default;
 }
-/* line 642, src/ui/_page.scss */
-.work .work-item h2 {
-  font-family: "PT Sans Caption", sans-serif;
-  font-weight: 400;
+/* line 637, src/ui/_page.scss */
+.work .work-item span:hover > h2 {
+  top: 0;
+  left: 0;
   margin: 0;
-  padding-top: 7rem;
-  text-transform: uppercase;
+  width: auto;
+  background-color: #fff;
+  color: #194f58;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
-/* line 649, src/ui/_page.scss */
-.work .work-item h2 + p {
-  font-family: "PT Sans Caption", sans-serif;
+/* line 648, src/ui/_page.scss */
+.work .work-item span:hover > .work-info {
+  bottom: 0;
 }
 /* line 654, src/ui/_page.scss */
+.work .work-item h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 3rem;
+  width: 300px;
+  margin-left: -150px;
+  margin-top: -1.5rem;
+  padding: 0 16px;
+  text-align: center;
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/* line 671, src/ui/_page.scss */
+.work .work-item p {
+  font-family: "PT Sans Caption", sans-serif;
+}
+/* line 675, src/ui/_page.scss */
+.work .work-item .work-info {
+  position: absolute;
+  bottom: -5rem;
+  width: 100%;
+  padding: 10px;
+  margin-left: -10px;
+  color: #194f58;
+  background-color: #fff;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+/* line 687, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4499,15 +4532,15 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 663, src/ui/_page.scss */
+/* line 696, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 667, src/ui/_page.scss */
+/* line 700, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
-  color: #fff;
+  color: #194f58;
   font-size: 22px;
 }
 
