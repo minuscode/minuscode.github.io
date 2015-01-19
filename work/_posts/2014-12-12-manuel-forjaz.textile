@@ -1,6 +1,6 @@
 ---
 category: work
-tags: web, mobile
+tags: website
 title: 'Manuel Forjaz'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31

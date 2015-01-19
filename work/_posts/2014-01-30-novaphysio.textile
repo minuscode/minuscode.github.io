@@ -1,6 +1,6 @@
 ---
 category: work
-tags: web, mobile
+tags: website
 title: 'NovaPhysio'
 subtitle: 'Website'
 date: 2014-01-21 21:31
