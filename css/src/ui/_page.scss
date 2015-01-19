@@ -662,10 +662,10 @@ html {
 
     .work-info {
       position: absolute;
+      left: 0;
       bottom: -5rem;
       width: 100%;
       padding: 10px;
-      margin-left: -10px;
       color: $default-color;
       background-color: #fff;
       -webkit-transition: all 0.5s ease;
