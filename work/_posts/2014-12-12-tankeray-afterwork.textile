@@ -1,6 +1,6 @@
 ---
 category: work
-tags: iOS
+tags: iOS android
 title: 'Tanqueray Afterworks'
 subtitle: 'Android & IOS App'
 date: 2014-01-21 21:31
