@@ -5,5 +5,5 @@ title: 'Mezzolab StoreAgent'
 subtitle: 'Android & IOS App'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/storeagent.jpg'
+image: '../../images/work/mezzolab.png'
 ---

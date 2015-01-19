@@ -589,6 +589,7 @@ html {
   color: #fff;
   margin: 0 auto;
   max-width: 1200px;
+  text-align: center;
 
   @include media-query(lap) {
     padding: 0 25px;
@@ -620,6 +621,7 @@ html {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    text-align: left;
 
     span {
       display: table;

@@ -4419,6 +4419,7 @@ html {
   color: #fff;
   margin: 0 auto;
   max-width: 1200px;
+  text-align: center;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
   /* line 588, src/ui/_page.scss */
@@ -4432,7 +4433,7 @@ html {
     padding: 0;
   }
 }
-/* line 601, src/ui/_page.scss */
+/* line 602, src/ui/_page.scss */
 .work .block {
   position: relative;
   display: inline-block;
@@ -4441,7 +4442,7 @@ html {
   width: 30%;
   margin: 1rem;
 }
-/* line 609, src/ui/_page.scss */
+/* line 610, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4453,14 +4454,15 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 618, src/ui/_page.scss */
+/* line 619, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  text-align: left;
 }
-/* line 624, src/ui/_page.scss */
+/* line 626, src/ui/_page.scss */
 .work .work-item span {
   display: table;
   width: 100%;
@@ -4472,19 +4474,19 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 635, src/ui/_page.scss */
+/* line 637, src/ui/_page.scss */
 .work .work-item span:hover {
   background-color: transparent;
 }
-/* line 638, src/ui/_page.scss */
+/* line 640, src/ui/_page.scss */
 .work .work-item span:hover > h2 {
   display: none;
 }
-/* line 642, src/ui/_page.scss */
+/* line 644, src/ui/_page.scss */
 .work .work-item span:hover > .work-info {
   bottom: 0;
 }
-/* line 648, src/ui/_page.scss */
+/* line 650, src/ui/_page.scss */
 .work .work-item h2 {
   display: table-cell;
   text-align: center;
@@ -4495,11 +4497,11 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 659, src/ui/_page.scss */
+/* line 661, src/ui/_page.scss */
 .work .work-item p {
   font-family: "PT Sans Caption", sans-serif;
 }
-/* line 663, src/ui/_page.scss */
+/* line 665, src/ui/_page.scss */
 .work .work-item .work-info {
   position: absolute;
   left: 0;
@@ -4511,7 +4513,7 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 675, src/ui/_page.scss */
+/* line 677, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4520,12 +4522,12 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 684, src/ui/_page.scss */
+/* line 686, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 688, src/ui/_page.scss */
+/* line 690, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;
