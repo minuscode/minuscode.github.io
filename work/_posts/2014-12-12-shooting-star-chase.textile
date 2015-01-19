@@ -4,5 +4,5 @@ title: 'Shooting Star Chase'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://www.shootingstarchase.org.uk/'
-image: 'https://dl.dropboxusercontent.com/u/175565/shooting-star-chase.png'
+image: '../../images/work/shooting-star.jpg'
 ---
