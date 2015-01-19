@@ -1,8 +1,9 @@
 ---
 category: work
-title: 'Tankeray Afterworks'
+tags: iOS
+title: 'Tanqueray Afterworks'
 subtitle: 'Android & IOS App'
 date: 2014-01-21 21:31
-uri: '#'
-image: 'https://dl.dropboxusercontent.com/u/175565/tankeray-afterwork.png'
+uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
+image: '../../images/work/tanqueray.jpeg'
 ---
