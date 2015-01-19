@@ -1,9 +1,0 @@
----
-category: work
-tags: web, mobile
-title: 'Clinica Veterinária de Alcantara'
-subtitle: 'Website'
-date: 2014-01-21 21:31
-uri: 'http://188.226.184.20/'
-image: '../../images/work/clinica_vet.png'
----
