@@ -4,6 +4,8 @@ tags: website
 title: 'MEO Produtos Inovadores'
 subtitle: 'Website'
 date: 2014-01-21 21:31
-uri: '#'
-image: '../../images/work/produtos-inovadores.jpg'
+uri: 'https://meopub-staging.herokuapp.com/'
+image: '../../images/work/produtos-inovadores1.jpg'
+links:
+ - website: https://meopub-staging.herokuapp.com/
 ---

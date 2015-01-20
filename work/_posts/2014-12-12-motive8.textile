@@ -5,5 +5,7 @@ title: 'Motive8'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://www.m8group.co.uk/'
-image: '../../images/work/motive8.png'
+image: '../../images/work/motive8_1.jpg'
+links:
+ - website: http://www.m8group.co.uk/
 ---

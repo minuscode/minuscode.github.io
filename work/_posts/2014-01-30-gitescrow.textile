@@ -1,0 +1,11 @@
+---
+category: work
+tags: website
+title: 'Gitescrow'
+subtitle: 'website'
+date: 2014-01-21 21:31
+uri: 'https://github.com/GitEscrow'
+image: '../../images/work/gitescrow.jpg'
+links:
+ - website: https://github.com/GitEscrow
+---

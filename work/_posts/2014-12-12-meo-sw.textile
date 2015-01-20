@@ -5,5 +5,7 @@ title: 'MEO Sudoeste'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'www.meosudeste.pt'
-image: '../../images/work/meo-sw2.jpg'
+image: '../../images/work/meo-sw.jpg'
+links:
+ - website: www.meosudeste.pt
 ---

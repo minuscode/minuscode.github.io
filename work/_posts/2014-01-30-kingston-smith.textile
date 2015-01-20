@@ -1,0 +1,11 @@
+---
+category: work
+tags: website
+title: 'Kingston Smith'
+subtitle: 'website'
+date: 2014-01-21 21:31
+uri: 'http://www.kingstonsmith.co.uk/'
+image: '../../images/work/kingstonsmith.jpg'
+links:
+ - website: http://www.kingstonsmith.co.uk/
+---

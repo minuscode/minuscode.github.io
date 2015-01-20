@@ -4,6 +4,8 @@ tags: website
 title: 'CDUL'
 subtitle: 'Website'
 date: 2014-01-21 21:31
-uri: '#'
-image: '../../images/work/cdul.jpg'
+uri: 'http://www.cdulrugby.pt/'
+image: '../../images/work/cdul1.jpg'
+links:
+ - website: http://www.cdulrugby.pt/
 ---

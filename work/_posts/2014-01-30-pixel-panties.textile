@@ -1,0 +1,11 @@
+---
+category: work
+tags: website
+title: 'Pixel Panties'
+subtitle: 'website'
+date: 2014-01-21 21:31
+uri: 'http://pixel-panties.myshopify.com/'
+image: '../../images/work/pixelpanties.jpg'
+links:
+ - website: http://pixel-panties.myshopify.com/
+---

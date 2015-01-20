@@ -4,6 +4,8 @@ tags: website
 title: 'UMinho'
 subtitle: 'Website'
 date: 2014-01-21 21:31
-uri: '#'
-image: '../../images/work/uminho.jpg'
+uri: 'http://uminhoexec.uminho.pt/'
+image: '../../images/work/uminho1.jpg'
+links:
+ - website: http://uminhoexec.uminho.pt/
 ---

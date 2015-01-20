@@ -21,15 +21,12 @@ category: work
     <article class="work-item block" style="background-image: url({{ post.image }})">
       <div class="work-info">
         <h2>{{ post.title }}</h2>
-        {% for link_hash in post.links %}
-          {% for link in link_hash %}
-            <a href="{{ link[1] }}">{{ link[0] }}</a>
-          {% endfor %}
-        {% endfor %}
         <p>{{ post.subtitle }}</p>
         <ul>
-        {% for link in post.links %}
-          <li><a href="{{ link.key }}" target="blank" class="icon-{{ link.value }}">{{ link[0] }}</a></li>
+        {% for link_hash in post.links %}
+          {% for link in link_hash %}
+          <li><a href="{{ link[1] }}" target="blank" class="icon-{{ link[0] }}"></a></li>
+          {% endfor %}
         {% endfor %}
         </ul>
       </div>
