@@ -2,7 +2,7 @@
 category: work
 tags: website
 title: '4MOOVE'
-subtitle: 'Facebook App'
+subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://4moove.com/'
 image: '../../images/work/4moove.png'
