@@ -5,5 +5,10 @@ title: 'Tanqueray Afterworks'
 subtitle: 'Android & IOS App'
 date: 2014-01-21 21:31
 uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
+ios_uri: 'www.facebook.com' 
+android_uri: ''
 image: '../../images/work/tanqueray.jpeg'
+links:
+ - ios: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8
+ - android: www.facebook.com
 ---

@@ -4463,57 +4463,43 @@ html {
   text-align: left;
 }
 /* line 626, src/ui/_page.scss */
-.work .work-item span {
-  display: table;
-  width: 100%;
-  background-color: rgba(206, 222, 203, 0.8);
-  color: #fff;
-  height: 100%;
-  text-decoration: none;
-  padding: 0 10px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-/* line 637, src/ui/_page.scss */
-.work .work-item span:hover {
+.work .work-item:hover {
   background-color: transparent;
 }
-/* line 640, src/ui/_page.scss */
-.work .work-item span:hover > h2 {
+/* line 629, src/ui/_page.scss */
+.work .work-item:hover > h2 {
   display: none;
 }
-/* line 644, src/ui/_page.scss */
-.work .work-item span:hover > .work-info {
-  bottom: 0;
+/* line 633, src/ui/_page.scss */
+.work .work-item:hover > .work-info {
+  top: 0;
 }
-/* line 650, src/ui/_page.scss */
+/* line 638, src/ui/_page.scss */
 .work .work-item h2 {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 661, src/ui/_page.scss */
+/* line 646, src/ui/_page.scss */
 .work .work-item p {
   font-family: "PT Sans Caption", sans-serif;
 }
-/* line 665, src/ui/_page.scss */
+/* line 650, src/ui/_page.scss */
 .work .work-item .work-info {
   position: absolute;
   left: 0;
-  bottom: -5rem;
+  top: 100%;
   width: 100%;
+  height: 100%;
   padding: 10px;
   color: #194f58;
-  background-color: #fff;
+  background-color: #cedecb;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 677, src/ui/_page.scss */
+/* line 663, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4522,12 +4508,12 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 686, src/ui/_page.scss */
+/* line 672, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 690, src/ui/_page.scss */
+/* line 676, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;
