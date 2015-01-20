@@ -1,0 +1,11 @@
+---
+category: work
+tags: website
+title: 'Silicongate'
+subtitle: 'website'
+date: 2014-01-21 21:31
+uri: 'http://www.silicongate.com/'
+image: '../../images/work/silicongate.jpg'
+links:
+ - website: http://www.silicongate.com/
+---

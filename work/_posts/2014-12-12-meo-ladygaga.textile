@@ -5,5 +5,7 @@ title: 'MEO Ladygaga'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'http://meo-fb-ladygaga.herokuapp.com/'
-image: '../../images/work/meo-ladygaga.png'
+image: '../../images/work/meo-ladygaga1.jpg'
+links:
+ - website: http://meo-fb-ladygaga.herokuapp.com/
 ---

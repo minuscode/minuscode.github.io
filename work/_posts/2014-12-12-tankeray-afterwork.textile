@@ -7,8 +7,8 @@ date: 2014-01-21 21:31
 uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
 ios_uri: 'www.facebook.com'
 android_uri: ''
-image: '../../images/work/tanqueray.jpeg'
+image: '../../images/work/tanqueray.jpg'
 links:
- - ios: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8
- - android: https://www.facebook.com
+ - iOS: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8
+ - android: https://play.google.com/store/apps/details?id=com.minuscode.afterwork
 ---

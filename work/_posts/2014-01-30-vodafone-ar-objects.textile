@@ -1,0 +1,12 @@
+---
+category: work
+tags: website
+title: 'Vodafone AR Objects'
+subtitle: 'Android & IOS App'
+date: 2014-01-21 21:31
+uri: 'http://dropkick.vodafone.de/'
+image: '../../images/work/vodafone.jpg'
+links:
+ - iOS: https://itunes.apple.com/app/id814503648
+ - android: https://play.google.com/store/apps/details?id=com.ipol.vodafonedropkick
+---

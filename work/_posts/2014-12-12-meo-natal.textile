@@ -5,5 +5,7 @@ title: 'MEO Natal'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://natal.meo.pt/'
-image: '../../images/work/meo-natal.png'
+image: '../../images/work/meo-natal1.jpg'
+links:
+ - website: http://natal.meo.pt/
 ---

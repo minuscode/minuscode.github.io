@@ -4,6 +4,8 @@ tags: website
 title: 'Surfers Lodge'
 subtitle: 'Website'
 date: 2014-01-21 21:31
-uri: '#'
+uri: 'http://surferslodgepeniche.com/pt/'
 image: '../../images/work/surfers-lodge.jpg'
+links:
+ - website: http://surferslodgepeniche.com/pt/
 ---

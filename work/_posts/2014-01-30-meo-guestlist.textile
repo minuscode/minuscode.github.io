@@ -5,5 +5,7 @@ title: 'MEO Guestlist'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'https://meo-fb-concerts.herokuapp.com/concerts'
-image: '../../images/work/meo-guestlist.png'
+image: '../../images/work/meo-guestlist1.jpg'
+links:
+ - website: https://meo-fb-concerts.herokuapp.com/concerts
 ---
