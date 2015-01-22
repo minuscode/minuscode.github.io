@@ -1,4 +1,4 @@
-name:      Minuscode
+name: Minuscode
 auto: true
 exclude: Guardfile
 permalink: none

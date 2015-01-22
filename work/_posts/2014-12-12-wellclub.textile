@@ -1,11 +1,15 @@
 ---
+layout: post
 category: work
 tags: website
-title: 'Well Club'
+title: 'WellClub'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://www.wellclub.com'
 image: '../../images/work/wellclub1.jpg'
+permalink: /work/wellclub
 links:
  - website: http://www.wellclub.com
 ---
+
+Test content
