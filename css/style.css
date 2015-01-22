@@ -4493,13 +4493,14 @@ html {
   top: 100%;
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 50px 10px 10px;
+  text-align: center;
   color: #194f58;
   background-color: #cedecb;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 663, src/ui/_page.scss */
+/* line 664, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4508,12 +4509,12 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 672, src/ui/_page.scss */
+/* line 673, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 676, src/ui/_page.scss */
+/* line 677, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;

@@ -1,8 +1,12 @@
 ---
-category: wor_
-title: 'Coming never'
-subtitle: 'its around the corner cae'
+category: work
+tags: website
+hidden: hidden
+title: 'Sabado Capas'
+subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: '#'
-image: 'minuscode-work-placeholder.jpg'
+image: '../../images/work/sabado.jpg'
+links:
+ - website: http://sabado-voting.herokuapp.com/
 ---

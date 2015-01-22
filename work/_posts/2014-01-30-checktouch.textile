@@ -1,6 +1,7 @@
 ---
-category: wor_
+category: work
 tags: website
+hidden: hidden
 title: 'Checktouch'
 subtitle: 'website'
 date: 2014-01-21 21:31
