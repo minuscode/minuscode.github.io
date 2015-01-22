@@ -1,8 +1,12 @@
 ---
-category: wor_
-title: 'Coming never'
-subtitle: 'its around the corner cae'
+category: work
+tags: website
+hidden: hidden
+title: 'mQuiq'
+subtitle: 'IOS App'
 date: 2014-01-21 21:31
-uri: '#'
-image: 'minuscode-work-placeholder.jpg'
+uri: 'https://itunes.apple.com/BR/app/id765380949'
+image: '../../images/work/mquiq.jpg'
+links:
+ - iOS: https://itunes.apple.com/BR/app/id765380949
 ---

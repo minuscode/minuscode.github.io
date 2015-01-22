@@ -1,8 +1,12 @@
 ---
-category: wor_
-title: 'Coming never'
-subtitle: 'its around the corner cae'
+category: work
+tags: website
+hidden: hidden
+title: 'Casa do passadiço'
+subtitle: 'website'
 date: 2014-01-21 21:31
-uri: '#'
-image: 'minuscode-work-placeholder.jpg'
+uri: 'http://www.casadopassadico.com/'
+image: '../../images/work/casa-passadico1.jpg'
+links:
+ - website: http://www.casadopassadico.com/
 ---

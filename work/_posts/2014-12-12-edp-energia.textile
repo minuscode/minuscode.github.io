@@ -1,8 +1,11 @@
 ---
-category: wor_
-title: 'Coming never'
-subtitle: 'its around the corner cae'
+category: work
+title: 'EDP'
+hidden: hidden
+subtitle: 'Microsite Energia que nos une'
 date: 2014-01-21 21:31
 uri: '#'
-image: 'minuscode-work-placeholder.jpg'
+image: '../../images/work/edp.jpg'
+links:
+ - website: http://edp-microsites.herokuapp.com/
 ---

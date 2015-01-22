@@ -1,8 +1,12 @@
 ---
-category: wor_
-title: 'Coming never'
+category: work
+tags: website
+hidden: hidden
+title: 'Grey'
 subtitle: 'its around the corner cae'
 date: 2014-01-21 21:31
 uri: '#'
-image: 'minuscode-work-placeholder.jpg'
+image: '../../images/work/grey.jpg'
+links:
+ - website: http://greyshopper.co.uk/
 ---

@@ -1,8 +1,13 @@
 ---
-category: wor_
-title: 'Coming never'
-subtitle: 'its around the corner cae'
+category: work
+tags: website
+hidden: hidden
+title: 'Desperados'
+subtitle: 'IOS App'
 date: 2014-01-21 21:31
 uri: '#'
-image: 'minuscode-work-placeholder.jpg'
+image: '../../images/work/desperados.jpg'
+links:
+ - iOS: https://itunes.apple.com/pt/app/bringontheparty/id849351242?mt=8
+ - android: https://play.google.com/store/apps/details?id=com.minuscode.desperados.bringontheparty
 ---

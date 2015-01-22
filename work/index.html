@@ -18,9 +18,9 @@ category: work
   {% for post in site.posts %}
 
   {% if post.category contains 'work' %}
-    <article class="work-item block" style="background-image: url({{ post.image }})">
+    <article class="work-item block {{ post.hidden contains }}" style="background-image: url({{ post.image }})">
       <div class="work-info">
-        <h2>{{ post.title }}</h2>
+        <h2><a href="/single">{{ post.title }}</a></h2>
         <p>{{ post.subtitle }}</p>
         <ul>
         {% for link_hash in post.links %}

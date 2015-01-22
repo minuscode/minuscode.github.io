@@ -1,8 +1,12 @@
 ---
-category: wor_
-title: 'Coming never'
-subtitle: 'its around the corner cae'
+category: work
+tags: website
+hidden: hidden
+title: 'Electric Ballroom'
+subtitle: 'website'
 date: 2014-01-21 21:31
-uri: '#'
-image: 'minuscode-work-placeholder.jpg'
+uri: 'http://electricballroom.co.uk/'
+image: '../../images/work/electric-ballroom.jpg'
+links:
+ - website: http://electricballroom.co.uk/
 ---
