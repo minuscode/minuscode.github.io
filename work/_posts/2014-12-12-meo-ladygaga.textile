@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website facebook
 title: 'MEO Ladygaga'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'http://meo-fb-ladygaga.herokuapp.com/'
-image: '../../images/work/meo-ladygaga1.jpg'
+image: 
+ - url: '../../images/work/meo-ladygaga1.jpg'
+permalink: /work/meo-ladygaga
 links:
  - website: http://meo-fb-ladygaga.herokuapp.com/
 ---

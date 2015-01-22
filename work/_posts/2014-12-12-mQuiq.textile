@@ -1,4 +1,5 @@
 ---
+layout: post
 category: work
 tags: website
 hidden: hidden
@@ -6,7 +7,9 @@ title: 'mQuiq'
 subtitle: 'IOS App'
 date: 2014-01-21 21:31
 uri: 'https://itunes.apple.com/BR/app/id765380949'
-image: '../../images/work/mquiq.jpg'
+image: 
+ - url: '../../images/work/mquiq.jpg'
+permalink: /work/mquiq
 links:
  - iOS: https://itunes.apple.com/BR/app/id765380949
 ---

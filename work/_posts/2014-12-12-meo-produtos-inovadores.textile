@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'MEO Produtos Inovadores'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'https://meopub-staging.herokuapp.com/'
-image: '../../images/work/produtos-inovadores1.jpg'
+image: 
+ - url: '../../images/work/produtos-inovadores1.jpg'
+permalink: /work/meo-produtos-inovadores
 links:
  - website: https://meopub-staging.herokuapp.com/
 ---

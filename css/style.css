@@ -4419,7 +4419,6 @@ html {
   color: #fff;
   margin: 0 auto;
   max-width: 1200px;
-  text-align: center;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
   /* line 588, src/ui/_page.scss */
@@ -4433,7 +4432,7 @@ html {
     padding: 0;
   }
 }
-/* line 602, src/ui/_page.scss */
+/* line 601, src/ui/_page.scss */
 .work .block {
   position: relative;
   display: inline-block;
@@ -4442,7 +4441,7 @@ html {
   width: 30%;
   margin: 1rem;
 }
-/* line 610, src/ui/_page.scss */
+/* line 609, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4454,7 +4453,7 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 619, src/ui/_page.scss */
+/* line 618, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
   background-size: cover;
@@ -4462,19 +4461,19 @@ html {
   overflow: hidden;
   text-align: left;
 }
-/* line 626, src/ui/_page.scss */
+/* line 625, src/ui/_page.scss */
 .work .work-item:hover {
   background-color: transparent;
 }
-/* line 629, src/ui/_page.scss */
+/* line 628, src/ui/_page.scss */
 .work .work-item:hover > h2 {
   display: none;
 }
-/* line 633, src/ui/_page.scss */
+/* line 632, src/ui/_page.scss */
 .work .work-item:hover > .work-info {
   top: 0;
 }
-/* line 638, src/ui/_page.scss */
+/* line 637, src/ui/_page.scss */
 .work .work-item h2 {
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
@@ -4482,11 +4481,11 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 646, src/ui/_page.scss */
+/* line 645, src/ui/_page.scss */
 .work .work-item p {
   font-family: "PT Sans Caption", sans-serif;
 }
-/* line 650, src/ui/_page.scss */
+/* line 649, src/ui/_page.scss */
 .work .work-item .work-info {
   position: absolute;
   left: 0;
@@ -4500,7 +4499,7 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 664, src/ui/_page.scss */
+/* line 663, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4509,16 +4508,22 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 673, src/ui/_page.scss */
+/* line 672, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 677, src/ui/_page.scss */
+/* line 676, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;
   font-size: 22px;
+}
+
+/*** Single Work ***/
+/* line 688, src/ui/_page.scss */
+.post .work {
+  color: #000;
 }
 
 /*------------------------------------*\

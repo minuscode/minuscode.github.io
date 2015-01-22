@@ -1,4 +1,5 @@
 ---
+layout: post
 category: work
 tags: website
 hidden: hidden
@@ -6,7 +7,9 @@ title: 'Casa do passadiço'
 subtitle: 'website'
 date: 2014-01-21 21:31
 uri: 'http://www.casadopassadico.com/'
-image: '../../images/work/casa-passadico1.jpg'
+image: 
+ - url: '../../images/work/casa-passadico1.jpg'
+permalink: /work/casa-do-passadico
 links:
  - website: http://www.casadopassadico.com/
 ---

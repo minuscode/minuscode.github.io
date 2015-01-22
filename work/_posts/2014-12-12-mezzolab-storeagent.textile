@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: iOS android
 title: 'Mezzolab StoreAgent'
 subtitle: 'Android & IOS App'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/mezzolab.jpg'
+image: 
+ - url: '../../images/work/mezzolab.jpg'
+permalink: /work/mezzolab-storeagent
 links:
  - iOS: https://itunes.apple.com/pt/app/store-agent/id539427391?mt=8
  - android: https://play.google.com/store/apps/details?id=com.mezzolab.storeagent2013

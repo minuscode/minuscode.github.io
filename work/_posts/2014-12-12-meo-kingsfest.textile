@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website facebook
 title: 'MEO Kingsfest'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'http://meo-fb-kingsfest.herokuapp.com/'
-image: '../../images/work/meo-kingsfest.png'
+image: 
+ - url: '../../images/work/meo-kingsfest.png'
+permalink: /work/meo-kingsfest
 links:
  - website: http://meo-fb-kingsfest.herokuapp.com/
 ---

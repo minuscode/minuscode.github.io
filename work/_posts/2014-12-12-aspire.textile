@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'Aspire'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://www.aspireprmarketing.com/'
-image: '../../images/work/aspire.png'
+image: 
+ - url: '../../images/work/aspire.png'
+permalink: /work/aspire
 links:
  - website: http://www.aspireprmarketing.com/
 ---

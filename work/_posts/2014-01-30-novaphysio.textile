@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'NovaPhysio'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://novaphysio.pt/'
-image: '../../images/work/novaphysio.png'
+image: 
+ - url: '../../images/work/novaphysio.png'
+permalink: /work/novaphysio
 links:
  - website: http://novaphysio.pt/
 ---

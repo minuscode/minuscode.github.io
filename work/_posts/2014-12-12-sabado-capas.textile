@@ -1,4 +1,5 @@
 ---
+layout: post
 category: work
 tags: website
 hidden: hidden
@@ -6,7 +7,9 @@ title: 'Sabado Capas'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/sabado.jpg'
+image: 
+ - url: '../../images/work/sabado.jpg'
+permalink: /work/sabado-capas
 links:
  - website: http://sabado-voting.herokuapp.com/
 ---

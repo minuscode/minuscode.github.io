@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website facebook
 title: 'MEO Postcards'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'https://apps.facebook.com/meovideopostal/'
-image: '../../images/work/postcards.jpg'
+image: 
+ - url: '../../images/work/postcards.jpg'
+permalink: /work/meo-postcards
 links:
  - website: https://apps.facebook.com/meovideopostal/
 ---

@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'Cargo Records'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://cargorecords.co.uk/'
-image: '../../images/work/cargo-records.png'
+image: 
+ - url: '../../images/work/cargo-records.png'
+permalink: /work/cargo-records
 links:
  - website: http://cargorecords.co.uk/
 ---

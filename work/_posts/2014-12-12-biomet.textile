@@ -1,4 +1,5 @@
 ---
+layout: post
 category: work
 tags: website
 hidden: true
@@ -6,7 +7,9 @@ title: 'Biomet'
 subtitle: 'IOS App'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/biomet.jpg'
+image: 
+ - url: '../../images/work/biomet.jpg'
+permalink: /work/biomet
 links:
  - iOS: #
 ---
