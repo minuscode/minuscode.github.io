@@ -1,0 +1,36 @@
+---
+layout: default
+title: minuscode - Work
+category: work
+---
+
+{% for post in site.posts %}
+
+<div class="masthead masthead-work">
+  <div class="wrapper">
+    <h1>{{ post.title }}</h1>
+  </div>
+</div><!-- /masthead -->
+
+<div class="content work">
+
+  {% if post.category contains 'work' %}
+    <article class="work-item block {{ post.hidden contains }}" style="background-image: url({{ post.image }})">
+      <div class="work-info">
+        <p>{{ post.subtitle }}</p>
+        <ul>
+        {% for link_hash in post.links %}
+          {% for link in link_hash %}
+          <li><a href="{{ link[1] }}" target="blank" class="icon-{{ link[0] }}"></a></li>
+          {% endfor %}
+        {% endfor %}
+        </ul>
+      </div>
+    </article>
+  {%  endif %}
+
+</div><!-- /work -->
+
+{% endfor %}
+
+{% include contact_us.html %}
