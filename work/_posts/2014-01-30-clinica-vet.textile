@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'Clinica Veterinária de Alcantara'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://188.226.184.20/'
-image: '../../images/work/clinica_vet.jpg'
+image: 
+ - url: '../../images/work/clinica_vet.jpg'
+permalink: /work/clinica-veterinaria-alcantara
 links:
  - website: http://188.226.184.20/
 ---

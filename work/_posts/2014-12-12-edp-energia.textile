@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 title: 'EDP'
 hidden: hidden
 subtitle: 'Microsite Energia que nos une'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/edp.jpg'
+image: 
+ - url: '../../images/work/edp.jpg'
+permalink: /work/edp-energia-que-nos-une
 links:
  - website: http://edp-microsites.herokuapp.com/
 ---

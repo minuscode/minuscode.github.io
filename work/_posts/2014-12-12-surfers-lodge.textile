@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'Surfers Lodge'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://surferslodgepeniche.com/pt/'
-image: '../../images/work/surfers-lodge.jpg'
+image: 
+ - url: '../../images/work/surfers-lodge.jpg'
+permalink: /work/surfers-lodge
 links:
  - website: http://surferslodgepeniche.com/pt/
 ---

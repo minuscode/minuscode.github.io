@@ -16,23 +16,29 @@ category: work
 <div class="content work">
 
   {% for post in site.posts %}
-
-  {% if post.category contains 'work' %}
-    <article class="work-item block {{ post.hidden contains }}" style="background-image: url({{ post.image }})">
-      <div class="work-info">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.subtitle }}</p>
-        <ul>
-        {% for link_hash in post.links %}
-          {% for link in link_hash %}
-          <li><a href="{{ link[1] }}" target="blank" class="icon-{{ link[0] }}"></a></li>
-          {% endfor %}
+    {% if post.category contains 'work' %}
+      {% assign foundImage = 0 %}
+      {% for image_hash in post.image %}
+        {% for image in image_hash %}
+          {% if foundImage == 0 %}
+          <article class="work-item block {{ post.hidden contains }}" style="background-image: url({{ image[1] }})">
+            <div class="work-info">
+              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <p>{{ post.subtitle }}</p>
+              <ul>
+              {% for link_hash in post.links %}
+                {% for link in link_hash %}
+                <li><a href="{{ link[1] }}" target="blank" class="icon-{{ link[0] }}"></a></li>
+                {% endfor %}
+              {% endfor %}
+              </ul>
+            </div>
+          </article>
+          {% assign foundImage = 1 %}
+          {% endif %}
         {% endfor %}
-        </ul>
-      </div>
-    </article>
-  {%  endif %}
-
+      {% endfor %}
+    {%  endif %}
   {% endfor %}
 
 </div><!-- /work -->

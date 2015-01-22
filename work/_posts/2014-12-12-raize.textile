@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website 
 title: 'Raize'
 subtitle: 'Frontend Website'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/raize.jpg'
+image: 
+ - url: '../../images/work/raize.jpg'
+permalink: /work/raize
 links:
  - website: #
 ---

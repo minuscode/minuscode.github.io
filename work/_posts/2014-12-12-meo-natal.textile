@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'MEO Natal'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: 'http://natal.meo.pt/'
-image: '../../images/work/meo-natal1.jpg'
+image: 
+ - url: '../../images/work/meo-natal1.jpg'
+permalink: /work/meo-natal
 links:
  - website: http://natal.meo.pt/
 ---

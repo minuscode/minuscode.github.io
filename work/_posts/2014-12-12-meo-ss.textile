@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website facebook
 title: 'MEO Secret Story 5'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'https://meo-fb-ss.herokuapp.com/'
-image: '../../images/work/meo-ss.png'
+image: 
+ - url: '../../images/work/meo-ss.png'
+permalink: /work/meo-secret-story
 links:
  - website: https://meo-fb-ss.herokuapp.com/
 ---

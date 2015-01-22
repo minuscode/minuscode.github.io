@@ -1,4 +1,5 @@
 ---
+layout: post
 category: work
 tags: website
 hidden: hidden
@@ -6,7 +7,9 @@ title: 'Electric Ballroom'
 subtitle: 'website'
 date: 2014-01-21 21:31
 uri: 'http://electricballroom.co.uk/'
-image: '../../images/work/electric-ballroom.jpg'
+image: 
+ - url: '../../images/work/electric-ballroom.jpg'
+permalink: /work/electric-ballroom
 links:
  - website: http://electricballroom.co.uk/
 ---

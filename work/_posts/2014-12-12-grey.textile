@@ -1,4 +1,5 @@
 ---
+layout: post
 category: work
 tags: website
 hidden: hidden
@@ -6,7 +7,9 @@ title: 'Grey'
 subtitle: 'its around the corner cae'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/grey.jpg'
+image: 
+ - url: '../../images/work/grey.jpg'
+permalink: /work/grey-chopper
 links:
  - website: http://greyshopper.co.uk/
 ---

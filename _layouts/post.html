@@ -1,9 +1,35 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+
 
 <div class="post">
-{{ content }}
+	<div class="masthead masthead-work">
+		<div class="wrapper">
+			<h1>{{page.title}}</h1>
+		</div>
+	</div><!-- /masthead -->
+
+	<div class="work">
+		<div class="grid">
+			<div class="grid__item three-quarters">
+			  <div class="main-content">{{ content }}</div>
+		  </div><!--
+	 --><div class="grid__item one-quarter">
+			  <div class="sidebar">
+			  	<p class="client">Client: {{page.client}}</p>
+			  	<p class="design">Design: {{page.design}}</p>
+			  </div>
+		  </div>
+			<ul>
+        {% for image_hash in page.image %}
+					{% for image in image_hash %}
+						<li><img src="{{ image[1] }}"></li>
+					{% endfor %}
+        {% endfor %}
+			</ul>
+		 </div>
+	</div><!-- /work -->
 </div>
+
+{% include contact_us.html %}

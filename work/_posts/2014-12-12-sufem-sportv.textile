@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'Surfem'
 subtitle: 'Website'
 date: 2014-01-21 21:31
 uri: '#'
-image: '../../images/work/surfem.jpg'
+image: 
+ - url: '../../images/work/surfem.jpg'
+permalink: /work/surfem
 links:
  - website: #
 ---

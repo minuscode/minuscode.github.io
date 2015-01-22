@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'FeelGreen'
 subtitle: 'website'
 date: 2014-01-21 21:31
 uri: 'http://www.feelgreen.pt/'
-image: '../../images/work/feelgreen-logo.jpg'
+image: 
+ - url: '../../images/work/feelgreen-logo.jpg'
+permalink: /work/feelgreen
 links:
  - website: http://www.feelgreen.pt/
 ---

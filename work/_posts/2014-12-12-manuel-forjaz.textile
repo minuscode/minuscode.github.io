@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website
 title: 'Manuel Forjaz'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'http://manuelforjaz.com/'
-image: '../../images/work/manuel-forjaz.png'
+image: 
+ - url: '../../images/work/manuel-forjaz.png'
+permalink: /work/manuel-forjaz
 links:
  - website: http://manuelforjaz.com/
 ---

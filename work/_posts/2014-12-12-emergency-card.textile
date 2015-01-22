@@ -1,4 +1,5 @@
 ---
+layout: post
 category: work
 tags: website
 hidden: hidden
@@ -6,7 +7,9 @@ title: 'Emergency Card'
 subtitle: 'website'
 date: 2014-01-21 21:31
 uri: 'http://emergencycard.me/'
-image: '../../images/work/emergencycard.jpg'
+image: 
+ - url: '../../images/work/emergencycard.jpg'
+permalink: /work/emergency-card
 links:
  - website: http://emergencycard.me/
 ---

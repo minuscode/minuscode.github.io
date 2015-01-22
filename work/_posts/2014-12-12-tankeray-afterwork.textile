@@ -1,13 +1,14 @@
 ---
+layout: post
 category: work
 tags: iOS android
-title: 'Tanqueray Afterworks'
+title: 'Tanqueray Afterwork'
 subtitle: 'Android & IOS App'
 date: 2014-01-21 21:31
 uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
-ios_uri: 'www.facebook.com'
-android_uri: ''
-image: '../../images/work/tanqueray.jpg'
+image: 
+ - url: '../../images/work/tanqueray.jpg'
+permalink: /work/tanqueray-afterwork
 links:
  - iOS: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8
  - android: https://play.google.com/store/apps/details?id=com.minuscode.afterwork

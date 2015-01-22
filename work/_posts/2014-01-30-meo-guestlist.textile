@@ -1,11 +1,14 @@
 ---
+layout: post
 category: work
 tags: website facebook
 title: 'MEO Guestlist'
 subtitle: 'Facebook App'
 date: 2014-01-21 21:31
 uri: 'https://meo-fb-concerts.herokuapp.com/concerts'
-image: '../../images/work/meo-guestlist1.jpg'
+image: 
+ - url: '../../images/work/meo-guestlist1.jpg'
+permalink: /work/meo-guestlist
 links:
  - website: https://meo-fb-concerts.herokuapp.com/concerts
 ---
