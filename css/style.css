@@ -4521,6 +4521,17 @@ html {
 /* line 688, src/ui/_page.scss */
 .post .work {
   color: #000;
+  padding: 80px 0;
+}
+/* line 692, src/ui/_page.scss */
+.post .work ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+/* line 697, src/ui/_page.scss */
+.post .work li {
+  display: inline-block;
+  height: 200px;
 }
 
 /*------------------------------------*\

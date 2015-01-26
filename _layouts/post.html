@@ -21,11 +21,11 @@ layout: default
 			  	<p class="design">Design: {{page.design}}</p>
 			  </div>
 		  </div>
-			<ul>
+			<ul class="grid">
         {% for image_hash in page.image %}
 					{% for image in image_hash %}
-						<li><img src="{{ image[1] }}"></li>
-					{% endfor %}
+						<li class="grid__item one-quarter"><img src="{{ image[1] }}"></li><!--
+					-->{% endfor %}
         {% endfor %}
 			</ul>
 		 </div>
