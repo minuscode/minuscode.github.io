@@ -4461,25 +4461,22 @@ html {
   overflow: hidden;
   text-align: left;
 }
-/* line 625, src/ui/_page.scss */
-.work .work-item:hover {
-  background-color: transparent;
-}
-/* line 628, src/ui/_page.scss */
-.work .work-item:hover > h2 {
-  display: none;
-}
-/* line 632, src/ui/_page.scss */
+/* line 627, src/ui/_page.scss */
 .work .work-item:hover > .work-info {
   top: 0;
 }
-/* line 637, src/ui/_page.scss */
+/* line 632, src/ui/_page.scss */
 .work .work-item h2 {
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+/* line 640, src/ui/_page.scss */
+.work .work-item a {
+  text-decoration: none;
+  color: #194f58;
 }
 /* line 645, src/ui/_page.scss */
 .work .work-item p {
