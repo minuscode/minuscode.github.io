@@ -4517,18 +4517,38 @@ html {
   font-size: 22px;
 }
 
-/*** Single Work ***/
+/* line 685, src/ui/_page.scss */
+.categories {
+  text-align: right;
+}
 /* line 688, src/ui/_page.scss */
+.categories li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 30px;
+}
+/* line 693, src/ui/_page.scss */
+.categories li a {
+  text-decoration: none;
+  color: #c94055;
+}
+/* line 697, src/ui/_page.scss */
+.categories li a:hover {
+  color: #932a3a;
+}
+
+/*** Single Work ***/
+/* line 707, src/ui/_page.scss */
 .post .work {
   color: #000;
   padding: 80px 0;
 }
-/* line 692, src/ui/_page.scss */
+/* line 711, src/ui/_page.scss */
 .post .work ul {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 697, src/ui/_page.scss */
+/* line 716, src/ui/_page.scss */
 .post .work li {
   display: inline-block;
   height: 200px;
