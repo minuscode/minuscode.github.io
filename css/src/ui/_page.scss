@@ -682,6 +682,25 @@ html {
   }
 }
 
+.categories {
+  text-align: right;
+
+  li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 30px;
+
+    a {
+      text-decoration: none;
+      color: $red;
+
+      &:hover {
+        color: darken($red, 15%);
+      }
+    }
+  }
+}
+
 
 /*** Single Work ***/
 .post {
