@@ -32,3 +32,32 @@ MINUS = (function($) {
 
 })(jQuery);
 
+// Work page
+//-----------------------------
+MINUS.work = (function($) {
+  var categoryList = $('.categories'),
+      workItem = $('.work-item');
+
+  categoryList.delegate('a', 'click', function() {
+    var catName = $(this).data('category');
+
+    changeLinkState($(this));
+    hideWorkItems(catName);
+  });
+
+  function changeLinkState(clicked) {
+    categoryList.find('li a').removeClass('active');
+    clicked.addClass('active');
+  }
+
+  function hideWorkItems(catName) {
+    workItem.each(function(){
+      category = $(this).data('category');
+
+      if(category !== catName) {
+        $(this).addClass('hidden');
+      }
+    });
+  }
+
+})(jQuery);

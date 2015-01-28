@@ -15,10 +15,9 @@ category: work
 
 <div class="content work">
   <ul class="categories">
-    <li><a href="#" class="icon-website"></a></li>
-    <li><a href="#" class="icon-facebook"></a></li>
-    <li><a href="#" class="icon-android"></a></li>
-    <li><a href="#" class="icon-iOS"></a></li>
+    <li><a href="#" class="icon-website" data-category="website"></a></li>
+    <li><a href="#" class="icon-facebook" data-category="facebook"></a></li>
+    <li><a href="#" class="icon-mobile" data-category="mobile"></a></li>
   </ul>
 
   {% for post in site.posts %}
@@ -27,7 +26,7 @@ category: work
       {% for image_hash in post.image %}
         {% for image in image_hash %}
           {% if foundImage == 0 %}
-          <article class="work-item block {{ post.hidden contains }}" style="background-image: url({{ image[1] }})">
+          <article class="work-item block {{ post.hidden contains }}" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}">
             <div class="work-info">
               <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
               <p>{{ post.subtitle }}</p>
