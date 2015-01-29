@@ -4538,7 +4538,7 @@ html {
   font-size: 22px;
 }
 /* line 704, src/ui/_page.scss */
-.work .hide {
+.work .hide, .work .hidden {
   display: none;
 }
 
