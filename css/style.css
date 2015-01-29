@@ -4558,6 +4558,30 @@ html {
   display: inline-block;
   height: 200px;
 }
+/* line 726, src/ui/_page.scss */
+.post .work .main-content {
+  color: #194f58;
+  font-family: "Alef", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+/* line 735, src/ui/_page.scss */
+.post .sidebar {
+  font-family: "Glegoo", serif;
+  padding-left: 30px;
+}
+/* line 739, src/ui/_page.scss */
+.post .sidebar span {
+  text-transform: uppercase;
+  color: #c94055;
+}
+/* line 744, src/ui/_page.scss */
+.post .sidebar a {
+  outline: 0;
+  text-decoration: none;
+  color: #194f58;
+}
 
 /*------------------------------------*\
     $PAGE-HEAD
