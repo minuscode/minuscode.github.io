@@ -23,36 +23,50 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-twitter:before {
-  content: "\e608";
-}
-.icon-github:before {
-  content: "\e609";
-}
-.icon-facebook:before {
-  content: "\e60a";
-}
-.icon-linkedin:before {
-  content: "\e607";
-}
 .icon-home:before {
   content: "\e600";
 }
+
 .icon-briefcase:before {
   content: "\e601";
 }
+
 .icon-mobile:before {
   content: "\e602";
 }
+
 .icon-mail:before {
   content: "\e603";
 }
+
+.icon-linkedin:before {
+  content: "\e607";
+}
+
+.icon-twitter:before {
+  content: "\e608";
+}
+
+.icon-github:before {
+  content: "\e609";
+}
+
+.icon-facebook:before {
+  content: "\e60a";
+}
+
+.icon-website:before {
+  content: "\e9c9";
+}
+
 .icon-iOS:before {
   content: "\f179";
 }
+
 .icon-android:before {
   content: "\f17b";
 }
-.icon-website:before {
-  content: "\e9c9";
+
+.icon-all:before {
+  content: "\f00a";
 }

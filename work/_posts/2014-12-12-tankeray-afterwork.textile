@@ -1,7 +1,7 @@
 ---
 layout: post
 category: work
-tags: mobile iOS android
+tags: mobile
 title: 'Tanqueray Afterwork'
 subtitle: 'Android & IOS App'
 client: 'FunnyHow'

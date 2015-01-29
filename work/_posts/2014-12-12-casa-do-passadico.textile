@@ -1,10 +1,10 @@
 ---
 layout: post
 category: work
-tags: website
+tags: mobile
 hidden: hidden
 title: 'Casa do passadiço'
-subtitle: 'website'
+subtitle: 'iOS app'
 client: 'xxx'
 design: 'xxx'
 date: 2014-01-21 21:31

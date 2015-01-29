@@ -575,6 +575,26 @@ html {
 /*
  * Work
  */
+.categories {
+  text-align: right;
+
+  li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 30px;
+
+    a {
+      text-decoration: none;
+      color: $red;
+
+      &:hover, &.active {
+        color: darken($red, 15%);
+        outline: 0;
+      }
+    }
+  }
+}
+
 .masthead-work {
   h1 {
     color: $red;
@@ -680,24 +700,9 @@ html {
       }
     }
   }
-}
 
-.categories {
-  text-align: right;
-
-  li {
-    display: inline-block;
-    margin: 0 15px;
-    font-size: 30px;
-
-    a {
-      text-decoration: none;
-      color: $red;
-
-      &:hover {
-        color: darken($red, 15%);
-      }
-    }
+  .hide {
+    display: none;
   }
 }
 

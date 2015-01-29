@@ -1,8 +1,8 @@
 ---
 layout: post
 category: work
-tags: website
-hidden: true
+tags: mobile
+hidden: hidden
 title: 'Biomet'
 subtitle: 'IOS App'
 client: 'Moby2do'
