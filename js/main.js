@@ -38,7 +38,8 @@ MINUS.work = (function($) {
   var categoryList = $('.categories'),
       workItem = $('.work-item');
 
-  categoryList.delegate('a', 'click', function() {
+  categoryList.delegate('a', 'click', function(e) {
+    e.preventDefault();
     var catName = $(this).data('category');
 
     changeLinkState($(this));
@@ -51,13 +52,26 @@ MINUS.work = (function($) {
   }
 
   function hideWorkItems(catName) {
-    workItem.each(function(){
-      category = $(this).data('category');
 
-      if(category !== catName) {
-        $(this).addClass('hidden');
-      }
-    });
+    if(catName === 'all') {
+      workItem.fadeIn(function(){
+        $(this).removeClass('hide');
+      });
+    } else {
+      workItem.each(function(){
+        category = $(this).data('category');
+
+        if(category !== catName) {
+          $(this).fadeOut(function(){
+            $(this).addClass('hide');
+          });
+        } else {
+          $(this).fadeIn(function(){
+            $(this).removeClass('hide');
+          });
+        }
+      });
+    }
   }
 
 })(jQuery);

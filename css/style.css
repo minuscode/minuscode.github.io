@@ -4405,7 +4405,28 @@ html {
 /*
  * Work
  */
-/* line 579, src/ui/_page.scss */
+/* line 578, src/ui/_page.scss */
+.categories {
+  text-align: right;
+}
+/* line 581, src/ui/_page.scss */
+.categories li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 30px;
+}
+/* line 586, src/ui/_page.scss */
+.categories li a {
+  text-decoration: none;
+  color: #c94055;
+}
+/* line 590, src/ui/_page.scss */
+.categories li a:hover, .categories li a.active {
+  color: #932a3a;
+  outline: 0;
+}
+
+/* line 599, src/ui/_page.scss */
 .masthead-work h1 {
   color: #c94055;
   font-family: "PT Sans Caption", sans-serif;
@@ -4414,25 +4435,25 @@ html {
   text-transform: uppercase;
 }
 
-/* line 588, src/ui/_page.scss */
+/* line 608, src/ui/_page.scss */
 .work {
   color: #fff;
   margin: 0 auto;
   max-width: 1200px;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
-  /* line 588, src/ui/_page.scss */
+  /* line 608, src/ui/_page.scss */
   .work {
     padding: 0 25px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 588, src/ui/_page.scss */
+  /* line 608, src/ui/_page.scss */
   .work {
     padding: 0;
   }
 }
-/* line 601, src/ui/_page.scss */
+/* line 621, src/ui/_page.scss */
 .work .block {
   position: relative;
   display: inline-block;
@@ -4441,7 +4462,7 @@ html {
   width: 30%;
   margin: 1rem;
 }
-/* line 609, src/ui/_page.scss */
+/* line 629, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4453,7 +4474,7 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 618, src/ui/_page.scss */
+/* line 638, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
   background-size: cover;
@@ -4461,11 +4482,11 @@ html {
   overflow: hidden;
   text-align: left;
 }
-/* line 627, src/ui/_page.scss */
+/* line 647, src/ui/_page.scss */
 .work .work-item:hover > .work-info {
   top: 0;
 }
-/* line 632, src/ui/_page.scss */
+/* line 652, src/ui/_page.scss */
 .work .work-item h2 {
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
@@ -4473,16 +4494,16 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 640, src/ui/_page.scss */
+/* line 660, src/ui/_page.scss */
 .work .work-item a {
   text-decoration: none;
   color: #194f58;
 }
-/* line 645, src/ui/_page.scss */
+/* line 665, src/ui/_page.scss */
 .work .work-item p {
   font-family: "PT Sans Caption", sans-serif;
 }
-/* line 649, src/ui/_page.scss */
+/* line 669, src/ui/_page.scss */
 .work .work-item .work-info {
   position: absolute;
   left: 0;
@@ -4496,7 +4517,7 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 663, src/ui/_page.scss */
+/* line 683, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4505,50 +4526,34 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 672, src/ui/_page.scss */
+/* line 692, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 676, src/ui/_page.scss */
+/* line 696, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;
   font-size: 22px;
 }
-
-/* line 685, src/ui/_page.scss */
-.categories {
-  text-align: right;
-}
-/* line 688, src/ui/_page.scss */
-.categories li {
-  display: inline-block;
-  margin: 0 15px;
-  font-size: 30px;
-}
-/* line 693, src/ui/_page.scss */
-.categories li a {
-  text-decoration: none;
-  color: #c94055;
-}
-/* line 697, src/ui/_page.scss */
-.categories li a:hover {
-  color: #932a3a;
+/* line 704, src/ui/_page.scss */
+.work .hide {
+  display: none;
 }
 
 /*** Single Work ***/
-/* line 707, src/ui/_page.scss */
+/* line 712, src/ui/_page.scss */
 .post .work {
   color: #000;
   padding: 80px 0;
 }
-/* line 711, src/ui/_page.scss */
+/* line 716, src/ui/_page.scss */
 .post .work ul {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 716, src/ui/_page.scss */
+/* line 721, src/ui/_page.scss */
 .post .work li {
   display: inline-block;
   height: 200px;
@@ -4911,58 +4916,63 @@ html {
 }
 
 /* line 26, src/ui/_fonts.scss */
-.icon-twitter:before {
-  content: "\e608";
-}
-
-/* line 29, src/ui/_fonts.scss */
-.icon-github:before {
-  content: "\e609";
-}
-
-/* line 32, src/ui/_fonts.scss */
-.icon-facebook:before {
-  content: "\e60a";
-}
-
-/* line 35, src/ui/_fonts.scss */
-.icon-linkedin:before {
-  content: "\e607";
-}
-
-/* line 38, src/ui/_fonts.scss */
 .icon-home:before {
   content: "\e600";
 }
 
-/* line 41, src/ui/_fonts.scss */
+/* line 30, src/ui/_fonts.scss */
 .icon-briefcase:before {
   content: "\e601";
 }
 
-/* line 44, src/ui/_fonts.scss */
+/* line 34, src/ui/_fonts.scss */
 .icon-mobile:before {
   content: "\e602";
 }
 
-/* line 47, src/ui/_fonts.scss */
+/* line 38, src/ui/_fonts.scss */
 .icon-mail:before {
   content: "\e603";
 }
 
+/* line 42, src/ui/_fonts.scss */
+.icon-linkedin:before {
+  content: "\e607";
+}
+
+/* line 46, src/ui/_fonts.scss */
+.icon-twitter:before {
+  content: "\e608";
+}
+
 /* line 50, src/ui/_fonts.scss */
+.icon-github:before {
+  content: "\e609";
+}
+
+/* line 54, src/ui/_fonts.scss */
+.icon-facebook:before {
+  content: "\e60a";
+}
+
+/* line 58, src/ui/_fonts.scss */
+.icon-website:before {
+  content: "\e9c9";
+}
+
+/* line 62, src/ui/_fonts.scss */
 .icon-iOS:before {
   content: "\f179";
 }
 
-/* line 53, src/ui/_fonts.scss */
+/* line 66, src/ui/_fonts.scss */
 .icon-android:before {
   content: "\f17b";
 }
 
-/* line 56, src/ui/_fonts.scss */
-.icon-website:before {
-  content: "\e9c9";
+/* line 70, src/ui/_fonts.scss */
+.icon-all:before {
+  content: "\f00a";
 }
 
 /*------------------------------------*\

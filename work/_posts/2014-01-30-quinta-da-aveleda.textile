@@ -1,7 +1,7 @@
 ---
 layout: post
 category: work
-tags: Android
+tags: mobile
 title: 'Quinta da Aveleda'
 subtitle: 'Android app'
 client: 'Exciting Space'

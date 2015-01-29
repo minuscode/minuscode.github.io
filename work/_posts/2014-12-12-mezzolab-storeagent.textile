@@ -1,7 +1,7 @@
 ---
 layout: post
 category: work
-tags: iOS android
+tags: mobile
 title: 'Mezzolab StoreAgent'
 subtitle: 'Android & IOS App'
 client: 'xxx'

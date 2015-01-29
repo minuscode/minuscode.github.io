@@ -1,7 +1,7 @@
 ---
 layout: post
 category: work
-tags: website
+tags: facebook
 hidden: hidden
 title: 'Filho da Pub'
 subtitle: 'Facebook App'
@@ -13,7 +13,7 @@ image:
  - url: '../../images/work/fdp.jpg'
 permalink: /work/filho-da-pub
 links:
- - website: #
+ - facebook: #
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id commodo justo. In non sapien tincidunt, posuere metus vel, maximus magna. Pellentesque convallis, tellus eu elementum vestibulum, felis nibh sollicitudin metus, at mollis mi orci eget tellus. Etiam vel lacinia leo. Vestibulum commodo odio nunc, at congue felis consequat sed. Suspendisse posuere placerat velit eu venenatis. Etiam vitae ante in leo imperdiet aliquam ut quis odio.</p>

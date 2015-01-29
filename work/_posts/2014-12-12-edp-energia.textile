@@ -1,6 +1,7 @@
 ---
 layout: post
 category: work
+tags: website
 title: 'EDP'
 hidden: hidden
 subtitle: 'Microsite Energia que nos une'
