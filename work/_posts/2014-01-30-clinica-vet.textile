@@ -5,7 +5,7 @@ tags: website
 title: 'Clinica Veterinária de Alcantara'
 subtitle: 'Website'
 client: 'Clinica Veterinária de Alcantara'
-design: 'Flávio Hobo with a shotgun'
+design: 'Flávio Hobo'
 date: 2014-01-21 21:31
 uri: 'http://188.226.184.20/'
 image: 

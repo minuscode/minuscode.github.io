@@ -4,7 +4,7 @@ category: work
 tags: website
 title: 'Gitescrow'
 subtitle: 'website'
-client: 'xxx'
+client: 'Jason Katzer'
 date: 2014-01-21 21:31
 uri: 'https://github.com/GitEscrow'
 image: 

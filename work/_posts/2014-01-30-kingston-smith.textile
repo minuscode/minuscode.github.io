@@ -4,7 +4,7 @@ category: work
 tags: website
 title: 'Kingston Smith'
 subtitle: 'website'
-client: 'xxx'
+client: 'Kingston Smith'
 design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'http://www.kingstonsmith.co.uk/'
