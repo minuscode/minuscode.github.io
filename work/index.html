@@ -15,10 +15,10 @@ category: work
 
 <div class="content work">
   <ul class="categories">
-    <li><a href="#" class="icon-all" data-category="all"></a></li>
-    <li><a href="#" class="icon-website" data-category="website"></a></li>
-    <li><a href="#" class="icon-facebook" data-category="facebook"></a></li>
-    <li><a href="#" class="icon-mobile" data-category="mobile"></a></li>
+    <li><a href="" class="icon-all" data-category="all"></a></li>
+    <li><a href="" class="icon-website" data-category="website"></a></li>
+    <li><a href="" class="icon-facebook" data-category="facebook"></a></li>
+    <li><a href="" class="icon-mobile" data-category="mobile"></a></li>
   </ul>
 
   {% for post in site.posts %}
@@ -27,19 +27,21 @@ category: work
       {% for image_hash in post.image %}
         {% for image in image_hash %}
           {% if foundImage == 0 %}
-          <article class="work-item block {{ post.hidden contains }}" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}">
-            <div class="work-info">
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <p>{{ post.subtitle }}</p>
-              <ul>
-              {% for link_hash in post.links %}
-                {% for link in link_hash %}
-                <li><a href="{{ link[1] }}" target="blank" class="icon-{{ link[0] }}"></a></li>
+          <span class="{{ post.hidden contains }}">
+            <article class="work-item block" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}">
+              <div class="work-info">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p>{{ post.subtitle }}</p>
+                <ul>
+                {% for link_hash in post.links %}
+                  {% for link in link_hash %}
+                  <li><a href="{{ link[1] }}" target="blank" class="icon-{{ link[0] }}"></a></li>
+                  {% endfor %}
                 {% endfor %}
-              {% endfor %}
-              </ul>
-            </div>
-          </article>
+                </ul>
+              </div>
+            </article>
+          </span>
           {% assign foundImage = 1 %}
           {% endif %}
         {% endfor %}
