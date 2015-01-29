@@ -4,7 +4,7 @@ category: work
 tags: website
 title: 'Cargo Records'
 subtitle: 'Website'
-client: 'xxx'
+client: 'Cargo Records'
 design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'cargorecords.co.uk'

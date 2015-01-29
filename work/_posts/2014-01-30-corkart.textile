@@ -4,7 +4,7 @@ category: work
 tags: website
 title: 'Corkart'
 subtitle: 'website'
-client: 'xxx'
+client: 'Corkart'
 design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'http://corkart.jorgepcbraz.com/'

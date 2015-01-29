@@ -4,7 +4,7 @@ category: work
 tags: website
 title: 'Shooting Star Chase'
 subtitle: 'Website'
-client: 'xxx'
+client: 'Shooting Star Chase'
 design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'http://www.shootingstarchase.org.uk/'

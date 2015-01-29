@@ -4,8 +4,8 @@ category: work
 tags: mobile
 title: 'Mezzolab StoreAgent'
 subtitle: 'Android & IOS App'
-client: 'xxx'
-design: 'xxx'
+client: 'Mezzolab'
+design: 'Mezzolab'
 date: 2014-01-21 21:31
 uri: '#'
 image: 
