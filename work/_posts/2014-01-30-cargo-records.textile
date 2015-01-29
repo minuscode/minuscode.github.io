@@ -7,7 +7,7 @@ subtitle: 'Website'
 client: 'xxx'
 design: 'xxx'
 date: 2014-01-21 21:31
-uri: 'http://cargorecords.co.uk/'
+uri: 'cargorecords.co.uk'
 image: 
  - url: '../../images/work/cargo-records.png'
 permalink: /work/cargo-records

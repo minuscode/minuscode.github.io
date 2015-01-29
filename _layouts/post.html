@@ -17,8 +17,15 @@ layout: default
 		  </div><!--
 	 --><div class="grid__item one-quarter">
 			  <div class="sidebar">
-			  	<p class="client">Client: {{page.client}}</p>
-			  	<p class="design">Design: {{page.design}}</p>
+			  	<p class="client"><span>Client:</span> {{page.client}}</p>
+			  	<p class="design"><span>Design:</span> {{page.design}}</p>
+			  	<p class="design"><span>Links:</span>
+			  	{% for link_hash in page.links %}
+			  		{% for link in link_hash %}
+			  		<a href="{{ link[1] }}" target="blank">{{ link[0] }}</a>
+            {% endfor %}
+          {% endfor %}
+          </p>
 			  </div>
 		  </div>
 			<ul class="grid">
