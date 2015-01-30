@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'https://meo-fb-concerts.herokuapp.com/concerts'
 image: 
- - url: '../../images/work/meo-guestlist1.jpg'
+ - url: '../../images/work/meo-guestlist.jpg'
 permalink: /work/meo-guestlist
 links:
  - facebook: https://meo-fb-concerts.herokuapp.com/concerts

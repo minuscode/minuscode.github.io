@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'https://meo-fb-ss.herokuapp.com/'
 image: 
- - url: '../../images/work/meo-ss.png'
+ - url: '../../images/work/meo-ss.jpg'
 permalink: /work/meo-secret-story
 links:
  - facebook: https://meo-fb-ss.herokuapp.com/

@@ -10,7 +10,7 @@ design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'http://www.casadopassadico.com/'
 image: 
- - url: '../../images/work/casa-passadico1.jpg'
+ - url: '../../images/work/casa-passadico.jpg'
 permalink: /work/casa-do-passadico
 links:
  - website: http://www.casadopassadico.com/

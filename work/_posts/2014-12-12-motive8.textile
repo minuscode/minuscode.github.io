@@ -10,7 +10,7 @@ design: 'Aspire'
 date: 2014-01-21 21:31
 uri: 'http://www.m8group.co.uk/'
 image: 
- - url: '../../images/work/motive8_1.jpg'
+ - url: '../../images/work/motive8.jpg'
 permalink: /work/motive8
 links:
  - website: http://www.m8group.co.uk/

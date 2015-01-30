@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'https://meo-fb-music.herokuapp.com/'
 image: 
- - url: '../../images/work/meo-music1.jpg'
+ - url: '../../images/work/meo-music.jpg'
 permalink: /work/meo-music
 links:
  - facebook: https://meo-fb-music.herokuapp.com/
