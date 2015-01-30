@@ -4,7 +4,7 @@ category: work
 tags: website
 hidden: hidden
 title: 'Vodafone Dropkick API'
-subtitle: 'Android & IOS App'
+subtitle: 'Android & iOS App'
 client: 'Netzinkubator'
 design: 'i/Pol'
 date: 2014-01-21 21:31
