@@ -2,14 +2,13 @@
 layout: post
 category: work
 tags: mobile
-hidden: hidden
 title: 'Biomet'
 subtitle: 'iOS App'
 client: 'Moby2do'
 design: 'xxx'
 date: 2014-01-21 21:31
 uri: '#'
-image: 
+image:
  - url: '../../images/work/biomet.jpg'
 permalink: /work/biomet
 links:
