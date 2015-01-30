@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://meo-fb-kingsfest.herokuapp.com/'
 image: 
- - url: '../../images/work/meo-kingsfest.png'
+ - url: '../../images/work/meo-kingsfest.jpg'
 permalink: /work/meo-kingsfest
 links:
  - facebook: http://meo-fb-kingsfest.herokuapp.com/

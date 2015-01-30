@@ -10,7 +10,7 @@ design: 'Aspire'
 date: 2014-01-21 21:31
 uri: 'http://www.aspireprmarketing.com/'
 image: 
- - url: '../../images/work/aspire.png'
+ - url: '../../images/work/aspire.jpg'
 permalink: /work/aspire
 links:
  - website: http://www.aspireprmarketing.com/

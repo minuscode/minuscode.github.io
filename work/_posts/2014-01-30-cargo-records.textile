@@ -9,7 +9,7 @@ design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'cargorecords.co.uk'
 image: 
- - url: '../../images/work/cargo-records.png'
+ - url: '../../images/work/cargo-records.jpg'
 permalink: /work/cargo-records
 links:
  - website: http://cargorecords.co.uk/

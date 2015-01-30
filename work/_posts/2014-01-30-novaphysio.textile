@@ -9,7 +9,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://novaphysio.pt/'
 image: 
- - url: '../../images/work/novaphysio.png'
+ - url: '../../images/work/novaphysio.jpg'
 permalink: /work/novaphysio
 links:
  - website: http://novaphysio.pt/

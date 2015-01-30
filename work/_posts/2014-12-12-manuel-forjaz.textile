@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://manuelforjaz.com/'
 image: 
- - url: '../../images/work/manuel-forjaz.png'
+ - url: '../../images/work/manuel-forjaz.jpg'
 permalink: /work/manuel-forjaz
 links:
  - website: http://manuelforjaz.com/

@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://natal.meo.pt/'
 image: 
- - url: '../../images/work/meo-natal1.jpg'
+ - url: '../../images/work/meo-natal.jpg'
 permalink: /work/meo-natal
 links:
  - facebook: http://natal.meo.pt/

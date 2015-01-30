@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://meo-fb-ladygaga.herokuapp.com/'
 image: 
- - url: '../../images/work/meo-ladygaga1.jpg'
+ - url: '../../images/work/meo-ladygaga.jpg'
 permalink: /work/meo-ladygaga
 links:
  - facebook: http://meo-fb-ladygaga.herokuapp.com/

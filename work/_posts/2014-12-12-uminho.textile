@@ -10,7 +10,7 @@ design: 'Mezzolab'
 date: 2014-01-21 21:31
 uri: 'http://uminhoexec.uminho.pt/'
 image: 
- - url: '../../images/work/uminho1.jpg'
+ - url: '../../images/work/uminho.jpg'
 permalink: /work/uminho
 links:
  - website: http://uminhoexec.uminho.pt/

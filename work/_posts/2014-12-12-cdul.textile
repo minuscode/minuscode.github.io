@@ -9,7 +9,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://www.cdulrugby.pt/'
 image: 
- - url: '../../images/work/cdul1.jpg'
+ - url: '../../images/work/cdul.jpg'
 permalink: /work/cdul
 links:
  - website: http://www.cdulrugby.pt/

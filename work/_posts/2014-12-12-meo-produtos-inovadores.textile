@@ -10,7 +10,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'https://meopub-staging.herokuapp.com/'
 image: 
- - url: '../../images/work/produtos-inovadores1.jpg'
+ - url: '../../images/work/produtos-inovadores.jpg'
 permalink: /work/meo-produtos-inovadores
 links:
  - facebook: https://meopub-staging.herokuapp.com/

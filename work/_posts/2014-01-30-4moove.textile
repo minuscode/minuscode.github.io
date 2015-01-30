@@ -9,7 +9,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: '4moove.com'
 image: 
- - url: '../../images/work/4moove.png'
+ - url: '../../images/work/4moove.jpg'
 permalink: /work/4moove
 links:
  - website: http://4moove.com/
