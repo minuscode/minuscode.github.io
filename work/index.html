@@ -30,7 +30,7 @@ category: work
           <span class="{{ post.hidden contains }}">
             <article class="work-item block" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}">
               <div class="work-info">
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <h2><!--<a href="{{ post.url }}">-->{{ post.title }}<!--</a>--></h2>
                 <p>{{ post.subtitle }}</p>
                 <ul>
                 {% for link_hash in post.links %}
