@@ -4405,28 +4405,7 @@ html {
 /*
  * Work
  */
-/* line 578, src/ui/_page.scss */
-.categories {
-  text-align: right;
-}
-/* line 581, src/ui/_page.scss */
-.categories li {
-  display: inline-block;
-  margin: 0 15px;
-  font-size: 30px;
-}
-/* line 586, src/ui/_page.scss */
-.categories li a {
-  text-decoration: none;
-  color: #c94055;
-}
-/* line 590, src/ui/_page.scss */
-.categories li a:hover, .categories li a.active {
-  color: #932a3a;
-  outline: 0;
-}
-
-/* line 599, src/ui/_page.scss */
+/* line 580, src/ui/_page.scss */
 .masthead-work h1 {
   color: #c94055;
   font-family: "PT Sans Caption", sans-serif;
@@ -4435,25 +4414,58 @@ html {
   text-transform: uppercase;
 }
 
+/* line 589, src/ui/_page.scss */
+.work-header {
+  overflow: auto;
+}
+/* line 592, src/ui/_page.scss */
+.work-header .hidden-link {
+  color: #194f58;
+  font-family: "PT Sans Caption", sans-serif;
+  cursor: default;
+  text-decoration: none;
+  font-size: 28px;
+}
+/* line 600, src/ui/_page.scss */
+.work-header .categories {
+  float: right;
+}
+/* line 603, src/ui/_page.scss */
+.work-header .categories li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 30px;
+}
 /* line 608, src/ui/_page.scss */
+.work-header .categories li a {
+  text-decoration: none;
+  color: #c94055;
+}
+/* line 612, src/ui/_page.scss */
+.work-header .categories li a:hover, .work-header .categories li a.active {
+  color: #932a3a;
+  outline: 0;
+}
+
+/* line 621, src/ui/_page.scss */
 .work {
   color: #fff;
   margin: 0 auto;
   max-width: 1200px;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
-  /* line 608, src/ui/_page.scss */
+  /* line 621, src/ui/_page.scss */
   .work {
     padding: 0 25px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 608, src/ui/_page.scss */
+  /* line 621, src/ui/_page.scss */
   .work {
     padding: 0;
   }
 }
-/* line 621, src/ui/_page.scss */
+/* line 634, src/ui/_page.scss */
 .work .block {
   position: relative;
   display: inline-block;
@@ -4462,7 +4474,7 @@ html {
   width: 30%;
   margin: 1rem;
 }
-/* line 629, src/ui/_page.scss */
+/* line 642, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4474,7 +4486,7 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 638, src/ui/_page.scss */
+/* line 651, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
   background-size: cover;
@@ -4482,11 +4494,11 @@ html {
   overflow: hidden;
   text-align: left;
 }
-/* line 647, src/ui/_page.scss */
+/* line 660, src/ui/_page.scss */
 .work .work-item:hover > .work-info {
   top: 0;
 }
-/* line 652, src/ui/_page.scss */
+/* line 665, src/ui/_page.scss */
 .work .work-item h2 {
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
@@ -4494,16 +4506,16 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 660, src/ui/_page.scss */
+/* line 673, src/ui/_page.scss */
 .work .work-item a {
   text-decoration: none;
   color: #194f58;
 }
-/* line 665, src/ui/_page.scss */
+/* line 678, src/ui/_page.scss */
 .work .work-item p {
   font-family: "PT Sans Caption", sans-serif;
 }
-/* line 669, src/ui/_page.scss */
+/* line 682, src/ui/_page.scss */
 .work .work-item .work-info {
   position: absolute;
   left: 0;
@@ -4517,7 +4529,7 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 683, src/ui/_page.scss */
+/* line 696, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4526,39 +4538,39 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 692, src/ui/_page.scss */
+/* line 705, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 696, src/ui/_page.scss */
+/* line 709, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;
   font-size: 22px;
 }
-/* line 704, src/ui/_page.scss */
+/* line 717, src/ui/_page.scss */
 .work .hide, .work .hidden {
   display: none;
 }
 
 /*** Single Work ***/
-/* line 712, src/ui/_page.scss */
+/* line 725, src/ui/_page.scss */
 .post .work {
   color: #000;
   padding: 80px 0;
 }
-/* line 716, src/ui/_page.scss */
+/* line 729, src/ui/_page.scss */
 .post .work ul {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 721, src/ui/_page.scss */
+/* line 734, src/ui/_page.scss */
 .post .work li {
   display: inline-block;
   height: 200px;
 }
-/* line 726, src/ui/_page.scss */
+/* line 739, src/ui/_page.scss */
 .post .work .main-content {
   color: #194f58;
   font-family: "Alef", sans-serif;
@@ -4566,18 +4578,18 @@ html {
   font-size: 1rem;
   line-height: 1.5;
 }
-/* line 735, src/ui/_page.scss */
+/* line 748, src/ui/_page.scss */
 .post .sidebar {
   font-family: "Glegoo", serif;
   padding-left: 30px;
   color: #194f58;
 }
-/* line 740, src/ui/_page.scss */
+/* line 753, src/ui/_page.scss */
 .post .sidebar span {
   text-transform: uppercase;
   color: #c94055;
 }
-/* line 745, src/ui/_page.scss */
+/* line 758, src/ui/_page.scss */
 .post .sidebar a {
   outline: 0;
   text-decoration: none;

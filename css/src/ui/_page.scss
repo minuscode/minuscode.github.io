@@ -575,25 +575,6 @@ html {
 /*
  * Work
  */
-.categories {
-  text-align: right;
-
-  li {
-    display: inline-block;
-    margin: 0 15px;
-    font-size: 30px;
-
-    a {
-      text-decoration: none;
-      color: $red;
-
-      &:hover, &.active {
-        color: darken($red, 15%);
-        outline: 0;
-      }
-    }
-  }
-}
 
 .masthead-work {
   h1 {
@@ -602,6 +583,38 @@ html {
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
+  }
+}
+
+.work-header {
+  overflow: auto;
+
+  .hidden-link {
+    color: $default-color;
+    font-family: $brand-sans-serif;
+    cursor: default;
+    text-decoration: none;
+    font-size: 28px;
+  }
+
+  .categories {
+    float: right;
+
+    li {
+      display: inline-block;
+      margin: 0 15px;
+      font-size: 30px;
+
+      a {
+        text-decoration: none;
+        color: $red;
+
+        &:hover, &.active {
+          color: darken($red, 15%);
+          outline: 0;
+        }
+      }
+    }
   }
 }
 
