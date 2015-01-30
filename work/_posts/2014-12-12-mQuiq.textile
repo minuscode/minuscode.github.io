@@ -4,7 +4,7 @@ category: work
 tags: mobile
 hidden: hidden
 title: 'mQuiq'
-subtitle: 'IOS App'
+subtitle: 'iOS App'
 client: 'xxx'
 design: 'xxx'
 date: 2014-01-21 21:31

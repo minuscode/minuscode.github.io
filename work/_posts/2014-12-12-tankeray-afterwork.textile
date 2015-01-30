@@ -3,7 +3,7 @@ layout: post
 category: work
 tags: mobile
 title: 'Tanqueray Afterwork'
-subtitle: 'Android & IOS App'
+subtitle: 'Android & iOS App'
 client: 'FunnyHow'
 design: 'FunnyHow'
 date: 2014-01-21 21:31
