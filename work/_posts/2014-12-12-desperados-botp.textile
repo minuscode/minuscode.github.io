@@ -2,14 +2,13 @@
 layout: post
 category: work
 tags: mobile
-hidden: hidden
 title: 'Desperados'
 subtitle: 'IOS App'
 client: 'FunnyHow'
 design: 'FunnyHow'
 date: 2014-01-21 21:31
 uri: '#'
-image: 
+image:
  - url: '../../images/work/desperados.jpg'
 permalink: /work/desperados
 links:
