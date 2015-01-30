@@ -2,6 +2,7 @@
 layout: post
 category: work
 tags: facebook
+hidden: hidden
 title: 'MEO Secret Story 5'
 subtitle: 'Facebook App'
 client: 'Meo'

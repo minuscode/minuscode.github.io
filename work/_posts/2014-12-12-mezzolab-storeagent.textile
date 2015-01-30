@@ -2,6 +2,7 @@
 layout: post
 category: work
 tags: mobile
+hidden: hidden
 title: 'Mezzolab StoreAgent'
 subtitle: 'Android & IOS App'
 client: 'Mezzolab'
