@@ -6,10 +6,10 @@ hidden: hidden
 title: 'Grey'
 client: 'xxx'
 design: 'xxx'
-subtitle: 'its around the corner cae'
+subtitle: 'website'
 date: 2014-01-21 21:31
 uri: '#'
-image: 
+image:
  - url: '../../images/work/grey.jpg'
 permalink: /work/grey-chopper
 links:

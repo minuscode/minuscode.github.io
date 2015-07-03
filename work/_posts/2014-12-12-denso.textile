@@ -6,10 +6,10 @@ hidden: hidden
 title: 'Denso'
 client: 'xxx'
 design: 'xxx'
-subtitle: 'its around the corner cae'
+subtitle: 'iOS & Android App'
 date: 2014-01-21 21:31
 uri: 'https://itunes.apple.com/gb/app/denso/id895642414?mt=8'
-image: 
+image:
  - url: '../../images/work/denso.jpg'
 permalink: /work/denso
 links:
