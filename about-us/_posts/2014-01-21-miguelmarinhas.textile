@@ -1,8 +1,8 @@
 ---
 category: about_us
-title: 'Miguel Marinhas'
+alt_name: 'Miguel Marinhas'
 date: 2014-01-21 22:30
-position: 'right'
+position: 'left'
 description: [
   "Most of my days I do web development particularly",
   "backends for web and mobile apps, but when possible",
@@ -10,7 +10,8 @@ description: [
   "I like the thrill of building a new product, having",
   "worked from corporate to startups."
 ]
-picture: 'miguel-marinhas.jpg'
+role: 'Coisas'
+picture: 'miguel-marinhas.png'
 social:
   'github':   'https://github.com/miguelm'
   'twitter':  'https://twitter.com/miguelmarinhas'

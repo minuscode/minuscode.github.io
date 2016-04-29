@@ -1,6 +1,6 @@
 ---
 category: about_us
-title: 'João Mamede'
+alt_name: 'João Mamede'
 date: 2014-01-21 20:30
 position: 'right'
 description: [
@@ -11,6 +11,7 @@ description: [
   "and well architected code I am moving a bit to the",
   "backend side."
 ]
+role: 'Coisas 5'
 picture: 'joao-mamede.jpg'
 social:
   'github':   'https://github.com/joaovpmamede'
