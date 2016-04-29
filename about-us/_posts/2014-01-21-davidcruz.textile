@@ -1,6 +1,6 @@
 ---
 category: about_us
-title: 'David Cruz'
+alt_name: 'David Cruz'
 date: 2014-01-21 21:30
 position: 'right'
 description: [
@@ -11,6 +11,7 @@ description: [
   "I continuously explore fringe knowledge to contribute",
   "to whole lifecycle of the projects and assure their quality."
 ]
+role: 'UX/UI - Front end'
 picture: 'david-cruz.jpg'
 social:
   'github':   'https://github.com/dcruz'

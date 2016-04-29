@@ -14,6 +14,7 @@ html {
   margin-right: auto;
   margin-left: auto;
   padding: 0 50px;
+  overflow: hidden;
 
   @include media-query(lap) {
     padding: 0 25px;
@@ -362,16 +363,22 @@ html {
 }
 
 .member {
-  padding: 0 45px;
-
+  display: inline-block;
+  margin:0 2%;
+  width: 45%;
+  text-align: center;
   h2 {
     color: $red;
     font-family: $brand-serif;
     font-weight: 300;
     @include font-size(40px);
+    margin-bottom: 0px;
+    margin-top: 25px;
   }
 
   p {
+    margin-top: 10px;
+    margin-bottom: 50px;
     color: $default-color;
     font-family: $sec-sans-serif;
     @include font-size(16px);
@@ -397,10 +404,13 @@ html {
 
   hr {
     border-color: $green;
-    margin: 0 0 50px;
+    margin: 0;
   }
 
   .member-pic {
+    width: 90%;
+    margin:0 auto;
+    // border-bottom: 2px dashed $green;
     @include media-query(palm) {
       margin-top: $base-spacing-unit;
     }

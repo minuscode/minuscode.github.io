@@ -1,6 +1,6 @@
 ---
 category: about_us
-title: 'Filipe Araújo'
+alt_name: 'Filipe Araújo'
 date: 2014-01-21 22:00
 position: 'left'
 description: [
@@ -10,6 +10,7 @@ description: [
   "iOS and web dev are my cup of tea, and I would like to",
   "share that knowledge in new and exciting projects."
 ]
+role: 'Coisas 3'
 picture: 'filipe-araujo.jpg'
 social:
   'github':   'https://github.com/FilipeAraujo'
