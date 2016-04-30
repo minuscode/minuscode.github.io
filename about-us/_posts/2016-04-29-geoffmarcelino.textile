@@ -11,7 +11,7 @@ description: [
   "",
   ""
 ]
-role: 'Coisas 2'
+role: 'Full Stack / Android'
 picture: 'geoff-marcelino.png'
 social:
   'github':   ''

@@ -11,7 +11,7 @@ description: [
   "and well architected code I am moving a bit to the",
   "backend side."
 ]
-role: 'Coisas 5'
+role: 'Full Stack'
 picture: 'joao-mamede.jpg'
 social:
   'github':   'https://github.com/joaovpmamede'
