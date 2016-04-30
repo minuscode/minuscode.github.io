@@ -34,11 +34,7 @@ category: about_us
 
             <div class="grid__item one-whole portable-one-whole">
               <h2>{{ post.name }}</h2>
-              <p>
-                {% for description in post.description %}
-                  <span>{{ post.role }}</span>
-                {% endfor %}
-              </p>
+              <p><span>{{ post.role }}</span></p>
               <!-- <div class="social">
                 {% for social in post.social %}
                   <a class="icon-{{ social[0] }}" href="{{ social[1] }}" title="{{ social[0] }}"></a>
