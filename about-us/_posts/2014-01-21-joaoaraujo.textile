@@ -10,7 +10,7 @@ description: [
   "an opportunity to have more power in your hands.<br>",
   "My goal is to become a more full stack developer."
 ]
-role: 'Coisas 7'
+role: 'Full Stack'
 picture: 'joao-araujo.jpg'
 social:
   'github':   'https://github.com/JoaoAraujo'

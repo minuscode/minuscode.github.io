@@ -10,7 +10,7 @@ description: [
   "iOS and web dev are my cup of tea, and I would like to",
   "share that knowledge in new and exciting projects."
 ]
-role: 'Coisas 3'
+role: 'Full Stack / iOS'
 picture: 'filipe-araujo.jpg'
 social:
   'github':   'https://github.com/FilipeAraujo'

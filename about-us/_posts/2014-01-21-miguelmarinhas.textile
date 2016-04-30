@@ -10,7 +10,7 @@ description: [
   "I like the thrill of building a new product, having",
   "worked from corporate to startups."
 ]
-role: 'Coisas'
+role: 'Full Stack'
 picture: 'miguel-marinhas.png'
 social:
   'github':   'https://github.com/miguelm'

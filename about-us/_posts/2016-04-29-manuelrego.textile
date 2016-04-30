@@ -11,7 +11,7 @@ description: [
   "",
   ""
 ]
-role: 'Coisas 2'
+role: 'Android / iOS'
 picture: 'manuel-rego.png'
 social:
   'github':   ''
