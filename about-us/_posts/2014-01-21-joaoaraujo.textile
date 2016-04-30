@@ -1,6 +1,6 @@
 ---
 category: about_us
-title: 'João Araújo'
+alt_name: 'João Araújo'
 date: 2014-01-21 21:00
 position: 'left'
 description: [
@@ -10,6 +10,7 @@ description: [
   "an opportunity to have more power in your hands.<br>",
   "My goal is to become a more full stack developer."
 ]
+role: 'Full Stack'
 picture: 'joao-araujo.jpg'
 social:
   'github':   'https://github.com/JoaoAraujo'

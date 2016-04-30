@@ -28,24 +28,29 @@ category: about_us
     {% for post in site.categories['about-us'] %}
 
       <div class="member">
-        <div class="grid">
+        <div class="grid {% if post.position == 'left' %}grid--rev{% endif %}">
 
-          <div class="grid__item one-whole lap-one-half push--lap-one-half palm-one-whole">
+          <div class="grid__item one-half lap-one-half push--lap-one-half palm-one-whole">
+
+            <div class="grid__item one-whole portable-one-whole">
+              <h2>{{ post.name }}</h2>
+              <p><span>{{ post.role }}</span></p>
+              <!-- <div class="social">
+                {% for social in post.social %}
+                  <a class="icon-{{ social[0] }}" href="{{ social[1] }}" title="{{ social[0] }}"></a>
+                {% endfor %}
+              </div> -->
+            </div>
+
             <div class="member-pic">
-              <img src="/images/team/{{ post.picture }}" alt="{{ post.alt_name }}">
+              <img src="/images/team/{{ post.picture }}" alt="{{ post.name }}">
             </div>
-            <hr><!--
-            --><div class="grid__item one-whole portable-one-whole">
-              <h2>{{ post.alt_name }}</h2>
-              <p>
-                  <span>{{ post.role }}</span>
-              </p> 
-            </div>
+
           </div>
 
         </div>
         {% unless forloop.last %}
-          
+          <hr>
         {% endunless %}
       </div><!-- /member -->
 
