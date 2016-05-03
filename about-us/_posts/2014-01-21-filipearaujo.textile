@@ -11,7 +11,7 @@ description: [
   "share that knowledge in new and exciting projects."
 ]
 role: 'Full Stack / iOS'
-picture: 'filipe-araujo.jpg'
+picture: 'filipe-araujo.png'
 social:
   'github':   'https://github.com/FilipeAraujo'
   'twitter':  'https://twitter.com/filipejsaraujo'
