@@ -91,6 +91,26 @@ MINUS.work = (function($) {
 
 })(jQuery);
 
+
+// About Us page
+//-----------------------------
+MINUS.about_us = (function($) {
+
+
+  function shuffle() {
+    var shuffle_parent = $(".shuffle");
+    var shuffle_child = $(".member");
+    while (shuffle_child.length) {
+        shuffle_parent.append(shuffle_child.splice(Math.floor(Math.random() * shuffle_child.length), 1)[0]);
+    }
+  }
+
+  shuffle();
+
+
+})(jQuery);
+
+
 // Init all the work things
 //-----------------------------
 (function($) {
