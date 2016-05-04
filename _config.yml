@@ -2,6 +2,7 @@ name: Minuscode
 auto: true
 exclude: Guardfile
 permalink: none
+markdown: kramdown
 #baseurl: /minuscode.github.io
 
 includes:
