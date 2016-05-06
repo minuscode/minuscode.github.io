@@ -14,7 +14,6 @@ html {
   margin-right: auto;
   margin-left: auto;
   padding: 0 50px;
-  overflow: hidden;
 
   @include media-query(lap) {
     padding: 0 25px;
