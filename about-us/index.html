@@ -23,26 +23,20 @@ category: about_us
 
 <div class="content about-us">
 
-  <div class="wrapper shuffle">
+  <div class="wrapper grid shuffle">
 
     {% for post in site.categories['about-us'] %}
 
-      <div class="member">
-        <div class="grid">
-
-          <div class="grid__item one-whole lap-one-half push--lap-one-half palm-one-whole">
-            <div class="member-pic">
-              <img src="/images/team/{{ post.picture }}" alt="{{ post.alt_name }}">
-            </div>
-            <hr><!--
-            --><div class="grid__item one-whole portable-one-whole">
-              <h2>{{ post.alt_name }}</h2>
-              <p>
-                  <span>{{ post.role }}</span>
-              </p> 
-            </div>
-          </div>
-
+      <div class="member grid__item one-whole lap-one-half desk-one-half">
+        <div class="member-pic">
+          <img src="/images/team/{{ post.picture }}" alt="{{ post.alt_name }}">
+        </div>
+        <hr><!--
+        --><div>
+          <h2>{{ post.alt_name }}</h2>
+          <p>
+              <span>{{ post.role }}</span>
+          </p>
         </div>
         {% unless forloop.last %}
           
