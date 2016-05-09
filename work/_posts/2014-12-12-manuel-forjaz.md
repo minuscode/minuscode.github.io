@@ -9,11 +9,12 @@ client: 'Partners'
 design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://manuelforjaz.com/'
-image: 
+image:
  - url: '../../images/work/manuel-forjaz.jpg'
 permalink: /work/manuel-forjaz
 links:
  - website: http://manuelforjaz.com/
+sitemap: false
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id commodo justo. In non sapien tincidunt, posuere metus vel, maximus magna. Pellentesque convallis, tellus eu elementum vestibulum, felis nibh sollicitudin metus, at mollis mi orci eget tellus. Etiam vel lacinia leo. Vestibulum commodo odio nunc, at congue felis consequat sed. Suspendisse posuere placerat velit eu venenatis. Etiam vitae ante in leo imperdiet aliquam ut quis odio.</p>

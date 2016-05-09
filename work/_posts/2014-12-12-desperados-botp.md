@@ -14,6 +14,7 @@ permalink: /work/desperados
 links:
  - iOS: https://itunes.apple.com/pt/app/bringontheparty/id849351242?mt=8
  - android: https://play.google.com/store/apps/details?id=com.minuscode.desperados.bringontheparty
+sitemap: false
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id commodo justo. In non sapien tincidunt, posuere metus vel, maximus magna. Pellentesque convallis, tellus eu elementum vestibulum, felis nibh sollicitudin metus, at mollis mi orci eget tellus. Etiam vel lacinia leo. Vestibulum commodo odio nunc, at congue felis consequat sed. Suspendisse posuere placerat velit eu venenatis. Etiam vitae ante in leo imperdiet aliquam ut quis odio.</p>
