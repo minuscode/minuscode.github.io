@@ -5059,7 +5059,7 @@ html {
 }
 
 /* line 20, src/ui/_buttons.scss */
-.btn-red {
+.btn--red {
   background: #c94055;
   border: 2px solid #c94055;
   color: #fff;
@@ -5067,7 +5067,7 @@ html {
   font-weight: 400;
 }
 /* line 27, src/ui/_buttons.scss */
-.btn-red:hover {
+.btn--red:hover {
   background: none;
   color: #c94055;
 }
