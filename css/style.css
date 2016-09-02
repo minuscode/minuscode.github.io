@@ -4937,6 +4937,8 @@ html {
 }
 /* line 109, src/ui/_page-foot.scss */
 .main-footer .property {
+  width: 100%;
+  display: block;
   color: #fff;
   font-family: "PT Sans Caption", sans-serif;
   margin: 30px 0 0;
