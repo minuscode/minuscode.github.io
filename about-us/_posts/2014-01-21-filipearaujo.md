@@ -1,5 +1,4 @@
 ---
-category: about_us
 alt_name: 'Filipe Araújo'
 date: 2014-01-21 22:00
 position: 'left'
@@ -16,4 +15,5 @@ social:
   'github':   'https://github.com/FilipeAraujo'
   'twitter':  'https://twitter.com/filipejsaraujo'
   'linkedin': 'http://pt.linkedin.com/in/filipesaraujo/en'
+sitemap: false
 ---

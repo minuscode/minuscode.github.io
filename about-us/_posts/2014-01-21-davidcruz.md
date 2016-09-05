@@ -1,5 +1,4 @@
 ---
-category: about_us
 alt_name: 'David Cruz'
 date: 2014-01-21 21:30
 position: 'right'
@@ -18,4 +17,5 @@ social:
   'twitter':  'https://twitter.com/davidjvcruz'
   'linkedin': 'http://www.linkedin.com/pub/david-cruz/a/663/75a'
   'home':     'http://dcruz.soup.io/'
+sitemap: false
 ---
