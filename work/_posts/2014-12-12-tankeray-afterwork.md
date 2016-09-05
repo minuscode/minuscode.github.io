@@ -8,12 +8,13 @@ client: 'FunnyHow'
 design: 'FunnyHow'
 date: 2014-01-21 21:31
 uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
-image: 
+image:
  - url: '../../images/work/tanqueray.jpg'
 permalink: /work/tanqueray-afterwork
 links:
  - iOS: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8
  - android: https://play.google.com/store/apps/details?id=com.minuscode.afterwork
+sitemap: false
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id commodo justo. In non sapien tincidunt, posuere metus vel, maximus magna. Pellentesque convallis, tellus eu elementum vestibulum, felis nibh sollicitudin metus, at mollis mi orci eget tellus. Etiam vel lacinia leo. Vestibulum commodo odio nunc, at congue felis consequat sed. Suspendisse posuere placerat velit eu venenatis. Etiam vitae ante in leo imperdiet aliquam ut quis odio.</p>

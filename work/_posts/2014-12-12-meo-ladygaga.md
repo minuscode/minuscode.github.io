@@ -9,11 +9,12 @@ client: 'Meo'
 design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://meo-fb-ladygaga.herokuapp.com/'
-image: 
+image:
  - url: '../../images/work/meo-ladygaga.jpg'
 permalink: /work/meo-ladygaga
 links:
  - facebook: http://meo-fb-ladygaga.herokuapp.com/
+sitemap: false
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id commodo justo. In non sapien tincidunt, posuere metus vel, maximus magna. Pellentesque convallis, tellus eu elementum vestibulum, felis nibh sollicitudin metus, at mollis mi orci eget tellus. Etiam vel lacinia leo. Vestibulum commodo odio nunc, at congue felis consequat sed. Suspendisse posuere placerat velit eu venenatis. Etiam vitae ante in leo imperdiet aliquam ut quis odio.</p>
