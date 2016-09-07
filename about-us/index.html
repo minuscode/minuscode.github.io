@@ -31,15 +31,13 @@ category: about_us
         <div class="member-pic">
           <img src="/images/team/{{ post.picture }}" alt="{{ post.alt_name }}">
         </div>
-        <hr><!--
-        --><div>
-          <h2>{{ post.alt_name }}</h2>
-          <p>
-              <span>{{ post.role }}</span>
-          </p>
-        </div>
+        <hr>
+        <h2>{{ post.alt_name }}</h2>
+        <p>
+            <span>{{ post.role }}</span>
+        </p>
         {% unless forloop.last %}
-          
+
         {% endunless %}
       </div><!-- /member -->
 
