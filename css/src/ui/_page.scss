@@ -637,8 +637,10 @@ html {
       a {
         text-decoration: none;
         color: $red;
+        padding-bottom: .4em;
 
         &:hover, &.active {
+          border-bottom: 2px solid currentColor;
           color: darken($red, 15%);
           outline: 0;
         }

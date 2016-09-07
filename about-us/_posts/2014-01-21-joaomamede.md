@@ -1,5 +1,4 @@
 ---
-category: about_us
 alt_name: 'João Mamede'
 date: 2014-01-21 20:30
 position: 'right'
@@ -16,4 +15,5 @@ picture: 'joao-mamede.jpg'
 social:
   'github':   'https://github.com/joaovpmamede'
   'twitter':  'https://twitter.com/jvpmamede'
+sitemap: false
 ---

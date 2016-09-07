@@ -1,5 +1,4 @@
 ---
-category: about_us
 alt_name: 'João Araújo'
 date: 2014-01-21 21:00
 position: 'left'
@@ -16,4 +15,5 @@ social:
   'github':   'https://github.com/JoaoAraujo'
   'twitter':  'https://twitter.com/joaosaraujo'
   'linkedin': 'http://www.linkedin.com/in/araujojoao'
+sitemap: false
 ---
