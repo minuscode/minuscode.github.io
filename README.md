@@ -5,8 +5,7 @@ minuscode web
 
 IMPORTANT
 
-1 - gem install jekyll
-2 - bundle install
-3 - git submodule init
-4 - git submodule update
-5 - jekyll serve
+1. bundle install
+2. git submodule init
+3. git submodule update
+4. bundle exec jekyll serve

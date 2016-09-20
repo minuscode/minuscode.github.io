@@ -1,12 +1,13 @@
 source "http://rubygems.org"
 
 group :development do
+  gem 'jekyll', '~> 2.5'
   gem 'sass'                                # Sass.
   gem 'compass'                             # Framework built on Sass.
   gem 'compass-validator'                   # So you can `compass validate`.
   gem 'oily_png'                            # Faster Compass sprite generation.
   gem 'css_parser'                          # Helps `compass stats` output statistics.
-  gem 'github-pages', group: :jekyll_plugins
+  gem 'jekyll-sitemap'                      # Generate site's sitemap
   gem 'guard'                               # Guard event handler.
   gem 'guard-compass'                       # Compile on sass/scss change.
   gem 'guard-jekyll'                        # Jekyll
