@@ -1,18 +1,19 @@
 ---
 layout: post
 category: work
-tags: website
-title: 'CDUL'
-subtitle: 'Website'
+tags: facebook
+hidden: hidden
+title: 'Filho da Pub'
+subtitle: 'Facebook App'
 client: 'Partners'
 design: 'Partners'
 date: 2014-01-21 21:31
-uri: 'http://www.cdulrugby.pt/'
+uri: '#'
 image:
- - url: '../../public/images/work/cdul.jpg'
-permalink: /work/cdul
+ - url: '../../public/images/work/fdp.jpg'
+permalink: /work/filho-da-pub
 links:
- - website: http://www.cdulrugby.pt/
+ - facebook: #
 sitemap: false
 ---
 

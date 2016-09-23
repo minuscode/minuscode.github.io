@@ -1,18 +1,19 @@
 ---
 layout: post
 category: work
-tags: facebook
-title: 'Filho da Pub'
-subtitle: 'Facebook App'
-client: 'Partners'
-design: 'Partners'
+tags: website
+hidden: hidden
+title: 'Shooting Star Chase'
+subtitle: 'Website'
+client: 'Shooting Star Chase'
+design: 'xxx'
 date: 2014-01-21 21:31
-uri: '#'
+uri: 'http://www.shootingstarchase.org.uk/'
 image:
- - url: '../../public/images/work/fdp.jpg'
-permalink: /work/filho-da-pub
+ - url: '../../public/images/work/shooting-star.jpg'
+permalink: /work/shooting-star-chase
 links:
- - facebook: #
+ - website: http://www.shootingstarchase.org.uk/
 sitemap: false
 ---
 

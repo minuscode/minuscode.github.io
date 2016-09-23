@@ -2,17 +2,18 @@
 layout: post
 category: work
 tags: website
-title: '12000 Braçadas'
-subtitle: 'Website'
-client: 'Partners'
-design: 'Partners'
+hidden: hidden
+title: 'FeelGreen'
+subtitle: 'website'
+client: 'FeelGreen'
+design: 'FeelGreen'
 date: 2014-01-21 21:31
-uri: 'http://www.12000bracadas.com/'
+uri: 'http://feelgreen.jorgepcbraz.com/'
 image:
- - url: '../../public/images/work/12000bracadas.jpg'
-permalink: /work/12000-bracadas
+ - url: '../../public/images/work/feelgreen-logo.jpg'
+permalink: /work/feelgreen
 links:
- - website: http://www.12000bracadas.com/
+ - website: http://feelgreen.jorgepcbraz.com/
 sitemap: false
 ---
 

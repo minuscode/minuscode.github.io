@@ -2,17 +2,18 @@
 layout: post
 category: work
 tags: website
-title: 'Corkart'
+hidden: hidden
+title: 'Pixel Panties'
 subtitle: 'website'
-client: 'Corkart'
+client: 'Sebastião'
 design: 'xxx'
 date: 2014-01-21 21:31
-uri: 'http://corkart.jorgepcbraz.com/'
+uri: 'http://pixel-panties.myshopify.com/'
 image:
- - url: '../../public/images/work/corkart.jpg'
-permalink: /work/corkart
+ - url: '../../public/images/work/pixelpanties.jpg'
+permalink: /work/pixel-panties
 links:
- - website: http://corkart.jorgepcbraz.com/
+ - website: http://pixel-panties.myshopify.com/
 sitemap: false
 ---
 

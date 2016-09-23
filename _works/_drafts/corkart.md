@@ -2,17 +2,18 @@
 layout: post
 category: work
 tags: website
-title: 'Shooting Star Chase'
-subtitle: 'Website'
-client: 'Shooting Star Chase'
+hidden: hidden
+title: 'Corkart'
+subtitle: 'website'
+client: 'Corkart'
 design: 'xxx'
 date: 2014-01-21 21:31
-uri: 'http://www.shootingstarchase.org.uk/'
+uri: 'http://corkart.jorgepcbraz.com/'
 image:
- - url: '../../public/images/work/shooting-star.jpg'
-permalink: /work/shooting-star-chase
+ - url: '../../public/images/work/corkart.jpg'
+permalink: /work/corkart
 links:
- - website: http://www.shootingstarchase.org.uk/
+ - website: http://corkart.jorgepcbraz.com/
 sitemap: false
 ---
 

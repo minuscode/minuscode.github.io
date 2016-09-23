@@ -1,18 +1,20 @@
 ---
 layout: post
 category: work
-tags: website
-title: 'NovaPhysio'
-subtitle: 'Website'
-client: 'Nova Physio'
-design: 'Partners'
+tags: mobile
+hidden: hidden
+title: 'Desperados'
+subtitle: 'iOS & Android App'
+client: 'FunnyHow'
+design: 'FunnyHow'
 date: 2014-01-21 21:31
-uri: 'http://novaphysio.pt/'
+uri: '#'
 image:
- - url: '../../public/images/work/novaphysio.jpg'
-permalink: /work/novaphysio
+ - url: '../../public/images/work/desperados.jpg'
+permalink: /work/desperados
 links:
- - website: http://novaphysio.pt/
+ - iOS: https://itunes.apple.com/pt/app/bringontheparty/id849351242?mt=8
+ - android: https://play.google.com/store/apps/details?id=com.minuscode.desperados.bringontheparty
 sitemap: false
 ---
 

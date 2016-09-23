@@ -2,17 +2,19 @@
 layout: post
 category: work
 tags: mobile
-title: 'Biomet'
-subtitle: 'iOS App'
-client: 'Moby2do'
-design: 'xxx'
+hidden: hidden
+title: 'Tanqueray Afterwork'
+subtitle: 'Android & iOS App'
+client: 'FunnyHow'
+design: 'FunnyHow'
 date: 2014-01-21 21:31
-uri: '#'
+uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
 image:
- - url: '../../public/images/work/biomet.jpg'
-permalink: /work/biomet
+ - url: '../../public/images/work/tanqueray.jpg'
+permalink: /work/tanqueray-afterwork
 links:
- - iOS: #
+ - iOS: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8
+ - android: https://play.google.com/store/apps/details?id=com.minuscode.afterwork
 sitemap: false
 ---
 

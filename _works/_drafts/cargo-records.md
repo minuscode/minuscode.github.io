@@ -2,17 +2,18 @@
 layout: post
 category: work
 tags: website
-title: 'Nemus'
-subtitle: 'website'
-client: 'Nemus'
+hidden: hidden
+title: 'Cargo Records'
+subtitle: 'Website'
+client: 'Cargo Records'
 design: 'xxx'
 date: 2014-01-21 21:31
-uri: 'http://www.nemus.pt/'
+uri: 'cargorecords.co.uk'
 image:
- - url: '../../public/images/work/nemus.jpg'
-permalink: /work/nemus
+ - url: '../../public/images/work/cargo-records.jpg'
+permalink: /work/cargo-records
 links:
- - website: http://www.nemus.pt/
+ - website: http://cargorecords.co.uk/
 sitemap: false
 ---
 

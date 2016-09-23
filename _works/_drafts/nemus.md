@@ -2,17 +2,18 @@
 layout: post
 category: work
 tags: website
-title: 'FeelGreen'
+title: 'Nemus'
+hidden: hidden
 subtitle: 'website'
-client: 'FeelGreen'
-design: 'FeelGreen'
+client: 'Nemus'
+design: 'xxx'
 date: 2014-01-21 21:31
-uri: 'http://feelgreen.jorgepcbraz.com/'
+uri: 'http://www.nemus.pt/'
 image:
- - url: '../../public/images/work/feelgreen-logo.jpg'
-permalink: /work/feelgreen
+ - url: '../../public/images/work/nemus.jpg'
+permalink: /work/nemus
 links:
- - website: http://feelgreen.jorgepcbraz.com/
+ - website: http://www.nemus.pt/
 sitemap: false
 ---
 

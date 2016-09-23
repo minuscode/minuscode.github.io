@@ -2,17 +2,18 @@
 layout: post
 category: work
 tags: website
-title: 'Pixel Panties'
-subtitle: 'website'
-client: 'Sebastião'
-design: 'xxx'
+hidden: hidden
+title: 'CDUL'
+subtitle: 'Website'
+client: 'Partners'
+design: 'Partners'
 date: 2014-01-21 21:31
-uri: 'http://pixel-panties.myshopify.com/'
+uri: 'http://www.cdulrugby.pt/'
 image:
- - url: '../../public/images/work/pixelpanties.jpg'
-permalink: /work/pixel-panties
+ - url: '../../public/images/work/cdul.jpg'
+permalink: /work/cdul
 links:
- - website: http://pixel-panties.myshopify.com/
+ - website: http://www.cdulrugby.pt/
 sitemap: false
 ---
 

@@ -85,6 +85,34 @@ MINUS.work = (function($) {
     }
   }
 
+  setInterval(function(){
+    $('.line-chart__item').addClass('is-active');
+  }, 500);
+
+
+  var animation_elements = $('.work-wrap');
+  
+  function check_if_in_view() {
+    var window_height = $(window).height();
+    var window_top_position = $(window).scrollTop();
+    var window_bottom_position = (window_top_position + window_height);
+
+    $.each(animation_elements, function() {
+      var element = $(this);
+      var element_height = element.outerHeight();
+      var element_top_position = element.offset().top + 150;
+      var element_bottom_position = (element.offset().top + element_height);
+
+      
+      if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+        element.addClass('in-view');
+      }
+    });
+  }
+  
+  $(window).on('scroll resize', check_if_in_view);
+  $(window).trigger('scroll');
+
   return {
     init: init
   };
@@ -115,6 +143,22 @@ MINUS.about_us = (function($) {
 //-----------------------------
 (function($) {
 
-  MINUS.work.init();
+  MINUS.work.init(); 
+ 
+  $.getJSON('https://minustats.herokuapp.com/projects', function (response) {
+      
+      var items = [];
+      
+      $.each( response, function(name, value) {
+        items.push(name, value);
+      });
 
+      $('.line-chart__item.web').append('<span class="apended-val">'+items[0]+' - '+items[1]+'</span>');
+      $('.line-chart__item.mob').append('<span class="apended-val">'+items[2]+' - '+items[3]+'</span>');
+      $('.line-chart__item.ux').append('<span class="apended-val">'+items[4]+' - '+items[5]+'</span>');
+      $('.line-chart__item.other').append('<span class="apended-val">'+items[6]+' - '+items[7]+'</span>');
+      
+    }
+  );
+  
 })(jQuery);

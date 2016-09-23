@@ -1,19 +1,19 @@
 ---
 layout: post
 category: work
-tags: mobile
-title: 'Tanqueray Afterwork'
-subtitle: 'Android & iOS App'
-client: 'FunnyHow'
-design: 'FunnyHow'
+tags: website
+hidden: hidden
+title: 'Surfers Lodge'
+subtitle: 'Website'
+client: 'Partners'
+design: 'Partners'
 date: 2014-01-21 21:31
-uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
+uri: 'http://surferslodgepeniche.com/pt/'
 image:
- - url: '../../public/images/work/tanqueray.jpg'
-permalink: /work/tanqueray-afterwork
+ - url: '../../public/images/work/surfers-lodge.jpg'
+permalink: /work/surfers-lodge
 links:
- - iOS: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8
- - android: https://play.google.com/store/apps/details?id=com.minuscode.afterwork
+ - website: http://surferslodgepeniche.com/pt/
 sitemap: false
 ---
 

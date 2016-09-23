@@ -231,6 +231,10 @@ html {
     padding: 35px 0;
   }
 
+  @media screen and (max-width: 1024px) {
+    margin-top: 100px;
+  }
+
   span {
     @include media-query(portable) {
       display: block;
@@ -610,6 +614,14 @@ html {
 
   .categories {
     float: right;
+
+    @media screen and (max-width: 600px){
+      float: none;
+      display: block;
+      text-align: center;
+      margin: 30px 0;
+      padding:0;
+    }
 
     li {
       display: inline-block;

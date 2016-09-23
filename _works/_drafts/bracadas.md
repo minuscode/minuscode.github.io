@@ -2,17 +2,18 @@
 layout: post
 category: work
 tags: website
-title: 'Surfers Lodge'
+hidden: hidden
+title: '12000 Braçadas'
 subtitle: 'Website'
 client: 'Partners'
 design: 'Partners'
 date: 2014-01-21 21:31
-uri: 'http://surferslodgepeniche.com/pt/'
+uri: 'http://www.12000bracadas.com/'
 image:
- - url: '../../public/images/work/surfers-lodge.jpg'
-permalink: /work/surfers-lodge
+ - url: '../../public/images/work/12000bracadas.jpg'
+permalink: /work/12000-bracadas
 links:
- - website: http://surferslodgepeniche.com/pt/
+ - website: http://www.12000bracadas.com/
 sitemap: false
 ---
 

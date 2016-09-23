@@ -1,18 +1,19 @@
 ---
 layout: post
 category: work
+hidden: hidden
 tags: website
-title: 'Cargo Records'
+title: 'NovaPhysio'
 subtitle: 'Website'
-client: 'Cargo Records'
-design: 'xxx'
+client: 'Nova Physio'
+design: 'Partners'
 date: 2014-01-21 21:31
-uri: 'cargorecords.co.uk'
+uri: 'http://novaphysio.pt/'
 image:
- - url: '../../public/images/work/cargo-records.jpg'
-permalink: /work/cargo-records
+ - url: '../../public/images/work/novaphysio.jpg'
+permalink: /work/novaphysio
 links:
- - website: http://cargorecords.co.uk/
+ - website: http://novaphysio.pt/
 sitemap: false
 ---
 

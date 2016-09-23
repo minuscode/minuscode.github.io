@@ -1,18 +1,19 @@
 ---
 layout: post
 category: work
-tags: website
-title: '4MOOVE'
-subtitle: 'Website'
-client: '4moove'
-design: 'Partners'
+tags: mobile
+title: 'Biomet'
+hidden: hidden
+subtitle: 'iOS App'
+client: 'Moby2do'
+design: 'xxx'
 date: 2014-01-21 21:31
-uri: '4moove.com'
+uri: '#'
 image:
- - url: '../../public/images/work/4moove.jpg'
-permalink: /work/4moove
+ - url: '../../public/images/work/biomet.jpg'
+permalink: /work/biomet
 links:
- - website: http://4moove.com/
+ - iOS: #
 sitemap: false
 ---
 
