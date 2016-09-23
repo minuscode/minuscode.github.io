@@ -9,6 +9,12 @@ category: work
     <div class="wrapper">
         <h1>Our previous work list</h1>
         <p>never seems big enough</p>
+
+        <div class="line-chart">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
   </div>
 
 </div><!-- /masthead -->
@@ -24,33 +30,63 @@ category: work
     </ul>
   </div>
 
+  {% assign count = 0 %}
   {% for post in site.posts %}
-    {% if post.category contains 'work' %}
-      {% assign foundImage = 0 %}
-      {% for image_hash in post.image %}
-        {% for image in image_hash %}
-          {% if foundImage == 0 %}
-          <span class="{{ post.hidden contains }}">
-            <article class="work-item block" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}">
-              <div class="work-info">
-                <h2><!--<a href="{{ post.url }}">-->{{ post.title }}<!--</a>--></h2>
-                <p>{{ post.subtitle }}</p>
-                <ul>
-                {% for link_hash in post.links %}
-                  {% for link in link_hash %}
-                  <li><a href="{{ link[1] }}" target="blank" class="icon-{{ link[0] }}"></a></li>
-                  {% endfor %}
-                {% endfor %}
-                </ul>
-              </div>
-            </article>
-          </span>
-          {% assign foundImage = 1 %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    {%  endif %}
+    {% if post.hidden %}{% continue %}{% endif %}
+    {% unless post.category contains 'work' %}{% continue %}{% endunless %}
+
+    {% assign count = count | plus: 1 %}
+    {% assign mod = count | modulo: 2 %}
+    {% assign image_hash = post.image | first %}
+    {% if image_hash %}
+      {% assign image = image_hash | first %}
+    {% endif %}
+
+    <div class="work-wrap">
+      {% if image and mod != 0 %}
+        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}"></div>
+      {% endif %}
+      <div class="work-wrap__content work-wrap__info">
+        <h1>{{ post.title }}</h1>
+        <h2>{{ post.subtitle }}</h2>
+        <p>{{ post.desc }}</p>
+        
+        <ul>
+          {% for link_hash in post.links %}
+            {% for link in link_hash %}
+              <li><a href="{{ link[1] }}" class="default-link">iOS</a></li>
+              <li><a href="{{ link[1] }}" class="default-link">android</a></li>
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% if image and mod == 0 %}
+        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}"></div>
+      {% endif %}
+    </div>
+
   {% endfor %}
+
+  <ul class="simple-list">
+    <li>
+      <h2>Web</h2>
+      <p><a href="#">salitre</a></p>
+      <p><a href="#">iogurteria do bairro</a></p>
+    </li>
+    <li>
+      <h2>App</h2>
+      <p><a href="#">App 1</a></p>
+      <p><a href="#">App 2</a></p>
+      <p><a href="#">App 3 buéda fixe</a></p>
+    </li>
+    <li>
+      <h2>UX</h2>
+      <p><a href="#">ux 2</a></p>
+      <p><a href="#">ux 3</a></p>
+      <p><a href="#">ux 213</a></p>
+    </li>
+  </ul>
 
 </div><!-- /work -->
 
