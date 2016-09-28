@@ -3712,6 +3712,11 @@ label,
   }
 }
 /* endif */
+/* line 2, src/ui/_links.scss */
+.link--arrow-end:after {
+  content: ' \2192';
+}
+
 /*------------------------------------*\
     $PAGE
 \*------------------------------------*/
@@ -4173,11 +4178,43 @@ html {
 /* line 364, src/ui/_page.scss */
 .member {
   display: inline-block;
-  margin: 0 2%;
-  width: 45%;
   text-align: center;
 }
-/* line 369, src/ui/_page.scss */
+@media only screen and (max-width: 480px) {
+  /* line 364, src/ui/_page.scss */
+  .member {
+    padding-left: 0;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 939px) {
+  /* line 364, src/ui/_page.scss */
+  .member {
+    padding: 0;
+  }
+  /* line 375, src/ui/_page.scss */
+  .member:nth-of-type(2n) {
+    padding-left: 1%;
+  }
+  /* line 376, src/ui/_page.scss */
+  .member:nth-of-type(2n+1) {
+    padding-right: 1%;
+  }
+}
+@media only screen and (min-width: 940px) {
+  /* line 364, src/ui/_page.scss */
+  .member {
+    padding: 0;
+  }
+  /* line 382, src/ui/_page.scss */
+  .member:nth-of-type(2n) {
+    padding-left: 1%;
+  }
+  /* line 383, src/ui/_page.scss */
+  .member:nth-of-type(2n+1) {
+    padding-right: 1%;
+  }
+}
+/* line 387, src/ui/_page.scss */
 .member h2 {
   color: #c94055;
   font-family: "Glegoo", serif;
@@ -4189,7 +4226,7 @@ html {
   margin-top: 25px;
   text-align: center;
 }
-/* line 379, src/ui/_page.scss */
+/* line 397, src/ui/_page.scss */
 .member p {
   margin-top: 10px;
   margin-bottom: 50px;
@@ -4199,7 +4236,7 @@ html {
   font-size: 1rem;
   line-height: 1.5;
 }
-/* line 389, src/ui/_page.scss */
+/* line 407, src/ui/_page.scss */
 .member .social a {
   color: #cedecb;
   margin-right: 14px;
@@ -4207,37 +4244,37 @@ html {
   font-size: 25px;
   font-size: 1.5625rem;
 }
-/* line 395, src/ui/_page.scss */
+/* line 413, src/ui/_page.scss */
 .member .social a:hover {
   color: #194f58;
 }
-/* line 399, src/ui/_page.scss */
+/* line 417, src/ui/_page.scss */
 .member .social a:first-child {
   margin-top: 90px;
 }
-/* line 405, src/ui/_page.scss */
+/* line 423, src/ui/_page.scss */
 .member hr {
   border-color: #cedecb;
-  margin: 0;
+  margin: 0 20px;
 }
-/* line 410, src/ui/_page.scss */
+/* line 428, src/ui/_page.scss */
 .member .member-pic {
   width: 90%;
   margin: 0 auto;
 }
 @media only screen and (max-width: 480px) {
-  /* line 410, src/ui/_page.scss */
+  /* line 428, src/ui/_page.scss */
   .member .member-pic {
     margin-top: 24px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
-  /* line 410, src/ui/_page.scss */
+  /* line 428, src/ui/_page.scss */
   .member .member-pic {
     text-align: right;
   }
 }
-/* line 423, src/ui/_page.scss */
+/* line 441, src/ui/_page.scss */
 .member img {
   display: inline-block;
   vertical-align: middle;
@@ -4246,48 +4283,48 @@ html {
 /*
  * CONTACT
  */
-/* line 434, src/ui/_page.scss */
+/* line 452, src/ui/_page.scss */
 .masthead-contact img {
   margin-bottom: 80px;
 }
 @media only screen and (max-width: 939px) {
-  /* line 434, src/ui/_page.scss */
+  /* line 452, src/ui/_page.scss */
   .masthead-contact img {
     margin-bottom: 50px;
   }
 }
 
-/* line 444, src/ui/_page.scss */
+/* line 462, src/ui/_page.scss */
 .contact .contacts {
   max-width: 505px;
   position: relative;
 }
-/* line 448, src/ui/_page.scss */
+/* line 466, src/ui/_page.scss */
 .contact .contacts a {
   color: #fff;
   text-decoration: none;
 }
-/* line 452, src/ui/_page.scss */
+/* line 470, src/ui/_page.scss */
 .contact .contacts a:hover {
   text-decoration: underline;
 }
-/* line 457, src/ui/_page.scss */
+/* line 475, src/ui/_page.scss */
 .contact .contacts > a img {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 462, src/ui/_page.scss */
+/* line 480, src/ui/_page.scss */
 .contact .contacts .shade {
   display: none;
 }
 @media only screen and (min-width: 940px) {
-  /* line 444, src/ui/_page.scss */
+  /* line 462, src/ui/_page.scss */
   .contact .contacts {
     overflow: hidden;
     max-width: 505px;
     padding-bottom: 25px;
   }
-  /* line 470, src/ui/_page.scss */
+  /* line 488, src/ui/_page.scss */
   .contact .contacts .shade {
     bottom: 0;
     display: block;
@@ -4295,36 +4332,36 @@ html {
     position: absolute;
   }
 }
-/* line 478, src/ui/_page.scss */
+/* line 496, src/ui/_page.scss */
 .contact .contacts .icon-briefcase {
   padding-right: 10px;
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 2;
 }
-/* line 483, src/ui/_page.scss */
+/* line 501, src/ui/_page.scss */
 .contact .contacts .icon-mail,
 .contact .contacts .icon-mobile {
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
 }
-/* line 488, src/ui/_page.scss */
+/* line 506, src/ui/_page.scss */
 .contact .contacts .icon-mail {
   padding-right: 10px;
 }
-/* line 492, src/ui/_page.scss */
+/* line 510, src/ui/_page.scss */
 .contact .contacts .icon-mobile {
   padding-right: 13px;
   padding-left: 3px;
 }
-/* line 499, src/ui/_page.scss */
+/* line 517, src/ui/_page.scss */
 .contact .contacts-container {
   background-color: #194f58;
   color: #fff;
   padding: 14px 24px;
 }
-/* line 504, src/ui/_page.scss */
+/* line 522, src/ui/_page.scss */
 .contact .contacts-container p {
   font-family: "Glegoo", serif;
   margin-bottom: 0;
@@ -4332,7 +4369,7 @@ html {
   font-size: 0.875rem;
   line-height: 1.71429;
 }
-/* line 510, src/ui/_page.scss */
+/* line 528, src/ui/_page.scss */
 .contact .contacts-container h2 {
   font-family: "Alef", sans-serif;
   margin-bottom: 0;
@@ -4340,33 +4377,33 @@ html {
   font-size: 1rem;
   line-height: 1.5;
 }
-/* line 516, src/ui/_page.scss */
+/* line 534, src/ui/_page.scss */
 .contact .contacts-container span {
   font-family: "Alef", sans-serif;
 }
-/* line 520, src/ui/_page.scss */
+/* line 538, src/ui/_page.scss */
 .contact .contacts-container .address {
   margin-bottom: 16px;
   padding-left: 27px;
 }
-/* line 526, src/ui/_page.scss */
+/* line 544, src/ui/_page.scss */
 .contact form {
   margin: 20px 0 0 30px;
   text-align: center;
 }
 @media only screen and (max-width: 939px) {
-  /* line 526, src/ui/_page.scss */
+  /* line 544, src/ui/_page.scss */
   .contact form {
     margin: 40px 0 0;
   }
 }
-/* line 534, src/ui/_page.scss */
+/* line 552, src/ui/_page.scss */
 .contact fieldset {
   border: 0;
   padding: 0;
   text-align: left;
 }
-/* line 540, src/ui/_page.scss */
+/* line 558, src/ui/_page.scss */
 .contact legend {
   color: #194f58;
   font-family: "PT Sans Caption", sans-serif;
@@ -4377,7 +4414,7 @@ html {
   font-size: 1.875rem;
   line-height: 1.6;
 }
-/* line 549, src/ui/_page.scss */
+/* line 567, src/ui/_page.scss */
 .contact input, .contact textarea {
   border: 1px solid #cedecb;
   border-radius: 4px;
@@ -4395,7 +4432,7 @@ html {
   font-size: 1rem;
   line-height: 1.5;
 }
-/* line 564, src/ui/_page.scss */
+/* line 582, src/ui/_page.scss */
 .contact input:focus, .contact textarea:focus {
   border-color: #194f58;
   border-color: rgba(25, 79, 88, 0.4);
@@ -4403,12 +4440,12 @@ html {
   -webkit-box-shadow: inset 0 1px 1px rgba(25, 79, 88, 0.075), 0 0 4px rgba(25, 79, 88, 0.6);
   box-shadow: inset 0 1px 1px rgba(25, 79, 88, 0.075), 0 0 4px rgba(25, 79, 88, 0.6);
 }
-/* line 573, src/ui/_page.scss */
+/* line 591, src/ui/_page.scss */
 .contact textarea {
   height: auto;
   overflow: auto;
 }
-/* line 578, src/ui/_page.scss */
+/* line 596, src/ui/_page.scss */
 .contact button {
   padding-left: 30px;
   padding-right: 30px;
@@ -4418,7 +4455,7 @@ html {
 /*
  * Work
  */
-/* line 590, src/ui/_page.scss */
+/* line 608, src/ui/_page.scss */
 .masthead-work h1 {
   color: #c94055;
   font-family: "PT Sans Caption", sans-serif;
@@ -4427,12 +4464,12 @@ html {
   text-transform: uppercase;
 }
 
-/* line 599, src/ui/_page.scss */
+/* line 617, src/ui/_page.scss */
 .work-header {
   overflow: auto;
   padding: 0 16px;
 }
-/* line 603, src/ui/_page.scss */
+/* line 621, src/ui/_page.scss */
 .work-header .hidden-link {
   color: #194f58;
   font-family: "PT Sans Caption", sans-serif;
@@ -4440,46 +4477,48 @@ html {
   text-decoration: none;
   font-size: 28px;
 }
-/* line 611, src/ui/_page.scss */
+/* line 629, src/ui/_page.scss */
 .work-header .categories {
   float: right;
 }
-/* line 614, src/ui/_page.scss */
+/* line 632, src/ui/_page.scss */
 .work-header .categories li {
   display: inline-block;
   margin: 0 15px;
   font-size: 30px;
 }
-/* line 619, src/ui/_page.scss */
+/* line 637, src/ui/_page.scss */
 .work-header .categories li a {
   text-decoration: none;
   color: #c94055;
+  padding-bottom: .4em;
 }
-/* line 623, src/ui/_page.scss */
+/* line 642, src/ui/_page.scss */
 .work-header .categories li a:hover, .work-header .categories li a.active {
+  border-bottom: 2px solid currentColor;
   color: #932a3a;
   outline: 0;
 }
 
-/* line 632, src/ui/_page.scss */
+/* line 652, src/ui/_page.scss */
 .work {
   color: #fff;
   margin: 0 auto;
   max-width: 1200px;
 }
 @media only screen and (min-width: 481px) and (max-width: 939px) {
-  /* line 632, src/ui/_page.scss */
+  /* line 652, src/ui/_page.scss */
   .work {
     padding: 0 25px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 632, src/ui/_page.scss */
+  /* line 652, src/ui/_page.scss */
   .work {
     padding: 0;
   }
 }
-/* line 645, src/ui/_page.scss */
+/* line 665, src/ui/_page.scss */
 .work .block {
   position: relative;
   display: inline-block;
@@ -4488,7 +4527,7 @@ html {
   width: 30%;
   margin: 1rem;
 }
-/* line 653, src/ui/_page.scss */
+/* line 673, src/ui/_page.scss */
 .work .block img {
   left: 0;
   position: absolute;
@@ -4500,7 +4539,7 @@ html {
   -o-background-cover: cover;
   background-cover: cover;
 }
-/* line 662, src/ui/_page.scss */
+/* line 682, src/ui/_page.scss */
 .work .work-item {
   height: 18rem;
   background-size: cover;
@@ -4508,11 +4547,11 @@ html {
   overflow: hidden;
   text-align: left;
 }
-/* line 671, src/ui/_page.scss */
+/* line 691, src/ui/_page.scss */
 .work .work-item:hover > .work-info {
   top: 0;
 }
-/* line 676, src/ui/_page.scss */
+/* line 696, src/ui/_page.scss */
 .work .work-item h2 {
   font-family: "PT Sans Caption", sans-serif;
   font-weight: 400;
@@ -4520,16 +4559,16 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 684, src/ui/_page.scss */
+/* line 704, src/ui/_page.scss */
 .work .work-item a {
   text-decoration: none;
   color: #194f58;
 }
-/* line 689, src/ui/_page.scss */
+/* line 709, src/ui/_page.scss */
 .work .work-item p {
   font-family: "PT Sans Caption", sans-serif;
 }
-/* line 693, src/ui/_page.scss */
+/* line 713, src/ui/_page.scss */
 .work .work-item .work-info {
   position: absolute;
   left: 0;
@@ -4543,7 +4582,7 @@ html {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-/* line 707, src/ui/_page.scss */
+/* line 727, src/ui/_page.scss */
 .work .work-item ul {
   position: absolute;
   bottom: 0;
@@ -4552,39 +4591,39 @@ html {
   margin-bottom: 15px;
   list-style-type: none;
 }
-/* line 716, src/ui/_page.scss */
+/* line 736, src/ui/_page.scss */
 .work .work-item li {
   display: inline-block;
   margin: 0 6px;
 }
-/* line 720, src/ui/_page.scss */
+/* line 740, src/ui/_page.scss */
 .work .work-item li a {
   text-decoration: none;
   color: #194f58;
   font-size: 22px;
 }
-/* line 728, src/ui/_page.scss */
+/* line 748, src/ui/_page.scss */
 .work .hide, .work .hidden {
   display: none;
 }
 
 /*** Single Work ***/
-/* line 736, src/ui/_page.scss */
+/* line 756, src/ui/_page.scss */
 .post .work {
   color: #000;
   padding: 80px 0;
 }
-/* line 740, src/ui/_page.scss */
+/* line 760, src/ui/_page.scss */
 .post .work ul {
   list-style-type: none;
   margin-left: 0;
 }
-/* line 745, src/ui/_page.scss */
+/* line 765, src/ui/_page.scss */
 .post .work li {
   display: inline-block;
   height: 200px;
 }
-/* line 750, src/ui/_page.scss */
+/* line 770, src/ui/_page.scss */
 .post .work .main-content {
   color: #194f58;
   font-family: "Alef", sans-serif;
@@ -4592,18 +4631,18 @@ html {
   font-size: 1rem;
   line-height: 1.5;
 }
-/* line 759, src/ui/_page.scss */
+/* line 779, src/ui/_page.scss */
 .post .sidebar {
   font-family: "Glegoo", serif;
   padding-left: 30px;
   color: #194f58;
 }
-/* line 764, src/ui/_page.scss */
+/* line 784, src/ui/_page.scss */
 .post .sidebar span {
   text-transform: uppercase;
   color: #c94055;
 }
-/* line 769, src/ui/_page.scss */
+/* line 789, src/ui/_page.scss */
 .post .sidebar a {
   outline: 0;
   text-decoration: none;

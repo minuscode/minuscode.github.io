@@ -363,9 +363,27 @@ html {
 
 .member {
   display: inline-block;
-  margin:0 2%;
-  width: 45%;
   text-align: center;
+
+  @include media-query(palm) {
+    padding-left: 0;
+  }
+
+  @include media-query(lap) {
+    padding: 0;
+
+    &:nth-of-type(2n) { padding-left: 1%; }
+    &:nth-of-type(2n+1) { padding-right: 1%; }
+  }
+
+  @include media-query(desk) {
+    padding: 0;
+
+    &:nth-of-type(2n) { padding-left: 1%; }
+    &:nth-of-type(2n+1) { padding-right: 1%; }
+  }
+
+
   h2 {
     color: $red;
     font-family: $brand-serif;
@@ -404,7 +422,7 @@ html {
 
   hr {
     border-color: $green;
-    margin: 0;
+    margin: 0 20px;
   }
 
   .member-pic {
