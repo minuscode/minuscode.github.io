@@ -22,7 +22,7 @@ category: work
 
 <div class="content work">
   <div class="work-header">
-    <a class="hidden-link" href="?showall">Our latest work</a>
+    <a class="hidden-link" href="?showall">Featured work</a>
     <ul class="categories">
       <li><a href="#" class="icon-all" data-category="all"></a></li>
       <li><a href="#" class="icon-website" data-category="website"></a></li>
@@ -33,7 +33,7 @@ category: work
 
   {% assign count = 0 %}
   {% for post in site.posts %}
-    
+
     {% if post.hidden %}{% continue %}{% endif %}
 
     {% unless post.category contains 'work' %}{% continue %}{% endunless %}
@@ -53,12 +53,12 @@ category: work
         <h1>{{ post.title }}</h1>
         <h2>{{ post.subtitle }}</h2>
         <p>{{ post.desc }}</p>
-        
+
         <ul>
           {% for link_hash in post.links %}
             {% for link in link_hash %}
               <li><a href="{{ link[1] }}" class="default-link default-link--green" target="_blank">website</a></li>
-              <li><a href="{{ link[2] }}" class="default-link default-link--green" target="_blank">iOs</a></li>
+              <li><a href="{{ link[2] }}" class="default-link default-link--green" target="_blank">iOS</a></li>
             {% endfor %}
           {% endfor %}
         </ul>
