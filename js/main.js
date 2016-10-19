@@ -86,7 +86,7 @@ MINUS.work = (function($) {
   }
 
   setInterval(function(){
-    $('.line-chart span').addClass('is-active');
+    $('.line-chart__item').addClass('is-active');
   }, 500);
 
 
@@ -144,5 +144,21 @@ MINUS.about_us = (function($) {
 (function($) {
 
   MINUS.work.init(); 
+ 
+  $.getJSON('https://minustats.herokuapp.com/projects', function (response) {
+      
+      var items = [];
+      
+      $.each( response, function(name, value) {
+        items.push(name, value);
+      });
 
+      $('.line-chart__item.web').append('<span class="apended-val">'+items[0]+' - '+items[1]+'</span>');
+      $('.line-chart__item.mob').append('<span class="apended-val">'+items[2]+' - '+items[3]+'</span>');
+      $('.line-chart__item.ux').append('<span class="apended-val">'+items[4]+' - '+items[5]+'</span>');
+      $('.line-chart__item.other').append('<span class="apended-val">'+items[6]+' - '+items[7]+'</span>');
+      
+    }
+  );
+  
 })(jQuery);

@@ -2,6 +2,7 @@
 layout: post
 category: work
 tags: facebook
+hidden: hidden
 title: 'Filho da Pub'
 subtitle: 'Facebook App'
 client: 'Partners'

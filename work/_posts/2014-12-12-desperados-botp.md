@@ -2,6 +2,7 @@
 layout: post
 category: work
 tags: mobile
+hidden: hidden
 title: 'Desperados'
 subtitle: 'iOS & Android App'
 client: 'FunnyHow'

@@ -1,6 +1,7 @@
 ---
 layout: post
 category: work
+hidden: hidden
 tags: website
 title: 'NovaPhysio'
 subtitle: 'Website'

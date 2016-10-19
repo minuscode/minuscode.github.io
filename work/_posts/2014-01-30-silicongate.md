@@ -2,6 +2,7 @@
 layout: post
 category: work
 tags: website
+hidden: hidden
 title: 'Silicongate'
 subtitle: 'website'
 client: 'Silicongate'

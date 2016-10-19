@@ -10,11 +10,12 @@ category: work
         <h1>Our previous work list</h1>
         <p>never seems big enough</p>
 
-        <div class="line-chart">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+        <ul class="line-chart">
+          <li class="line-chart__item web"></li>
+          <li class="line-chart__item mob"></li>
+          <li class="line-chart__item ux"></li>
+          <li class="line-chart__item other"></li>
+        </ul>
   </div>
 
 </div><!-- /masthead -->
@@ -32,7 +33,9 @@ category: work
 
   {% assign count = 0 %}
   {% for post in site.posts %}
+    
     {% if post.hidden %}{% continue %}{% endif %}
+
     {% unless post.category contains 'work' %}{% continue %}{% endunless %}
 
     {% assign count = count | plus: 1 %}
@@ -54,8 +57,8 @@ category: work
         <ul>
           {% for link_hash in post.links %}
             {% for link in link_hash %}
-              <li><a href="{{ link[1] }}" class="default-link">iOS</a></li>
-              <li><a href="{{ link[1] }}" class="default-link">android</a></li>
+              <li><a href="{{ link[1] }}" class="default-link default-link--green" target="_blank">website</a></li>
+              <li><a href="{{ link[2] }}" class="default-link default-link--green" target="_blank">iOs</a></li>
             {% endfor %}
           {% endfor %}
         </ul>

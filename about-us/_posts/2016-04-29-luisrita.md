@@ -11,7 +11,7 @@ description: [
   ""
 ]
 role: 'Full Stack'
-picture: 'no-foto.png'
+picture: 'luis-rita.png'
 social:
   'github':   ''
   'twitter':  ''

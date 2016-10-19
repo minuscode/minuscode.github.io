@@ -2,6 +2,7 @@
 layout: post
 category: work
 tags: website
+hidden: hidden
 title: 'Shooting Star Chase'
 subtitle: 'Website'
 client: 'Shooting Star Chase'

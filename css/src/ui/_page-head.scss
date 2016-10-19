@@ -8,6 +8,7 @@
   position: absolute;
   right: auto;
   width: 100%;
+  z-index: 100;
   @include media-query(portable) {
     background: $default-color;
     padding: 0;
@@ -27,13 +28,15 @@
     margin: 0;
     @include media-query(portable) {
       background-color: $default-color;
-      display: none;
+      // display: none;
       opacity: 0;
+      visibility: hidden;
       padding: 10px 15px;
       position: absolute;
       right: 0;
-      top:56px;
+      top:46px;
       width: 100%;
+      transition: all 300ms ease-Out;
     }
   }
 
@@ -160,8 +163,9 @@
     &:checked {
       + nav {
         ul {
-          display: block;
+          top:56px;
           opacity: 1;
+          visibility: visible;
         }
 
         .toggle:after {

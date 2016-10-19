@@ -2,6 +2,7 @@
 layout: post
 category: work
 tags: website
+hidden: hidden
 title: 'Clinica Veterinária de Alcantara'
 subtitle: 'Website'
 client: 'Clinica Veterinária de Alcantara'
