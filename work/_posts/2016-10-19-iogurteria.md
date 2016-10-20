@@ -9,7 +9,7 @@ client: ''
 date: 2016-10-19 15:30
 uri: 'http://iogurteriadobairro.pt/'
 image:
- - url: '../../images/work/wellclub.jpg'
+ - url: '../../images/work/thumbs/thumb-iogurtes.jpg'
 permalink: /work/wellclub
 links:
  - website: http://iogurteriadobairro.pt/

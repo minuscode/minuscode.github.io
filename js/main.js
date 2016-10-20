@@ -100,7 +100,7 @@ MINUS.work = (function($) {
     $.each(animation_elements, function() {
       var element = $(this);
       var element_height = element.outerHeight();
-      var element_top_position = element.offset().top;
+      var element_top_position = element.offset().top + 150;
       var element_bottom_position = (element.offset().top + element_height);
 
       
