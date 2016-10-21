@@ -5169,14 +5169,14 @@ html {
 .work-wrap__content {
   position: relative;
   display: table-cell;
-  vertical-align: middle;
+  vertical-align: top;
   opacity: 0;
   transition: all 700ms ease;
 }
 /* line 46, src/ui/_work-wrap.scss */
 .work-wrap__content h1 {
-  font-size: 36px;
-  font-family: "Alef", sans-serif;
+  font-size: 34px;
+  font-family: "Glegoo", serif;
   color: #c94055;
   margin: 0;
 }
@@ -5189,8 +5189,8 @@ html {
 }
 /* line 60, src/ui/_work-wrap.scss */
 .work-wrap__content p {
-  font-size: 22px;
-  font-family: "Glegoo", serif;
+  font-size: 20px;
+  font-family: "Alef", sans-serif;
   color: #848484;
   margin-top: 30px;
 }
@@ -5222,7 +5222,7 @@ html {
   background-size: cover;
   height: 30rem;
   transform: translateX(-90px);
-  border: 1px solid rgba(206, 222, 203, 0.2);
+  border: 1px solid rgba(206, 222, 203, 0.3);
 }
 
 /* line 103, src/ui/_work-wrap.scss */

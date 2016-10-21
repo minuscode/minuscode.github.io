@@ -39,14 +39,14 @@
 .work-wrap__content{
 	position: relative;
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align: top;
 	opacity: 0;
 	transition:all 700ms ease;
 
 	h1{
 		font:{
-			size:36px;
-			family: $sec-sans-serif;
+			size:34px;
+			family: $brand-serif;
 		}
 		color:$red;
 		margin:0;
@@ -59,8 +59,8 @@
 	}
 	p{
 		font:{
-			size:22px;
-			family:$brand-serif;
+			size:20px;
+			family:$sec-sans-serif;
 		}
 		color:$gray-mid;
 		margin-top: 30px;
@@ -94,7 +94,7 @@
 	background-size: cover;
 	height: 30rem;
 	transform:translateX(-90px);
-	border: 1px solid rgba($green, 0.2);
+	border: 1px solid rgba($green, 0.3);
 }
 
 
