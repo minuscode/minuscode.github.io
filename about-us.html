@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Us - minuscode
-category: about_us
+permalink: /about-us/index.html
 ---
 
 <div class="masthead masthead-about-us">
@@ -23,7 +23,7 @@ category: about_us
 
   <div class="wrapper shuffle">
 
-    {% for post in site.categories['about-us'] %}
+    {% for post in site.persons %}
 
       <div class="member">
         <div class="grid">
@@ -37,13 +37,13 @@ category: about_us
               <h2>{{ post.alt_name }}</h2>
               <p>
                   <span>{{ post.role }}</span>
-              </p> 
+              </p>
             </div>
           </div>
 
         </div>
         {% unless forloop.last %}
-          
+
         {% endunless %}
       </div><!-- /member -->
 
