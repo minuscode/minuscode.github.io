@@ -11,3 +11,5 @@ exclude:
   ['assets', 'config.rb', 'Guardfile', 'Procfile', 'Procfile.example', 'Gemfile', 'Gemfile.lock']
 gems:
   - jekyll-sitemap
+collections:
+  - persons
