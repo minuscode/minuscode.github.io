@@ -13,3 +13,4 @@ gems:
   - jekyll-sitemap
 collections:
   - persons
+  - works
