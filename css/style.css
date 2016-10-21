@@ -5222,34 +5222,35 @@ html {
   background-size: cover;
   height: 30rem;
   transform: translateX(-90px);
+  border: 1px solid rgba(206, 222, 203, 0.2);
 }
 
-/* line 102, src/ui/_work-wrap.scss */
+/* line 103, src/ui/_work-wrap.scss */
 .simple-list {
   display: block;
   margin: 100px 0;
 }
-/* line 106, src/ui/_work-wrap.scss */
+/* line 107, src/ui/_work-wrap.scss */
 .simple-list.simple-list--vertical {
   margin: 15px auto 0;
 }
-/* line 109, src/ui/_work-wrap.scss */
+/* line 110, src/ui/_work-wrap.scss */
 .simple-list.simple-list--vertical li {
   width: 100%;
   margin: 0;
 }
-/* line 115, src/ui/_work-wrap.scss */
+/* line 116, src/ui/_work-wrap.scss */
 .simple-list li {
   display: inline-block;
   vertical-align: top;
   width: calc((100% / 3) - 20px);
   margin-left: 25px;
 }
-/* line 121, src/ui/_work-wrap.scss */
+/* line 122, src/ui/_work-wrap.scss */
 .simple-list li:first-child {
   margin-left: 0;
 }
-/* line 126, src/ui/_work-wrap.scss */
+/* line 127, src/ui/_work-wrap.scss */
 .simple-list h2 {
   color: #1E3642;
   font-size: 22px;
@@ -5258,12 +5259,12 @@ html {
   padding-bottom: 10px;
   border-bottom: 1px solid #848484;
 }
-/* line 137, src/ui/_work-wrap.scss */
+/* line 138, src/ui/_work-wrap.scss */
 .simple-list p {
   display: block;
   margin: 0;
 }
-/* line 142, src/ui/_work-wrap.scss */
+/* line 143, src/ui/_work-wrap.scss */
 .simple-list a {
   position: relative;
   display: inline-block;
@@ -5275,15 +5276,15 @@ html {
   font-family: "Alef", sans-serif;
   margin: 0;
 }
-/* line 155, src/ui/_work-wrap.scss */
+/* line 156, src/ui/_work-wrap.scss */
 .simple-list a:hover {
   color: #194f58;
 }
-/* line 157, src/ui/_work-wrap.scss */
+/* line 158, src/ui/_work-wrap.scss */
 .simple-list a:hover:before {
   width: 100%;
 }
-/* line 162, src/ui/_work-wrap.scss */
+/* line 163, src/ui/_work-wrap.scss */
 .simple-list a:before {
   content: '';
   position: absolute;
