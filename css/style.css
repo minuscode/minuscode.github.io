@@ -4743,8 +4743,11 @@ html {
 }
 /* line 114, src/ui/_page-head.scss */
 .header-container .logo {
+  position: relative;
   display: inline-block;
   margin-top: -35px;
+  transition: all 300ms ease;
+  border-radius: 100%;
 }
 @media only screen and (max-width: 939px) {
   /* line 114, src/ui/_page-head.scss */
@@ -4755,25 +4758,42 @@ html {
   }
 }
 @media only screen and (min-width: 940px) {
-  /* line 124, src/ui/_page-head.scss */
-  .header-container .logo:hover {
+  /* line 129, src/ui/_page-head.scss */
+  .header-container .logo:after {
+    content: '';
+    position: absolute;
+    left: -5%;
+    top: -5%;
+    width: 110%;
+    height: 110%;
+    border: 2px solid rgba(25, 79, 88, 0.2);
     border-radius: 100%;
+    transform: scale(0.8);
+    z-index: -1;
+    transition: all 300ms ease;
+  }
+  /* line 143, src/ui/_page-head.scss */
+  .header-container .logo:hover {
     -moz-box-shadow: #194f58 0 0 1em;
     -webkit-box-shadow: #194f58 0 0 1em;
     box-shadow: #194f58 0 0 1em;
   }
+  /* line 146, src/ui/_page-head.scss */
+  .header-container .logo:hover:after {
+    transform: scale(1);
+  }
 }
-/* line 130, src/ui/_page-head.scss */
+/* line 152, src/ui/_page-head.scss */
 .header-container .logo img {
   vertical-align: middle;
 }
 
-/* line 136, src/ui/_page-head.scss */
+/* line 158, src/ui/_page-head.scss */
 .toggle {
   display: none;
 }
 @media only screen and (max-width: 939px) {
-  /* line 136, src/ui/_page-head.scss */
+  /* line 158, src/ui/_page-head.scss */
   .toggle {
     cursor: pointer;
     display: block;
@@ -4782,7 +4802,7 @@ html {
     -webkit-user-select: none;
     user-select: none;
   }
-  /* line 146, src/ui/_page-head.scss */
+  /* line 168, src/ui/_page-head.scss */
   .toggle:after {
     background: #cedecb;
     -webkit-box-sizing: border-box;
@@ -4803,25 +4823,25 @@ html {
     -o-transition: all .2s linear;
     transition: all .2s linear;
   }
-  /* line 168, src/ui/_page-head.scss */
+  /* line 190, src/ui/_page-head.scss */
   .toggle:hover:after {
     background: none;
     color: #cedecb;
   }
 }
 
-/* line 176, src/ui/_page-head.scss */
+/* line 198, src/ui/_page-head.scss */
 #toggle {
   display: none;
 }
 @media only screen and (max-width: 939px) {
-  /* line 181, src/ui/_page-head.scss */
+  /* line 203, src/ui/_page-head.scss */
   #toggle:checked + nav ul {
     top: 56px;
     opacity: 1;
     visibility: visible;
   }
-  /* line 187, src/ui/_page-head.scss */
+  /* line 209, src/ui/_page-head.scss */
   #toggle:checked + nav .toggle:after {
     background: none;
     color: #cedecb;
