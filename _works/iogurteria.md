@@ -1,17 +1,18 @@
 ---
 layout: post
 category: work
-tags: website
+order: 6
 title: 'Iogurteria do Bairro'
 subtitle: 'Website'
-desc: "A promotional website for a frozen yoghurt shop that featured/funded on the Portuguese Shark Tank TV-Show."
-client: ''
-date: 2016-10-19 15:30
-uri: 'http://iogurteriadobairro.pt/'
+client: 'Partners'
 image:
  - url: '../../images/work/thumbs/thumb-iogurtes.jpg'
-permalink: /work/wellclub
 links:
- - website: http://iogurteriadobairro.pt/
+ - type: website
+   link: http://iogurteriadobairro.pt
 sitemap: false
 ---
+
+We've helped Ioguerteria do Bairro build the company website for their frozen yoghurt offering.
+
+Iogurteria do Bairro was recently featured and funded on the Portuguese Shark Tank TV-Show.

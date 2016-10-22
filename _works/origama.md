@@ -1,17 +1,18 @@
 ---
 layout: post
 category: work
-tags: website
+order: 5
 title: 'Origama'
 subtitle: 'Website'
-desc: "An e-commerce Beachwear Apparel that was featured on the Portuguese Shark Tank TV-Show."
-client: 'Origama'
-date: 2016-10-19 15:30
-uri: 'http://origamaworld.com'
+client: 'Partners'
 image:
  - url: '../../images/work/thumbs/thumb-origama.jpg'
-permalink: /work/origama
 links:
- - website: http://origamaworld.com/
+ - type: website
+   link: http://origamaworld.com
 sitemap: false
 ---
+
+We've helped Origama build their Beachwear apparel e-commerce website to propel their business.
+
+Origama was recently featured and funded on the Portuguese Shark Tank TV-Show.
