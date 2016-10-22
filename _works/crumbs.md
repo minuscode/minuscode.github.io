@@ -17,6 +17,6 @@ links:
 sitemap: false
 ---
 
-We've developed a treasure hunt Mobile App that allows you to explore cities in a fun new way.
+We've built Crumbs, a treasure hunt Mobile App that allows you to explore cities in a fun new way.
 
 It's a digital version of the classic treasure hunt geared towards exploring cities.

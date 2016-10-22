@@ -1,22 +1,17 @@
 ---
 layout: post
 category: work
-tags: website
-hidden: hidden
 title: 'Kingston Smith'
-subtitle: 'website'
-client: 'Kingston Smith'
-design: 'xxx'
-date: 2014-01-21 21:31
-uri: 'http://www.kingstonsmith.co.uk/'
+subtitle: 'Website'
+client: 'Hype London'
 image:
- - url: '../../images/work/kingstonsmith.jpg'
-permalink: /work/kingston-smith
+ - url: '../../images/work/thumbs/thumb-kingston.jpg'
 links:
- - website: http://www.kingstonsmith.co.uk/
+ - type: website
+   link: http://www.kingstonsmith.co.uk
 sitemap: false
 ---
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id commodo justo. In non sapien tincidunt, posuere metus vel, maximus magna. Pellentesque convallis, tellus eu elementum vestibulum, felis nibh sollicitudin metus, at mollis mi orci eget tellus. Etiam vel lacinia leo. Vestibulum commodo odio nunc, at congue felis consequat sed. Suspendisse posuere placerat velit eu venenatis. Etiam vitae ante in leo imperdiet aliquam ut quis odio.</p>
+We've helped Kingston Smith, a UK accounting firm, build their company websites with a multi-site platform.
 
-<p>Curabitur vel vehicula arcu, eu imperdiet elit. Morbi semper, enim eu pulvinar pharetra, libero tellus egestas diam, eu tempus felis mauris id ante. Praesent pharetra arcu eu nibh condimentum, eu aliquet lacus sollicitudin. Nunc faucibus tempor orci ut congue. Quisque vitae ipsum varius, posuere metus quis, condimentum est. Aenean molestie ut mauris non imperdiet. Mauris facilisis hendrerit eros at hendrerit. Sed a enim nec leo vehicula aliquet non vitae metus. Vivamus scelerisque nec metus eget fermentum. Sed nec tempor libero. Praesent nec condimentum ligula, a sodales mi.</p>
+With a multi-site platform and a Content Mangement System we've set out a flexible and easy way to power 12 websites for offices around the globe.

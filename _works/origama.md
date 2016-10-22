@@ -1,7 +1,7 @@
 ---
 layout: post
 category: work
-order: 6
+order: 5
 title: 'Origama'
 subtitle: 'Website'
 client: 'Partners'
@@ -13,4 +13,6 @@ links:
 sitemap: false
 ---
 
-An e-commerce Beachwear Apparel that was featured on the Portuguese Shark Tank TV-Show.
+We've helped Origama build their Beachwear apparel e-commerce website to propel their business.
+
+Origama was recently featured and funded on the Portuguese Shark Tank TV-Show.

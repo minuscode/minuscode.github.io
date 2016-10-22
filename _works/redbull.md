@@ -17,4 +17,6 @@ links:
 sitemap: false
 ---
 
-A promotional Tinder like Mobile App around Buraka Som Sistema band and Red Bull to allow people to mix/pair themselves to win music related prizes.
+We were approached by Red Bull to create a fun way for people to connect around Buraka Som Sistema music and the Red Bull brand.
+
+We've created a Tinder like Mobile App to allow people to mix/pair themselves around musical preferences and be able to win music related prizes.

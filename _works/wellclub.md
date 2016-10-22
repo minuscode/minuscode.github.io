@@ -15,4 +15,6 @@ links:
 sitemap: false
 ---
 
-We've helped WellClub build an app/platform for physical rehabilitation connecting therapists and patients featuring motion device integration for the prescribed exercises.
+We've helped WellClub build a platform for physical rehabilitation connecting physical therapists and patients.
+
+The platform features a backoffice and a Mobile App with motion device integration for the prescribed exercises.

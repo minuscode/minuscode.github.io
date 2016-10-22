@@ -15,4 +15,6 @@ links:
 sitemap: false
 ---
 
-We've helped build Quill, a Mobile App that is a mix of Slack and Instagram directed towards teams without desks, computers or email to communicate at work.
+We've helped build Quill, a communication platform for teams largely without desks, and email to communicate at work.
+
+Quill is a Mobile App with a bit of Slack and Instagram in it and is used in teams in the Hospitality, Retail and Manufacting verticals.
