@@ -53,7 +53,7 @@ permalink: /work/index.html
       <div class="work-wrap__content work-wrap__info">
         <h1>{{ post.title }}</h1>
         <h2>{{ post.subtitle }}</h2>
-        <p>{{ post.content }}</p>
+        {{ post.content }}
 
         <ul>
           {% for el in post.links %}
