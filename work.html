@@ -32,7 +32,8 @@ permalink: /work/index.html
   </div>
 
   {% assign count = 0 %}
-  {% for post in site.works %}
+  {% assign projects = site.works | sort: 'order' %}
+  {% for post in projects %}
 
     {% if post.hidden %}{% continue %}{% endif %}
 
@@ -52,14 +53,11 @@ permalink: /work/index.html
       <div class="work-wrap__content work-wrap__info">
         <h1>{{ post.title }}</h1>
         <h2>{{ post.subtitle }}</h2>
-        <p>{{ post.desc }}</p>
+        <p>{{ post.content }}</p>
 
         <ul>
-          {% for link_hash in post.links %}
-            {% for link in link_hash %}
-              <li><a href="{{ link[1] }}" class="default-link default-link--green" target="_blank">website</a></li>
-              <li><a href="{{ link[2] }}" class="default-link default-link--green" target="_blank">iOS</a></li>
-            {% endfor %}
+          {% for el in post.links %}
+            <li><a href="{{ el.link }}" class="default-link default-link--green" target="_blank">{{ el.type }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -71,6 +69,7 @@ permalink: /work/index.html
 
   {% endfor %}
 
+  <!--
   <ul class="simple-list">
     <li>
       <h2>Web</h2>
@@ -90,6 +89,7 @@ permalink: /work/index.html
       <p><a href="#">ux 213</a></p>
     </li>
   </ul>
+  -->
 
 </div><!-- /work -->
 
