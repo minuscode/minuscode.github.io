@@ -1,11 +1,32 @@
+.work{
+	overflow: hidden;
+
+	@media screen and (max-width: 1024px) {
+		padding: 0 20px;
+		text-align: center;
+	}
+}
+
+.work-header{
+	@media screen and (max-width: 1024px) {
+		margin-top: 20px;
+		text-align: left;
+		padding: 0;
+	}
+}
+
 .work-wrap{
 	position: relative;
     display: table;
     table-layout: fixed;
     width: 100%;
 
+    @media screen and (max-width: 1024px) {
+		display: block;
+	}
+
     &:not(:nth-child(2)){
-		border-top:1px solid rgba($gray-mid, 0.2);
+		border-top: 1px solid rgba($gray-mid, 0.2);
 	    margin-top: 65px;
 	    padding-top: 65px;
     }
@@ -42,6 +63,11 @@
 	vertical-align: top;
 	opacity: 0;
 	transition:all 700ms ease;
+
+	@media screen and (max-width: 1024px) {
+		display: block;
+		margin:0 auto;
+	}
 
 	h1{
 		font:{
@@ -86,6 +112,7 @@
 	padding:40px;
 	transform:translateX(90px);
 	background-color: rgba($green, 0.2);
+	width: 600px;
 }
 
 .work-wrap__image{
@@ -94,6 +121,12 @@
 	height: 30rem;
 	transform:translateX(-90px);
 	border: 1px solid rgba($green, 0.3);
+
+	@media screen and (max-width: 1024px) {
+		height: auto;
+		padding-top: 61%;
+		width: 600px;
+	}
 }
 
 
