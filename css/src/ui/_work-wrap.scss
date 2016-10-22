@@ -10,7 +10,7 @@
 .work-header{
 	@media screen and (max-width: 1024px) {
 		margin-top: 20px;
-		text-align: left;
+		text-align: center;
 		padding: 0;
 	}
 }
@@ -60,6 +60,7 @@
 .work-wrap__content{
 	position: relative;
 	display: table-cell;
+	max-width: 600px;
 	vertical-align: top;
 	opacity: 0;
 	transition:all 700ms ease;
@@ -112,7 +113,6 @@
 	padding:40px;
 	transform:translateX(90px);
 	background-color: rgba($green, 0.2);
-	width: 600px;
 }
 
 .work-wrap__image{
@@ -125,7 +125,10 @@
 	@media screen and (max-width: 1024px) {
 		height: auto;
 		padding-top: 61%;
-		width: 600px;
+	}
+
+	@media screen and (max-width: 600px) {
+		padding-top: 80%;
 	}
 }
 
