@@ -78,7 +78,7 @@
 	h3{
 		margin: 0;
 	}
-	
+
 	h1{
 		font-size: 50px;
 		color: $red;
@@ -126,7 +126,7 @@
 	height: 150px;
 
 	&:hover{
-		
+
 		.project-nav__icon-wrap{
 			width: 60px;
 			background-color: $red;
@@ -141,7 +141,7 @@
 
 	&.prev{
 		float: left;
-		
+
 		.project-nav__wrap{
 			text-align: right;
 		}
@@ -314,10 +314,10 @@
 	margin-top: 20px;
 	position: relative;
 	padding: 20px;
-	
+
 	p{
 		display: inline-block;
-		font-size: 14px; 
+		font-size: 14px;
 		color: $default-color;
 		margin: 0 20px 0 0;
 	}

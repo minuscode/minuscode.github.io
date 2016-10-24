@@ -50,10 +50,10 @@
 
 		&.in-view{
 			.work-wrap__content{
-				transform:translateX(0px);		
+				transform:translateX(0px);
 			}
 		}
-		
+
 	}
 }
 
@@ -108,7 +108,7 @@
 	}
 }
 
- 
+
 .work-wrap__info{
 	padding:40px;
 	transform:translateX(90px);
@@ -141,7 +141,7 @@
 
 	&.simple-list--vertical{
 		margin:15px auto 0;
-		
+
 		li{
 			width: 100%;
 			margin:0;
@@ -174,7 +174,7 @@
 		display: block;
 		margin:0;
 	}
-	
+
 	a{
 		position: relative;
 		display: inline-block;
