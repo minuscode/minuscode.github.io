@@ -9,3 +9,5 @@ IMPORTANT
 2. git submodule init
 3. git submodule update
 4. bundle exec jekyll serve --watch
+
+Enjoy
