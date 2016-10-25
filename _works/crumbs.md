@@ -6,7 +6,7 @@ title: 'Crumbs - City Trails'
 subtitle: 'Mobile App'
 client: 'Mark'
 image:
- - url: '../../images/work/thumbs/thumb-crumbs.jpg'
+ - url: '../../public/images/work/thumbs/thumb-crumbs.jpg'
 links:
  - type: website
    link: http://www.crumbscitytrails.com

@@ -6,7 +6,7 @@ title: 'WellClub TherApp'
 subtitle: 'Mobile App & Website'
 client: 'WellClub'
 image:
- - url: '../../images/work/thumbs/thumb-wellclub.jpg'
+ - url: '../../public/images/work/thumbs/thumb-wellclub.jpg'
 links:
  - type: website
    link: http://therapp.club

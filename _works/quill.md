@@ -6,7 +6,7 @@ title: 'Quill Project'
 subtitle: 'Mobile App'
 client: 'BTTY'
 image:
- - url: '../../images/work/thumbs/thumb-quill.jpg'
+ - url: '../../public/images/work/thumbs/thumb-quill.jpg'
 links:
  - type: website
    link: http://www.thequillproject.com

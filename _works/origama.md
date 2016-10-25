@@ -6,7 +6,7 @@ title: 'Origama'
 subtitle: 'Website'
 client: 'Partners'
 image:
- - url: '../../images/work/thumbs/thumb-origama.jpg'
+ - url: '../../public/images/work/thumbs/thumb-origama.jpg'
 links:
  - type: website
    link: http://origamaworld.com

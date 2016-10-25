@@ -6,7 +6,7 @@ title: 'Iogurteria do Bairro'
 subtitle: 'Website'
 client: 'Partners'
 image:
- - url: '../../images/work/thumbs/thumb-iogurtes.jpg'
+ - url: '../../public/images/work/thumbs/thumb-iogurtes.jpg'
 links:
  - type: website
    link: http://iogurteriadobairro.pt

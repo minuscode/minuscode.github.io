@@ -6,7 +6,7 @@ title: 'Red Bull Mistura-te'
 subtitle: 'Mobile App & Website'
 client: 'Red Bull'
 image:
- - url: '../../images/work/thumbs/thumb-redbull-web.jpg'
+ - url: '../../public/images/work/thumbs/thumb-redbull-web.jpg'
 links:
  - type: website
    link: http://buraka.redbull.pt
