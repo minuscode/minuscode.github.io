@@ -370,6 +370,20 @@ html {
   margin:0 2%;
   width: 45%;
   text-align: center;
+
+  @media screen and (max-width: 740px) {
+    margin: 30px auto 0;
+    width: 100%;
+
+    img{
+      margin: 0 auto;
+    }
+
+    &:nth-of-type(1){
+      margin: 0 auto;
+    }
+  }
+
   h2 {
     color: $red;
     font-family: $brand-serif;
@@ -378,6 +392,10 @@ html {
     margin-bottom: 0px;
     margin-top: 25px;
     text-align: center;
+
+    @media screen and (max-width: 440px) {
+      font-size:1.8rem;
+    }
   }
 
   p {
@@ -388,8 +406,7 @@ html {
     @include font-size(16px);
   }
 
-  .social {
-
+  .social{
     a {
       color: $green;
       margin-right: 14px;
@@ -414,13 +431,12 @@ html {
   .member-pic {
     width: 90%;
     margin:0 auto;
-    // border-bottom: 2px dashed $green;
     @include media-query(palm) {
       margin-top: $base-spacing-unit;
     }
 
-    @include media-query(lap) {
-      text-align: right;
+    @media screen and (max-width: 740px) {
+      text-align: center;
     }
   }
 

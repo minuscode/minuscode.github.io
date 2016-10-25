@@ -37,7 +37,7 @@ MINUS = (function($) {
 //-----------------------------
 MINUS.work = (function($) {
   var categoryList = $('.categories'),
-      workItem = $('.work-item');
+      workItem = $('.js-work-wrap');
 
   function init() {
     categoryList.delegate('a', 'click', function(e) {
