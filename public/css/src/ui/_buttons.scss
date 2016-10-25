@@ -29,3 +29,58 @@
     color: $red;
   }
 }
+
+
+.default-link{
+  position: relative;
+  display: inline-block;
+  font-size: 1em;
+  color: $gray-dark;
+  text-decoration: none;
+
+  &:hover{
+    &:after{
+      left: -10%;
+      width: 120%;
+    }
+  }
+
+  &:before,
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    height: 4px;
+    z-index: -1;
+    border-radius: 3px;
+  }
+
+  &:before{
+    left: -10%;
+    width: 120%;
+  }
+
+  &:after{
+    left: 50%;
+    width: 0;
+    transition: all 300ms ease;
+  }
+}
+
+.default-link--green{
+  &:before{
+    background-color: rgba($green, 1);
+  }
+  &:after{
+    background-color: rgba(#799E72, 1);
+  }
+}
+
+.default-link--red{
+  &:before{
+    background-color: rgba($red, 0.6);
+  }
+  &:after{
+    background-color: rgba($red, 1);
+  }
+}

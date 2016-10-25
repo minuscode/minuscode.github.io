@@ -1,0 +1,98 @@
+---
+layout: default
+title: Work - minuscode
+permalink: /work/index.html
+---
+
+<div class="masthead masthead-work">
+
+    <div class="wrapper">
+        <h1>Our previous work list</h1>
+        <p>never seems big enough</p>
+
+        <!--
+        <ul class="line-chart">
+          <li class="line-chart__item web"></li>
+          <li class="line-chart__item mob"></li>
+          <li class="line-chart__item ux"></li>
+          <li class="line-chart__item other"></li>
+        </ul>
+        -->
+  </div>
+
+</div><!-- /masthead -->
+
+<div class="content work">
+  <div class="work-header">
+    <a class="hidden-link" href="?showall">Featured work</a>
+    <ul class="categories">
+      <li><a href="#" class="icon-all" data-category="all"></a></li>
+      <li><a href="#" class="icon-website" data-category="website"></a></li>
+      <li><a href="#" class="icon-facebook" data-category="facebook"></a></li>
+      <li><a href="#" class="icon-mobile" data-category="mobile"></a></li>
+    </ul>
+  </div>
+
+  {% assign count = 0 %}
+  {% assign projects = site.works | sort: 'order' %}
+  {% for post in projects %}
+
+    {% if post.hidden %}{% continue %}{% endif %}
+
+    {% unless post.category contains 'work' %}{% continue %}{% endunless %}
+
+    {% assign count = count | plus: 1 %}
+    {% assign mod = count | modulo: 2 %}
+    {% assign image_hash = post.image | first %}
+    {% if image_hash %}
+      {% assign image = image_hash | first %}
+    {% endif %}
+
+    <div class="work-wrap">
+      {% if image and mod != 0 %}
+        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}"></div>
+      {% endif %}
+      <div class="work-wrap__content work-wrap__info">
+        <h1>{{ post.title }}</h1>
+        <h2>{{ post.subtitle }}</h2>
+        {{ post.content }}
+
+        <ul>
+          {% for el in post.links %}
+            <li><a href="{{ el.link }}" class="default-link default-link--green" target="_blank">{{ el.type }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% if image and mod == 0 %}
+        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}"></div>
+      {% endif %}
+    </div>
+
+  {% endfor %}
+
+  <!--
+  <ul class="simple-list">
+    <li>
+      <h2>Web</h2>
+      <p><a href="#">salitre</a></p>
+      <p><a href="#">iogurteria do bairro</a></p>
+    </li>
+    <li>
+      <h2>App</h2>
+      <p><a href="#">App 1</a></p>
+      <p><a href="#">App 2</a></p>
+      <p><a href="#">App 3 buéda fixe</a></p>
+    </li>
+    <li>
+      <h2>UX</h2>
+      <p><a href="#">ux 2</a></p>
+      <p><a href="#">ux 3</a></p>
+      <p><a href="#">ux 213</a></p>
+    </li>
+  </ul>
+  -->
+
+</div><!-- /work -->
+
+{% include contact_us.html %}
