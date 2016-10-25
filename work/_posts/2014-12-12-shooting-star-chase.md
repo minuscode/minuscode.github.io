@@ -9,7 +9,7 @@ design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'http://www.shootingstarchase.org.uk/'
 image:
- - url: '../../images/work/shooting-star.jpg'
+ - url: '../../public/images/work/shooting-star.jpg'
 permalink: /work/shooting-star-chase
 links:
  - website: http://www.shootingstarchase.org.uk/

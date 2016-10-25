@@ -9,7 +9,7 @@ design: 'FunnyHow'
 date: 2014-01-21 21:31
 uri: 'https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8'
 image:
- - url: '../../images/work/tanqueray.jpg'
+ - url: '../../public/images/work/tanqueray.jpg'
 permalink: /work/tanqueray-afterwork
 links:
  - iOS: https://itunes.apple.com/pt/app/afterwork-by-tanqueray/id815613935?mt=8

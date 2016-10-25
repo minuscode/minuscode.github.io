@@ -1,10 +1,11 @@
 name: Minuscode
-auto: true
 exclude: Guardfile
 permalink: none
 markdown: kramdown
-#baseurl: /minuscode.github.io
 
+sass:
+  sass_dir: public/css/src
+  style: compressed
 includes:
   google_tracking_id: 'UA-33665278-1'
 exclude:

@@ -9,8 +9,8 @@
   text-decoration: none;
 
   @include font-size(18px);
-  @include border-radius(2px);
-  @include transition(all 0.3s);
+  border-radius: 2px;
+  transition: all 0.3s ease;
 
   @include media-query(palm) {
     @include font-size(14px);

@@ -9,7 +9,7 @@ design: 'xxx'
 date: 2014-01-21 21:31
 uri: 'http://pixel-panties.myshopify.com/'
 image:
- - url: '../../images/work/pixelpanties.jpg'
+ - url: '../../public/images/work/pixelpanties.jpg'
 permalink: /work/pixel-panties
 links:
  - website: http://pixel-panties.myshopify.com/

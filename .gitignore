@@ -8,5 +8,4 @@ Procfile
 
 _site
 
-# folder for psds/docs and other related stuff
-assets
+css/style.css

@@ -9,7 +9,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: 'http://surferslodgepeniche.com/pt/'
 image:
- - url: '../../images/work/surfers-lodge.jpg'
+ - url: '../../public/images/work/surfers-lodge.jpg'
 permalink: /work/surfers-lodge
 links:
  - website: http://surferslodgepeniche.com/pt/

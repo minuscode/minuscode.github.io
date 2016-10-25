@@ -9,7 +9,7 @@ design: 'Partners'
 date: 2014-01-21 21:31
 uri: '#'
 image:
- - url: '../../images/work/fdp.jpg'
+ - url: '../../public/images/work/fdp.jpg'
 permalink: /work/filho-da-pub
 links:
  - facebook: #

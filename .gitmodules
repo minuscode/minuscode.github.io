@@ -1,4 +1,4 @@
-[submodule "css/src/inuit.css"]
-	path = css/src/inuit.css
-        url = https://github.com/csswizardry/inuit.css.git
+[submodule "public/css/src/inuit.css"]
+	path = public/css/src/inuit.css
+	url = https://github.com/csswizardry/inuit.css.git
 	branch = v5.1

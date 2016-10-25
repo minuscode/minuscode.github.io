@@ -9,7 +9,7 @@ design: 'FunnyHow'
 date: 2014-01-21 21:31
 uri: '#'
 image:
- - url: '../../images/work/desperados.jpg'
+ - url: '../../public/images/work/desperados.jpg'
 permalink: /work/desperados
 links:
  - iOS: https://itunes.apple.com/pt/app/bringontheparty/id849351242?mt=8

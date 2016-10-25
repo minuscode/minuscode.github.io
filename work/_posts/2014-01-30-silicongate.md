@@ -9,7 +9,7 @@ design: 'Soma'
 date: 2014-01-21 21:31
 uri: 'http://www.silicongate.com/'
 image:
- - url: '../../images/work/silicongate.jpg'
+ - url: '../../public/images/work/silicongate.jpg'
 permalink: /work/silicongate
 links:
  - website: http://www.silicongate.com/

@@ -9,7 +9,7 @@ design: 'FeelGreen'
 date: 2014-01-21 21:31
 uri: 'http://feelgreen.jorgepcbraz.com/'
 image:
- - url: '../../images/work/feelgreen-logo.jpg'
+ - url: '../../public/images/work/feelgreen-logo.jpg'
 permalink: /work/feelgreen
 links:
  - website: http://feelgreen.jorgepcbraz.com/
