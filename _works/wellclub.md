@@ -5,6 +5,7 @@ order: 1
 title: 'WellClub TherApp'
 subtitle: 'Mobile App & Website'
 client: 'WellClub'
+tags: ['mobile', 'website']
 image:
  - url: '../../public/images/work/thumbs/thumb-wellclub.jpg'
 links:
