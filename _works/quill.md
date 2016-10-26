@@ -5,6 +5,7 @@ order: 3
 title: 'Quill Project'
 subtitle: 'Mobile App'
 client: 'BTTY'
+tags: 'mobile'
 image:
  - url: '../../public/images/work/thumbs/thumb-quill.jpg'
 links:
