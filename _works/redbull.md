@@ -5,6 +5,7 @@ order: 2
 title: 'Red Bull Mistura-te'
 subtitle: 'Mobile App & Website'
 client: 'Red Bull'
+tags: ['mobile', 'website']
 image:
  - url: '../../public/images/work/thumbs/thumb-redbull-web.jpg'
 links:

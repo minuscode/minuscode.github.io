@@ -5,6 +5,7 @@ order: 6
 title: 'Iogurteria do Bairro'
 subtitle: 'Website'
 client: 'Partners'
+tags: 'website'
 image:
  - url: '../../public/images/work/thumbs/thumb-iogurtes.jpg'
 links:

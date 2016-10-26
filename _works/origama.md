@@ -5,6 +5,7 @@ order: 5
 title: 'Origama'
 subtitle: 'Website'
 client: 'Partners'
+tags: 'website'
 image:
  - url: '../../public/images/work/thumbs/thumb-origama.jpg'
 links:
