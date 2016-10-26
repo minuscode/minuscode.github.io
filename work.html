@@ -27,7 +27,7 @@ permalink: /work/index.html
   <div class="work-header">
     <a class="hidden-link" href="?showall">Featured work</a>
     <ul class="categories">
-      <li><a href="#" class="icon-all" data-category="all"></a></li>
+      <li><a href="#" class="icon-all active" data-category="all"></a></li>
       <li><a href="#" class="icon-website" data-category="website"></a></li>
       <li><a href="#" class="icon-mobile" data-category="mobile"></a></li>
     </ul>
@@ -48,9 +48,9 @@ permalink: /work/index.html
       {% assign image = image_hash | first %}
     {% endif %}
 
-    <div class="work-wrap js-work-item">
+    <div class="work-wrap js-work-wrap" data-category="{{ post.tags | join:' '}}">
       {% if image and mod != 0 %}
-        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}"></div>
+        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})"></div>
       {% endif %}
       <div class="work-wrap__content work-wrap__info">
         <h1>{{ post.title }}</h1>
@@ -65,7 +65,7 @@ permalink: /work/index.html
       </div>
 
       {% if image and mod == 0 %}
-        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})" data-category="{{ post.tags | join:' '}}"></div>
+        <div class="work-wrap__content work-wrap__image" style="background-image: url({{ image[1] }})"></div>
       {% endif %}
     </div>
 
