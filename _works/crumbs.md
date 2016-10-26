@@ -5,6 +5,7 @@ order: 4
 title: 'Crumbs - City Trails'
 subtitle: 'Mobile App'
 client: 'Mark'
+tags: 'mobile'
 image:
  - url: '../../public/images/work/thumbs/thumb-crumbs.jpg'
 links:
