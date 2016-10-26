@@ -37,7 +37,7 @@ MINUS = (function($) {
 //-----------------------------
 MINUS.work = (function($) {
   var categoryList = $('.categories'),
-      workItem = $('.work-item');
+      workItem = $('.js-work-wrap');
 
   function init() {
     categoryList.delegate('a', 'click', function(e) {
@@ -65,7 +65,9 @@ MINUS.work = (function($) {
     } else {
       workItem.each(function(){
         category = $(this).data('category');
-
+        
+        $(this).addClass('in-view');
+        
         if(category !== catName) {
           $(this).fadeOut(function(){
             $(this).addClass('hide');
