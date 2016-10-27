@@ -65,10 +65,10 @@ MINUS.work = (function($) {
     } else {
       workItem.each(function(){
         category = $(this).data('category');
-        
+
         $(this).addClass('in-view');
         
-        if(category !== catName) {
+        if(category.indexOf(catName) == -1) {
           $(this).fadeOut(function(){
             $(this).addClass('hide');
           });
