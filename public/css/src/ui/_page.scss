@@ -4,6 +4,7 @@
 
 html {
   @include vendor(text-size-adjust, none);
+  @include vendor(font-variant-ligatures, none);
 }
 
 /**
