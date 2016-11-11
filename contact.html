@@ -51,12 +51,14 @@ permalink: /contact/index.html
             <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
             <input type='hidden' name='redirect_to' value='http://www.minuscode.com/contact' />
 
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="E-mail" autocomplete="off" required>
-            <textarea rows="9" name="message" placeholder="Message" required></textarea>
+            <label for="name" class="u-visibility-hidden">Name</label>
+            <input id="name" type="text" name="name" placeholder="Name" required>
+            <label for="email" class="u-visibility-hidden">Email</label>
+            <input id="email" type="email" name="email" placeholder="E-mail" autocomplete="off" required>
+            <label for="message" for="name" class="u-visibility-hidden">Message</label>
+            <textarea id="message" rows="9" name="message" placeholder="Message" required></textarea>
           </fieldset>
           <button type="submit" class="btn btn--red">Send &rarr;</button>
-          <!-- <input type='submit' value='Test form' /> -->
         </form>
 
       </div>
