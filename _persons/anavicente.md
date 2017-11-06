@@ -1,5 +1,5 @@
 ---
-alt_name: 'Ricardo Gonçalves'
+alt_name: 'Ana Vicente'
 date: 2016-06-01 17:30
 position: 'right'
 description: [
@@ -10,7 +10,7 @@ description: [
   "",
   ""
 ]
-role: 'Front End'
+role: 'Front end'
 picture: 'no-foto.png'
 social:
   'github':   ''
