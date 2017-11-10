@@ -379,6 +379,15 @@ html {
     margin-bottom: 0px;
     margin-top: 25px;
     text-align: center;
+
+    @include media-query(lap-small) {
+      @include font-size(25px);
+    }
+
+    @include media-query(lap-start) {
+      @include font-size(30px);
+    }
+
   }
 
   p {
