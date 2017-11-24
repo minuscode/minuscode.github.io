@@ -2,7 +2,7 @@
 layout: post
 category: work
 order: 7
-title: 'Dosctor Frank'
+title: 'Doctor Frank'
 subtitle: 'Website'
 client: 'Doctor Frank'
 tags: 'website'
@@ -14,6 +14,6 @@ links:
 sitemap: false
 ---
 
-We’ve mixed our best herbs and designed and built Doctor Frank’s website. 
+We’ve mixed our best herbs and designed and built Doctor Frank’s website.
 
 Baked with the right amount of marijuana awareness information and a dash of topical articles to ease your mind.
