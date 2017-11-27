@@ -10,8 +10,8 @@ description: [
   "",
   ""
 ]
-role: 'Front end'
-picture: 'no-foto.png'
+role: 'Front End'
+picture: 'ana-vicente.png'
 social:
   'github':   ''
   'twitter':  ''

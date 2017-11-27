@@ -11,7 +11,7 @@ description: [
   ""
 ]
 role: 'Front End'
-picture: 'no-foto.png'
+picture: 'ricardo-goncalves.png'
 social:
   'github':   ''
   'twitter':  ''

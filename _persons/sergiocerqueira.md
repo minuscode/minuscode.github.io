@@ -10,8 +10,8 @@ description: [
   "",
   ""
 ]
-role: 'Android'
-picture: 'no-foto.png'
+role: 'Android / React-Native'
+picture: 'sergio-cerqueira.png'
 social:
   'github':   ''
   'twitter':  ''
