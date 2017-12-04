@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 5
 title: 'Origama'
 subtitle: 'Website'
 client: 'Partners'

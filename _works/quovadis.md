@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 7
 title: 'Quovadis Lisboa'
 subtitle: 'Mobile App & Website'
 client: 'Patriarcado de Lisboa'

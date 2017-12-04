@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 7
 title: 'Doctor Frank'
 subtitle: 'Website'
 client: 'Doctor Frank'

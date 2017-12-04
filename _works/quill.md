@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 3
 title: 'Quill Project'
 subtitle: 'Mobile App'
 client: 'BTTY'

@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 1
 title: 'WellClub TherApp'
 subtitle: 'Mobile App & Website'
 client: 'WellClub'
