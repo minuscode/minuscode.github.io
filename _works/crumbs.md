@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 4
 title: 'Crumbs - City Trails'
 subtitle: 'Mobile App'
 client: 'Mark'

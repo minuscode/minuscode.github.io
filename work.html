@@ -23,7 +23,7 @@ permalink: /work/index.html
 
 </div><!-- /masthead -->
 
-<div class="content work">
+<div class="content work shuffle">
   <div class="work-header">
     <a class="hidden-link" href="?showall">Featured work</a>
     <ul class="categories">
@@ -35,8 +35,10 @@ permalink: /work/index.html
   </div>
 
   {% assign count = 0 %}
-  {% assign projects = site.works | sort: 'order' %}
+  {% assign projects = site.works %}
+
   {% for post in projects %}
+  
 
     {% if post.hidden %}{% continue %}{% endif %}
 

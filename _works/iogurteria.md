@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 6
 title: 'Iogurteria do Bairro'
 subtitle: 'Website'
 client: 'Partners'

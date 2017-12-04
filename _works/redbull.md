@@ -1,7 +1,6 @@
 ---
 layout: post
 category: work
-order: 2
 title: 'Red Bull Mistura-te'
 subtitle: 'Mobile App & Website'
 client: 'Red Bull'
