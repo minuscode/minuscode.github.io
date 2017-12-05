@@ -48,16 +48,6 @@ MINUS.work = (function($) {
       hideWorkItems(catName);
     });
 
-    function shuffle() {
-      var shuffle_parent = $(".shuffle");
-      var shuffle_child = $(".work-wrap");
-      while (shuffle_child.length) {
-          shuffle_parent.append(shuffle_child.splice(Math.floor(Math.random() * shuffle_child.length), 1)[0]);
-      }
-    }
-
-    shuffle();
-
     window.onhashchange = showAllProjects();
   }
 

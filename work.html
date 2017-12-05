@@ -35,7 +35,7 @@ permalink: /work/index.html
   </div>
 
   {% assign count = 0 %}
-  {% assign projects = site.works %}
+    {% assign projects = site.works | sample:8 %}
 
   {% for post in projects %}
   
