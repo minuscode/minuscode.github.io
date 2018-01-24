@@ -12,6 +12,8 @@ links:
    link: http://www.thequillproject.com
  - type: iOS
    link: https://itunes.apple.com/us/app/the-quill-project/id1126571956
+ - type: Android
+   link: https://play.google.com/store/apps/details?id=com.quill&hl=en
 sitemap: false
 ---
 
