@@ -67,7 +67,7 @@ MINUS.work = (function($) {
         category = $(this).data('category');
 
         $(this).addClass('in-view');
-        
+
         if(category.indexOf(catName) == -1) {
           $(this).fadeOut(function(){
             $(this).addClass('hide');
@@ -147,6 +147,8 @@ MINUS.about_us = (function($) {
 
   MINUS.work.init();
 
+
+  /*
   $.getJSON('https://minustats.herokuapp.com/projects', function (response) {
 
       var items = [];
@@ -162,5 +164,6 @@ MINUS.about_us = (function($) {
 
     }
   );
+  */
 
 })(jQuery);
