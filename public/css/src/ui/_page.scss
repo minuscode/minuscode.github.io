@@ -371,6 +371,12 @@ html {
   margin:0 2%;
   width: 45%;
   text-align: center;
+  @include media-query(palm) {
+    display: block;
+    margin: 0 0 2rem;
+    width: 100%;
+  }
+  
   h2 {
     color: $red;
     font-family: $brand-serif;
