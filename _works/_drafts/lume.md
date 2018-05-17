@@ -8,11 +8,7 @@ tags: 'mobile'
 image:
  - url: '../../public/images/work/thumbs/thumb-lume.jpg'
 links:
- - type: website
-   link: #
  - type: iOS
-   link: #
- - type: Android
    link: #
 sitemap: false
 ---

@@ -10,10 +10,14 @@ image:
 links:
  - type: website
    link: https://breaktimesessions.redbull.com.br/
+ - type: iOS
+   link: #
+ - type: Android
+   link: #
 sitemap: false
 ---
 
-We were approached by Red Bull to create a fun way for people to connect and meet through music and the Red Bull brand.
+We were approached by Red Bull Brazil to create a revamped experience for their University Band contest - BreakTime Sessions.
 
-We've created a Tinder like Mobile App to allow people to mix/pair themselves around musical preferences and be able to form Bands and play in their university breaktime.
+We've created not only a website for all the band signups/shows but also a Tinder-like app to help people find members for their bands.
 

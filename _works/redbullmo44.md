@@ -13,6 +13,6 @@ links:
 sitemap: false
 ---
 
-We´ve built a website were helped you to win official merchandising of Red Bull KTM.
+We've helped Red Bull Portugal build a racing game within the context of the MotoGP2.
 
-If you were one of the fastest in our Canvas game, you were able to win 2 exclusive invitations to attend the The Spanish Grand Prix at the Circuito de Jerez de la Frontera.
+You can race as Miguel Oliveira (a Portuguese and Red Bull sponsored MotoGP2 racer) and win prizes that go from merchandising to an all expenses paid trip to see a live race.

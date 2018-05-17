@@ -8,8 +8,6 @@ tags: 'mobile'
 image:
  - url: '../../public/images/work/thumbs/thumb-decomais.jpg'
 links:
- - type: website
-   link: https://www.deco.proteste.pt/
  - type: iOS
    link: https://itunes.apple.com/pt/app/decomais/id1302090178
  - type: Android

@@ -8,8 +8,6 @@ tags: ['mobile', 'website']
 image:
  - url: '../../public/images/work/thumbs/thumb-therapp.jpg'
 links:
- - type: website
-   link: https://theratec.com/
  - type: iOS
    link: https://itunes.apple.com/US/app/id1144187568
 sitemap: false
