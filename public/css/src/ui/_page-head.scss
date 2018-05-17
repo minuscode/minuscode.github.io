@@ -45,7 +45,6 @@
     margin-left: 100px;
 
     @include media-query(portable) {
-      border-top: 1px solid $green;
       display: block;
       margin-left: 0;
       padding: 10px;
@@ -161,55 +160,55 @@
     cursor: pointer;
     display: block;
     position: relative;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    user-select: none;
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    margin: 10px 20px;
 
-    &:after {
-      background: $green;
+    &:after { 
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: " ";
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
-      border: 1px solid $green;
-      -webkit-border-radius: 2px;
-      border-radius: 2px;
       color: $default-color;
-      content: attr(data-open);
+      background-image: url(../images/misc/menu.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
       display: block;
-      font-size: 12px;
-      font-weight: 600;
-      padding: 10px 20px;
+      
       text-align: center;
       -webkit-transition: all .2s linear;
       -moz-transition: all .2s linear;
       -o-transition: all .2s linear;
       transition: all .2s linear;
-    }
-
-    &:hover {
-      &:after {
-        background: none;
-        color: $green;
-      }
+      border: 0;
+      width: 25px;
+      height: 20px;
+      overflow: hidden;
     }
   }
 }
 
 #toggle {
   display: none;
-  @include media-query(portable) {
-    &:checked {
-      + nav {
-        ul {
-          top:56px;
-          opacity: 1;
-          visibility: visible;
-        }
+}
 
-        .toggle:after {
-          background: none;
-          color: $green;
-          content: attr(data-close);
+@include media-query(portable) {
+  #toggle:checked {
+    + nav {
+      ul {
+        top:56px;
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .toggle{
+        &:after {
+          background-image: url(../images/misc/close.png);
         }
       }
     }
