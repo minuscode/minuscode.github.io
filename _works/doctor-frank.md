@@ -6,7 +6,7 @@ subtitle: 'Website'
 client: 'Doctor Frank'
 tags: 'website'
 image:
- - url: '../../public/images/work/thumbs/moldura-frank.jpg'
+ - url: '../../public/images/work/thumbs/thumb-drfrank.jpg'
 links:
  - type: website
    link: https://doctorfrank.com
