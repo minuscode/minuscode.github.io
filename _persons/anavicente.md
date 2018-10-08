@@ -10,7 +10,7 @@ description: [
   "",
   ""
 ]
-role: 'Front End'
+role: 'Full Stack'
 picture: 'ana-vicente.png'
 social:
   'github':   ''
