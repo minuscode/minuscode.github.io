@@ -1,6 +1,6 @@
 ---
-alt_name: 'Sérgio Cerqueira'
-date: 2016-04-29 17:30
+alt_name: 'Bruno Martins'
+date: 2021-03-19 10:00
 position: 'right'
 description: [
   "",
@@ -10,8 +10,8 @@ description: [
   "",
   ""
 ]
-role: 'Full Stack / React-Native'
-picture: 'sergio-cerqueira.png'
+role: 'React-Native'
+picture: 'no-foto.png'
 social:
   'github':   ''
   'twitter':  ''
